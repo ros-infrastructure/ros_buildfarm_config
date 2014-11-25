@@ -45,8 +45,8 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repo/ubuntu/building
-target_repository: http://repo/ubuntu/building/
+  - http://54.67.51.1/ubuntu/building
+target_repository: http://54.67.51.1/ubuntu/building
 targets:
   ubuntu:
     saucy:

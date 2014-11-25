@@ -12,7 +12,7 @@ notification_emails:
   - dthomas+buildfarm@osrfoundation.org
 prerequisites:
   debian_repositories:
-  - http://repo/ubuntu/building
+  - http://54.67.51.1/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
