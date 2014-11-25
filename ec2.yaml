@@ -7,7 +7,7 @@ distributions:
       Ubu: indigo/release-build.yaml
     source_builds:
       T64: indigo/source-build.yaml
-jenkins_url: http://localhost:8080
+jenkins_url: http://ec2-54-67-30-249.us-west-1.compute.amazonaws.com:8080/
 notification_emails:
   - dthomas+buildfarm@osrfoundation.org
 prerequisites:
