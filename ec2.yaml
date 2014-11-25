@@ -8,6 +8,8 @@ distributions:
     source_builds:
       T64: indigo/source-build.yaml
 jenkins_url: http://localhost:8080
+notification_emails:
+  - dthomas+buildfarm@osrfoundation.org
 prerequisites:
   debian_repositories:
   - http://repo/ubuntu/building
