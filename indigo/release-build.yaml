@@ -9,6 +9,17 @@ notifications:
   emails:
   - dthomas+buildfarm@osrfoundation.org
   maintainers: false
+package_blacklist:
+- combine_dr_measurements
+- icart_mini_driver
+- ira_photonfocus_driver
+- nao_meshes
+- neo_relayboard
+- ola_ros
+- openhrp3
+- swiftnav
+- ueye_cam
+- yocs_ar_marker_tracking
 sync:
   package_count: 150
 repositories:
