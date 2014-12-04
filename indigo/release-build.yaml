@@ -61,7 +61,7 @@ target_repository: http://54.67.51.1/ubuntu/building
 targets:
   ubuntu:
     saucy:
-      amd64:
+#      amd64:
       i386:
     trusty:
       amd64:
