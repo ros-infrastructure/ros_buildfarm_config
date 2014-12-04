@@ -43,9 +43,51 @@ repositories:
     x9o=
     =AGYp
     -----END PGP PUBLIC KEY BLOCK-----
+repository_blacklist:
+- arni
+- carl_navigation
+- carl_safety
+- class_loader
+- cob_simulation
+- gazebo2rviz
+- geometry_tutorials
+- icart_mini_core
+- ira_photonfocus_driver
+- jackal
+- jsk_common
+- jsk_pr2eus
+- libpointmatcher
+- mrpt_navigation
+- nao_virtual
+- object_recognition_core
+- ocl
+- openhrp3
+- orogen
+- people
+- razer_hydra
+- robotiq
+- ros_ethercat
+- ros_openlighting
+- rospilot
+- rtt_geometry
+- rtt_ros_integration
+- rtt_typelib
+- shadow_robot
+- shadow_robot_ethercat
+- softkinetic
+- sr_ronex
+- turtlebot
+- turtlebot_create_desktop
+- typelib
+- volksbot_driver
+- yujin_ocs
 targets:
   ubuntu:
     trusty:
       amd64:
+test_commits:
+  default: true
+test_pull_requests:
+  default: false
 type: source-build
 version: 2
