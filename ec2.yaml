@@ -46,5 +46,10 @@ prerequisites:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
 rosdistro_index_url: https://raw.github.com/ros/rosdistro/ec2test/index.yaml
+status_page_repositories:
+  ec2:
+  - http://54.67.51.1/ubuntu/building
+  - http://54.67.51.1/ubuntu/testing
+  - http://54.67.51.1/ubuntu/main
 type: buildfarm
 version: 1
