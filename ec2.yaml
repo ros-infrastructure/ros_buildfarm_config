@@ -6,6 +6,7 @@ distributions:
     release_builds:
       Ubu: indigo/release-build.yaml
     source_builds:
+      S32: indigo/source32-build.yaml
       T64: indigo/source-build.yaml
 jenkins_url: http://54.183.26.131:8080/
 notification_emails:
