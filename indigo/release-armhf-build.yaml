@@ -1,21 +1,89 @@
 %YAML 1.1
-# ROS buildfarm index file
+# ROS buildfarm release-build file
 ---
-distributions:
-  indigo:
-    release_builds:
-      Ubu: indigo/release-build.yaml
-      UbuArmhf: indigo/release-armhf-build.yaml
-    source_builds:
-      S32: indigo/source32-build.yaml
-      T64: indigo/source-build.yaml
-jenkins_url: http://54.183.26.131:8080/
-notification_emails:
+abi_incompatibility_assumed: true
+jenkins_binary_job_priority: 83
+jenkins_binary_job_timeout: 120
+jenkins_source_job_priority: 82
+jenkins_source_job_timeout: 30
+notifications:
+  emails:
   - dthomas+buildfarm@osrfoundation.org
-prerequisites:
-  debian_repositories:
-  - http://54.183.65.232/ubuntu/building
-  debian_repository_keys:
+  maintainers: false
+package_whitelist:
+- actionlib_msgs
+- catkin
+- cmake_modules
+- common_msgs
+- cpp_common
+- diagnostic_msgs
+- gencpp
+- genlisp
+- genmsg
+- genpy
+- geometry_msgs
+- message_filters
+- message_generation
+- message_runtime
+- mk
+- nav_msgs
+- ros
+- ros_comm
+- ros_tutorials
+- rosbag
+- rosbag_migration_rule
+- rosbag_storage
+- rosbash
+- rosboost_cfg
+- rosbuild
+- rosclean
+- rosconsole
+- rosconsole_bridge
+- roscpp
+- roscpp_core
+- roscpp_serialization
+- roscpp_traits
+- roscpp_tutorials
+- roscreate
+- rosgraph
+- rosgraph_msgs
+- roslang
+- roslaunch
+- roslib
+- roslisp
+- roslz4
+- rosmake
+- rosmaster
+- rosmsg
+- rosnode
+- rosout
+- rospack
+- rosparam
+- rospy
+- rospy_tutorials
+- rosservice
+- rostest
+- rostime
+- rostopic
+- rosunit
+- roswtf
+- sensor_msgs
+- shape_msgs
+- std_msgs
+- std_srvs
+- stereo_msgs
+- test_rosbag
+- test_rosbag_storage
+- test_roslib_comm
+- topic_tools
+- trajectory_msgs
+- turtlesim
+- visualization_msgs
+- xmlrpcpp
+sync:
+  package_count: 69
+repositories:
+  keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v1
@@ -47,11 +115,12 @@ prerequisites:
     xaePFwP+okKW1h9qvwFhNF0JSCtdJrexdCf8jGE7
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.github.com/ros/rosdistro/ec2test/index.yaml
-status_page_repositories:
-  ec2:
+  urls:
   - http://54.183.65.232/ubuntu/building
-  - http://54.183.65.232/ubuntu/testing
-  - http://54.183.65.232/ubuntu/main
-type: buildfarm
-version: 1
+target_repository: http://54.183.65.232/ubuntu/building
+targets:
+  ubuntu:
+    trusty:
+      armhf:
+type: release-build
+version: 2
