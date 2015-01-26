@@ -49,7 +49,7 @@ prerequisites:
     -----END PGP PUBLIC KEY BLOCK-----
 rosdistro_index_url: https://raw.github.com/ros/rosdistro/ec2test/index.yaml
 status_page_repositories:
-  ec2:
+  default:
   - http://54.183.65.232/ubuntu/building
   - http://54.183.65.232/ubuntu/testing
   - http://54.183.65.232/ubuntu/main
