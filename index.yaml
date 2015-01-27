@@ -8,7 +8,12 @@ distributions:
       default: indigo/release-build.yaml
     source_builds:
       default: indigo/source-build.yaml
-      S32: indigo/source32-build.yaml
+  jade:
+    release_builds:
+      arm: jade/release-armhf-build.yaml
+      default: jade/release-build.yaml
+    source_builds:
+      default: jade/source-build.yaml
 jenkins_url: http://54.183.26.131:8080/
 notification_emails:
   - dthomas+buildfarm@osrfoundation.org
@@ -47,7 +52,7 @@ prerequisites:
     xaePFwP+okKW1h9qvwFhNF0JSCtdJrexdCf8jGE7
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.github.com/ros/rosdistro/ec2test/index.yaml
+rosdistro_index_url: https://raw.github.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:
   - http://54.183.65.232/ubuntu/building

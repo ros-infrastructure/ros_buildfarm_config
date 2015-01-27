@@ -2,16 +2,16 @@
 # ROS buildfarm release-build file
 ---
 abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 83
+jenkins_binary_job_priority: 82
 jenkins_binary_job_timeout: 120
-jenkins_source_job_priority: 81
+jenkins_source_job_priority: 80
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - tfoote+buildfarm@osrfoundation.org
+  - william+buildfarm@osrfoundation.org
   maintainers: false
 sync:
-  package_count: 700
+  package_count: 140
 repositories:
   keys:
   - |
