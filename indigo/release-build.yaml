@@ -11,7 +11,7 @@ notifications:
   - tfoote+buildfarm@osrfoundation.org
   maintainers: false
 sync:
-  package_count: 1000
+  package_count: 1300
 repositories:
   keys:
   - |

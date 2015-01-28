@@ -3,7 +3,7 @@
 ---
 abi_incompatibility_assumed: true
 jenkins_binary_job_priority: 83
-jenkins_binary_job_timeout: 120
+jenkins_binary_job_timeout: 480
 jenkins_source_job_priority: 81
 jenkins_source_job_timeout: 30
 notifications:
