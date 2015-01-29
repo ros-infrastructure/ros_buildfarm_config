@@ -1,23 +1,18 @@
 %YAML 1.1
-# ROS buildfarm index file
+# ROS buildfarm doc-build file
 ---
-distributions:
-  indigo:
-    doc_builds:
-      default: indigo/doc-build.yaml
-    release_builds:
-      arm: indigo/release-armhf-build.yaml
-      default: indigo/release-build.yaml
-    source_builds:
-      default: indigo/source-build.yaml
-      S32: indigo/source32-build.yaml
-jenkins_url: http://54.183.26.131:8080/
-notification_emails:
+doc_tag_index_repository:
+  url: git@github.com:dirk-thomas/rosdoc_tag_index.git
+  version: master
+jenkins_job_priority: 90
+jenkins_job_timeout: 60
+notifications:
+  committers: false
+  emails:
   - dthomas+buildfarm@osrfoundation.org
-prerequisites:
-  debian_repositories:
-  - http://54.183.65.232/ubuntu/building
-  debian_repository_keys:
+  maintainers: false
+repositories:
+  keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v1
@@ -49,11 +44,14 @@ prerequisites:
     xaePFwP+okKW1h9qvwFhNF0JSCtdJrexdCf8jGE7
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.github.com/ros/rosdistro/ec2test/index.yaml
-status_page_repositories:
-  default:
+  urls:
   - http://54.183.65.232/ubuntu/building
-  - http://54.183.65.232/ubuntu/testing
-  - http://54.183.65.232/ubuntu/main
-type: buildfarm
-version: 1
+repository_whitelist:
+- ros_comm_msgs
+- roscpp_core
+targets:
+  ubuntu:
+    trusty:
+      amd64:
+type: doc-build
+version: 2
