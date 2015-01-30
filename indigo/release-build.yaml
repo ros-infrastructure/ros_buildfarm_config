@@ -2,41 +2,16 @@
 # ROS buildfarm release-build file
 ---
 abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 81
+jenkins_binary_job_priority: 83
 jenkins_binary_job_timeout: 120
-jenkins_source_job_priority: 80
+jenkins_source_job_priority: 81
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - dthomas+buildfarm@osrfoundation.org
+  - tfoote+buildfarm@osrfoundation.org
   maintainers: false
-package_blacklist:
-- combine_dr_measurements
-- hrpsys
-- icart_mini_driver
-- ira_photonfocus_driver
-- multisense
-- multisense_bringup
-- multisense_cal_check
-- multisense_description
-- multisense_lib
-- multisense_ros
-- nao_meshes
-- neo_base_mp_400
-- neo_base_mp_500
-- neo_relayboard
-- neo_watchdogs
-- ola_ros
-- openhrp3
-- pr2eus
-- swiftnav
-- ueye_cam
-- waypoints_navigation
-- yocs_ar_marker_tracking
-- yocs_ar_pair_tracking
-- yocs_waypoint_provider
 sync:
-  package_count: 150
+  package_count: 1300
 repositories:
   keys:
   - |
