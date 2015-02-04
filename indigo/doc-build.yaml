@@ -45,7 +45,7 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://packages.ros.org/ros-shadow-fixed/ubuntu
+  - http://54.183.65.232/ubuntu/testing
 repository_whitelist:
 - ros_comm_msgs
 - roscpp_core
