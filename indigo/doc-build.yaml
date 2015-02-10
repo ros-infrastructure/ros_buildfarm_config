@@ -47,24 +47,31 @@ repositories:
   urls:
   - http://54.183.65.232/ubuntu/testing
 repository_whitelist:
+- actionlib
+- bond_core
 - catkin
+- class_loader
 - cmake_modules
 - common_msgs
+- common_tutorials
+- dynamic_reconfigure
 - gencpp
 - genlisp
 - genmsg
 - genpy
 - message_generation
 - message_runtime
+- nodelet_core
+- pluginlib
 - ros
-- rosbag_migration_rule
 - ros_comm
 - ros_comm_msgs
+- ros_tutorials
+- rosbag_migration_rule
 - rosconsole_bridge
 - roscpp_core
 - roslisp
 - rospack
-- ros_tutorials
 - std_msgs
 targets:
   ubuntu:
