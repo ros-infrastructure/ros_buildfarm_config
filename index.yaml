@@ -5,12 +5,18 @@ distributions:
   indigo:
     doc_builds:
       default: indigo/doc-build.yaml
+    notification_emails:
+    - dthomas+buildfarm@osrfoundation.org
+    - tfoote+buildfarm@osrfoundation.org
     release_builds:
       arm: indigo/release-armhf-build.yaml
       default: indigo/release-build.yaml
     source_builds:
       default: indigo/source-build.yaml
   jade:
+    notification_emails:
+    - dthomas+buildfarm@osrfoundation.org
+    - william+buildfarm@osrfoundation.org
     release_builds:
       arm: jade/release-armhf-build.yaml
       default: jade/release-build.yaml
@@ -18,7 +24,7 @@ distributions:
       default: jade/source-build.yaml
 jenkins_url: http://54.183.26.131:8080/
 notification_emails:
-  - dthomas+buildfarm@osrfoundation.org
+- dthomas+buildfarm@osrfoundation.org
 prerequisites:
   debian_repositories:
   - http://54.183.65.232/ubuntu/building
