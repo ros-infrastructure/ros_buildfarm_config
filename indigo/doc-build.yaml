@@ -1,9 +1,6 @@
 %YAML 1.1
 # ROS buildfarm doc-build file
 ---
-doc_tag_index_repository:
-  url: https://github.com/ros-infrastructure/rosdoc_tag_index_test.git
-  version: master
 jenkins_job_priority: 90
 jenkins_job_timeout: 60
 notifications:
