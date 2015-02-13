@@ -5,6 +5,7 @@ distributions:
   indigo:
     doc_builds:
       default: indigo/doc-build.yaml
+      released-packages-without-doc-job: indigo/doc-released-build.yaml
     notification_emails:
     - dthomas+buildfarm@osrfoundation.org
     - tfoote+buildfarm@osrfoundation.org
