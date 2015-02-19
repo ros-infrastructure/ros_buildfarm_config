@@ -1,6 +1,7 @@
 %YAML 1.1
 # ROS buildfarm doc-build file
 ---
+documentation_type: rosdoc_lite
 jenkins_job_priority: 90
 jenkins_job_timeout: 60
 notifications:

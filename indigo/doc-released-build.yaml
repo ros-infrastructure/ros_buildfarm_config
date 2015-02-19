@@ -1,12 +1,12 @@
 %YAML 1.1
 # ROS buildfarm doc-build file
 ---
+documentation_type: released_manifest
 jenkins_job_priority: 91
 jenkins_job_timeout: 60
 notifications:
   emails:
   - dthomas+buildfarm@osrfoundation.org
-released_packages: true
 targets:
   ubuntu:
     trusty:

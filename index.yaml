@@ -25,6 +25,8 @@ distributions:
       default: jade/release-build.yaml
     source_builds:
       default: jade/source-build.yaml
+doc_builds:
+  independent-packages: doc-independent-build.yaml
 jenkins_url: http://54.183.26.131:8080/
 notification_emails:
 - dthomas+buildfarm@osrfoundation.org
