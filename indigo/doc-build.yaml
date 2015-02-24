@@ -9,6 +9,7 @@ notifications:
   committers: false
   emails:
   - dthomas+buildfarm@osrfoundation.org
+  - tfoote+buildfarm@osrfoundation.org
   maintainers: false
 repositories:
   keys:
