@@ -7,7 +7,7 @@ distributions:
       default: indigo/doc-build.yaml
       released-packages-without-doc-job: indigo/doc-released-build.yaml
     notification_emails:
-    - dthomas+buildfarm@osrfoundation.org
+    - ros-buildfarm-indigo@googlegroups.com
     - tfoote+buildfarm@osrfoundation.org
     release_builds:
       arm: indigo/release-armhf-build.yaml
@@ -18,7 +18,7 @@ distributions:
     doc_builds:
       default: jade/doc-build.yaml
     notification_emails:
-    - dthomas+buildfarm@osrfoundation.org
+    - ros-buildfarm-jade@googlegroups.com
     - william+buildfarm@osrfoundation.org
     release_builds:
       arm: jade/release-armhf-build.yaml

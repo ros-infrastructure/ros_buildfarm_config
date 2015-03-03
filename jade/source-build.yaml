@@ -7,7 +7,7 @@ jenkins_pull_request_job_priority: 60
 notifications:
   committers: false
   emails:
-  - dthomas+buildfarm@osrfoundation.org
+  - ros-buildfarm-jade@googlegroups.com
   - william+buildfarm@osrfoundation.org
   maintainers: false
 repositories:

@@ -8,7 +8,7 @@ jenkins_source_job_priority: 80
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - dthomas+buildfarm@osrfoundation.org
+  - ros-buildfarm-jade@googlegroups.com
   - william+buildfarm@osrfoundation.org
   maintainers: false
 sync:

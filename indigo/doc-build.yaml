@@ -8,7 +8,7 @@ jenkins_job_timeout: 60
 notifications:
   committers: false
   emails:
-  - dthomas+buildfarm@osrfoundation.org
+  - ros-buildfarm-indigo@googlegroups.com
   - tfoote+buildfarm@osrfoundation.org
   maintainers: false
 repositories:
