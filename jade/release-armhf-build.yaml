@@ -11,6 +11,8 @@ notifications:
   - ros-buildfarm-jade@googlegroups.com
   - william+buildfarm@osrfoundation.org
   maintainers: false
+package_blacklist:
+  - ueye_cam
 sync:
   package_count: 140
 repositories:
