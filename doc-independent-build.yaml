@@ -3,6 +3,7 @@
 ---
 documentation_type: make_target
 doc_repositories:
+- https://github.com/ros-infrastructure/catkin_pkg.git
 - https://github.com/ros-infrastructure/jenkins_tools.git
 - https://github.com/ros-infrastructure/rep.git
 - https://github.com/ros-infrastructure/rosdep.git
