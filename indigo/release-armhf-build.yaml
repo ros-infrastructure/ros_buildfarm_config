@@ -11,6 +11,8 @@ notifications:
   - ros-buildfarm-indigo@googlegroups.com
   - tfoote+buildfarm@osrfoundation.org
   maintainers: false
+package_blacklist:
+  - mapviz
 sync:
   package_count: 700
 repositories:
