@@ -12,6 +12,7 @@ notifications:
   - william+buildfarm@osrfoundation.org
   maintainers: false
 package_blacklist:
+  - mapviz
   - ueye_cam
 sync:
   package_count: 140
