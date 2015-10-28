@@ -14,17 +14,17 @@ notifications:
 package_blacklist:
   - ardrone_autonomy
   - avt_vimba_camera
-  - baxter_ikfast_left_arm
-  - baxter_ikfast_right_arm
+  - baxter_ikfast_left_arm_plugin
+  - baxter_ikfast_right_arm_plugin
   - bride
   - epos_library
   - eus_nlopt
   - eus_qp
   - gazebo_ros
   - graspit
-  - h4r_x53_joyext
-  - homer_nav
-  - icar_mini
+  - h4r_x52_joyext
+  - homer_nav_libs
+  - icart_mini_driver
   - imagesift
   - jaco_sdk
   - jinteractiveworld
@@ -42,10 +42,11 @@ package_blacklist:
   - nao_meshes
   - naoqi_driver
   - nav_pcontroller
-  - ndt_rviz
+  - ndt_rviz_visualization
   - neo_relayboard
   - nerian_sp1
   - octovis
+  - oculus_sdk
   - ola_ros
   - openhrp3
   - or_libs
