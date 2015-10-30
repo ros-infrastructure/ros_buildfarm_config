@@ -42,7 +42,7 @@ package_blacklist:
   - nao_meshes
   - naoqi_driver
   - nav_pcontroller
-  - ndt_rviz_visualization
+  - ndt_rviz_visualisation
   - neo_relayboard
   - nerian_sp1
   - octovis
