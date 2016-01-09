@@ -8,8 +8,7 @@ jenkins_source_job_priority: 81
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-indigo@googlegroups.com
-  - tfoote+buildfarm@osrfoundation.org
+  - ros-buildfarm-testfarm@googlegroups.com
   maintainers: false
 sync:
   package_count: 1300
