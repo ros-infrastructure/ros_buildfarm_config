@@ -12,7 +12,7 @@ notifications:
   maintainers: false
 repositories:
   urls:
-  - http://54.183.65.232/ubuntu/testing
+  - http://repositories.ros.org/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
