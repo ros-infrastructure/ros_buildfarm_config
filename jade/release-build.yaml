@@ -11,7 +11,7 @@ notifications:
   - ros-buildfarm-testfarm@googlegroups.com
   maintainers: false
 sync:
-  package_count: 140
+  package_count: 900
 repositories:
   keys:
   - |
