@@ -52,4 +52,7 @@ targets:
       amd64:
 type: doc-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
+upload_host: ros.osuosl.org
+upload_root: /home/rosbot/docs
+upload_user: rosbot
 version: 2
