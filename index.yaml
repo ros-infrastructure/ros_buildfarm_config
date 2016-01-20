@@ -27,7 +27,7 @@ distributions:
       default: jade/source-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
-jenkins_url: http://build.ros.org:8080
+jenkins_url: http://build.ros.org
 notification_emails:
 - dthomas+buildfarm@osrfoundation.org
 prerequisites:
