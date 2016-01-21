@@ -17,6 +17,7 @@ distributions:
   jade:
     doc_builds:
       default: jade/doc-build.yaml
+      released-packages-without-doc-job: jade/doc-released-build.yaml
     notification_emails:
     - ros-buildfarm-testfarm@googlegroups.com
     - william+buildfarm@osrfoundation.org
