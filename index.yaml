@@ -30,7 +30,8 @@ doc_builds:
   independent-packages: doc-independent-build.yaml
 jenkins_url: http://54.183.26.131:8080
 notification_emails:
-- dthomas+buildfarm@osrfoundation.org
+- ros-buildfarm-testfarm@googlegroups.com
+- tfoote+buildfarm@osrfoundation.org
 prerequisites:
   debian_repositories:
   - http://54.183.65.232/ubuntu/building
