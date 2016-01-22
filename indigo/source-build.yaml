@@ -50,7 +50,9 @@ targets:
       amd64:
 test_commits:
   default: true
+# do not run pr builds on the test farm (otherwise we'll get multiple reports)
 test_pull_requests:
   default: false
+  force: false
 type: source-build
 version: 2
