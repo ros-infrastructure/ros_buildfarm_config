@@ -10,7 +10,7 @@ notifications:
   emails:
   - ros-buildfarm-indigo@googlegroups.com
   - tfoote+buildfarm@osrfoundation.org
-  maintainers: false
+  maintainers: true
 repositories:
   keys:
   - |
