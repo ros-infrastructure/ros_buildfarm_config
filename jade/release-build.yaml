@@ -10,7 +10,7 @@ notifications:
   emails:
   - ros-buildfarm-jade@googlegroups.com
   - william+buildfarm@osrfoundation.org
-  maintainers: false
+  maintainers: true
 sync:
   package_count: 140
 repositories:
