@@ -3,7 +3,7 @@
 ---
 documentation_type: released_manifest
 jenkins_job_priority: 91
-jenkins_job_timeout: 60
+jenkins_job_timeout: 30
 notifications:
   emails:
   - ros-buildfarm-indigo@googlegroups.com
