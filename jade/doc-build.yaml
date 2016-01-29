@@ -1,7 +1,7 @@
 %YAML 1.1
 # ROS buildfarm doc-build file
 ---
-canonical_base_url: http://repositories.ros.org/docs
+canonical_base_url: http://docs.ros.org
 documentation_type: rosdoc_lite
 jenkins_job_priority: 90
 jenkins_job_timeout: 60
