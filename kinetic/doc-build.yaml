@@ -1,52 +1,17 @@
 %YAML 1.1
-# ROS buildfarm index file
+# ROS buildfarm doc-build file
 ---
-distributions:
-  indigo:
-    doc_builds:
-      default: indigo/doc-build.yaml
-      released-packages-without-doc-job: indigo/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-testfarm@googlegroups.com
-    - tfoote+buildfarm@osrfoundation.org
-    release_builds:
-      arm: indigo/release-armhf-build.yaml
-      default: indigo/release-build.yaml
-    source_builds:
-      default: indigo/source-build.yaml
-  jade:
-    doc_builds:
-      default: jade/doc-build.yaml
-      released-packages-without-doc-job: jade/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-testfarm@googlegroups.com
-    - william+buildfarm@osrfoundation.org
-    release_builds:
-      arm: jade/release-armhf-build.yaml
-      default: jade/release-build.yaml
-    source_builds:
-      default: jade/source-build.yaml
-  kinetic:
-    doc_builds:
-      default: kinetic/doc-build.yaml
-      released-packages-without-doc-job: kinetic/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-testfarm@googlegroups.com
-    - william+buildfarm@osrfoundation.org
-    release_builds:
-      arm: kinetic/release-armhf-build.yaml
-      default: kinetic/release-build.yaml
-    source_builds:
-      default: kinetic/source-build.yaml
-doc_builds:
-  independent-packages: doc-independent-build.yaml
-jenkins_url: http://54.183.26.131:8080
-notification_emails:
-- ros-buildfarm-testfarm@googlegroups.com
-prerequisites:
-  debian_repositories:
-  - http://54.183.65.232/ubuntu/building
-  debian_repository_keys:
+canonical_base_url: http://54.183.65.232/docs
+documentation_type: rosdoc_lite
+jenkins_job_priority: 90
+jenkins_job_timeout: 120
+notifications:
+  committers: false
+  emails:
+  - ros-buildfarm-testfarm@googlegroups.com
+  maintainers: false
+repositories:
+  keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v1
@@ -78,11 +43,15 @@ prerequisites:
     xaePFwP+okKW1h9qvwFhNF0JSCtdJrexdCf8jGE7
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
-status_page_repositories:
-  default:
-  - http://54.183.65.232/ubuntu/building
+  urls:
   - http://54.183.65.232/ubuntu/testing
-  - http://54.183.65.232/ubuntu/main
-type: buildfarm
-version: 1
+targets:
+  ubuntu:
+    trusty:
+      amd64:
+type: doc-build
+upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
+upload_host: repo
+upload_root: /var/repos/docs
+upload_user: jenkins-slave
+version: 2
