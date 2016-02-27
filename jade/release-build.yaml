@@ -12,7 +12,7 @@ notifications:
   - william+buildfarm@osrfoundation.org
   maintainers: true
 sync:
-  package_count: 140
+  package_count: 900
 repositories:
   keys:
   - |

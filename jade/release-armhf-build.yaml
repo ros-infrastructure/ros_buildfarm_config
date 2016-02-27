@@ -72,7 +72,7 @@ package_blacklist:
   - uwsim_osgworks
   - visp
 sync:
-  package_count: 140
+  package_count: 750
 repositories:
   keys:
   - |
