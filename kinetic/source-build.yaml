@@ -1,19 +1,18 @@
 %YAML 1.1
-# ROS buildfarm release-build file
+# ROS buildfarm source-build file
 ---
-abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 84
-jenkins_binary_job_timeout: 120
-jenkins_source_job_priority: 81
-jenkins_source_job_timeout: 30
+jenkins_commit_job_priority: 69
+jenkins_job_timeout: 120
+jenkins_pull_request_job_priority: 59
 notifications:
+  committers: true
   emails:
-  - ros-buildfarm-indigo@googlegroups.com
-  - tfoote+buildfarm@osrfoundation.org
+  - ros-buildfarm-kinetic@googlegroups.com
+  - esteve+buildfarm@osrfoundation.org
   maintainers: true
-sync:
-  package_count: 2000
 repositories:
+  urls:
+  - http://repositories.ros.org/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -46,17 +45,13 @@ repositories:
     qYE=
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
-  urls:
-  - http://repositories.ros.org/ubuntu/building
-target_repository: http://repositories.ros.org/ubuntu/building
 targets:
   ubuntu:
-    saucy:
+    xenial:
       amd64:
-      i386:
-    trusty:
-      amd64:
-      i386:
-type: release-build
-upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
+test_commits:
+  default: true
+test_pull_requests:
+  default: false
+type: source-build
 version: 2

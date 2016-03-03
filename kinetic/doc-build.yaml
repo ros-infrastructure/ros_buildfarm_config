@@ -1,18 +1,16 @@
 %YAML 1.1
-# ROS buildfarm release-build file
+# ROS buildfarm doc-build file
 ---
-abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 84
-jenkins_binary_job_timeout: 120
-jenkins_source_job_priority: 81
-jenkins_source_job_timeout: 30
+canonical_base_url: http://docs.ros.org
+documentation_type: rosdoc_lite
+jenkins_job_priority: 89
+jenkins_job_timeout: 120
 notifications:
+  committers: false
   emails:
-  - ros-buildfarm-indigo@googlegroups.com
-  - tfoote+buildfarm@osrfoundation.org
+  - ros-buildfarm-kinetic@googlegroups.com
+  - esteve+buildfarm@osrfoundation.org
   maintainers: true
-sync:
-  package_count: 2000
 repositories:
   keys:
   - |
@@ -47,16 +45,14 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repositories.ros.org/ubuntu/building
-target_repository: http://repositories.ros.org/ubuntu/building
+  - http://repositories.ros.org/ubuntu/testing
 targets:
   ubuntu:
-    saucy:
+    xenial:
       amd64:
-      i386:
-    trusty:
-      amd64:
-      i386:
-type: release-build
+type: doc-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
+upload_host: ros.osuosl.org
+upload_root: /home/rosbot/docs
+upload_user: rosbot
 version: 2
