@@ -32,7 +32,7 @@ distributions:
       released-packages-without-doc-job: kinetic/doc-released-build.yaml
     notification_emails:
     - ros-buildfarm-kinetic@googlegroups.com
-    - esteve+buildfarm@osrfoundation.org
+    - jackie+buildfarm@osrfoundation.org
     release_builds:
       arm: kinetic/release-armhf-build.yaml
       default: kinetic/release-build.yaml
