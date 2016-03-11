@@ -21,6 +21,7 @@ package_blacklist:
   - eus_nlopt
   - eus_qp
   - gazebo_ros
+  - grasp_planning_graspit
   - graspit
   - h4r_x52_joyext
   - homer_nav_libs
