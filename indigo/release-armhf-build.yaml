@@ -50,6 +50,7 @@ package_blacklist:
   - rospeex_core
   - sr_external_dependencies
   - teb_local_planner
+  - urdf2graspit
   - uwsim
   - uwsim_osgocean
   - uwsim_osgworks
