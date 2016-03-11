@@ -19,6 +19,7 @@ package_blacklist:
   - epos_library
   - eus_nlopt
   - gazebo_ros
+  - grasp_planning_graspit
   - graspit
   - imagesift
   - jaco_sdk
