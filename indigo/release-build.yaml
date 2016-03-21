@@ -50,12 +50,12 @@ repositories:
 target_repository: http://54.183.65.232/ubuntu/building
 targets:
   ubuntu:
-    saucy:
-      amd64:
-      i386:
+    # saucy:
+    #   amd64:
+    #   i386:
     trusty:
       amd64:
-      i386:
+      # i386:
 type: release-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
 version: 2
