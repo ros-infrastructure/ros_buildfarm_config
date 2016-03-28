@@ -34,7 +34,7 @@ distributions:
     - ros-buildfarm-kinetic@googlegroups.com
     - jackie+buildfarm@osrfoundation.org
     release_builds:
-      arm: kinetic/release-armhf-build.yaml
+      arm: kinetic/release-arm-build.yaml
       default: kinetic/release-build.yaml
     source_builds:
       default: kinetic/source-build.yaml
