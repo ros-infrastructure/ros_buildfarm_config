@@ -10,7 +10,7 @@ notifications:
   emails:
   - ros-buildfarm-kinetic@googlegroups.com
   - jackie+buildfarm@osrfoundation.org
-  maintainers: false
+  maintainers: true
 package_blacklist:
 sync:
   package_count: 1
