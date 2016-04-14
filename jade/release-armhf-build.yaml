@@ -65,7 +65,6 @@ package_blacklist:
   - rospeex_core
   - rostful_node
   - sr_external_dependencies
-  - teb_local_planner
   - ueye_cam
   - uwsim
   - uwsim_osgocean
