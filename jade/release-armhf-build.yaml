@@ -48,7 +48,6 @@ package_blacklist:
   - rosjava_bootstrap
   - rospeex_core
   - sr_external_dependencies
-  - teb_local_planner
   - ueye_cam
   - uwsim
   - uwsim_osgocean
