@@ -49,7 +49,6 @@ package_blacklist:
   - rosjava_bootstrap
   - rospeex_core
   - sr_external_dependencies
-  - teb_local_planner
   - urdf2graspit
   - uwsim
   - uwsim_osgocean
