@@ -11,6 +11,9 @@ notifications:
   - ros-buildfarm-testfarm@googlegroups.com
   maintainers: false
 package_blacklist:
+  - ardrone_autonomy
+  - octovis
+  - ueye
 sync:
   package_count: 1
 repositories:
