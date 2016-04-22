@@ -12,6 +12,9 @@ notifications:
   - jackie+buildfarm@osrfoundation.org
   maintainers: true
 package_blacklist:
+  - ardrone_autonomy
+  - octovis
+  - ueye
 sync:
   package_count: 1
 repositories:
