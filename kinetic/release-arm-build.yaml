@@ -16,7 +16,7 @@ package_blacklist:
   - octovis
   - ueye
 sync:
-  package_count: 200
+  package_count: 300
 repositories:
   keys:
   - |
