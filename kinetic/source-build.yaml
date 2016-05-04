@@ -5,7 +5,7 @@ jenkins_commit_job_priority: 69
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 59
 notifications:
-  committers: true
+  committers: false
   emails:
   - ros-buildfarm-testfarm@googlegroups.com
   maintainers: false
