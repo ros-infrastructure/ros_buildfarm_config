@@ -9,7 +9,7 @@ distributions:
     notification_emails:
     - ros-buildfarm-testfarm@googlegroups.com
     release_builds:
-      arm: indigo/release-armhf-build.yaml
+#      arm: indigo/release-armhf-build.yaml
       default: indigo/release-build.yaml
     source_builds:
       default: indigo/source-build.yaml
