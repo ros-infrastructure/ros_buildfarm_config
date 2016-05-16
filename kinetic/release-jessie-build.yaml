@@ -1,54 +1,20 @@
 %YAML 1.1
-# ROS buildfarm index file
+# ROS buildfarm release-build file
 ---
-distributions:
-  indigo:
-    doc_builds:
-      default: indigo/doc-build.yaml
-      released-packages-without-doc-job: indigo/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-indigo@googlegroups.com
-    - tfoote+buildfarm@osrfoundation.org
-    release_builds:
-      arm: indigo/release-armhf-build.yaml
-      default: indigo/release-build.yaml
-    source_builds:
-      default: indigo/source-build.yaml
-  jade:
-    doc_builds:
-      default: jade/doc-build.yaml
-      released-packages-without-doc-job: jade/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-jade@googlegroups.com
-    - william+buildfarm@osrfoundation.org
-    release_builds:
-      arm: jade/release-armhf-build.yaml
-      default: jade/release-build.yaml
-    source_builds:
-      default: jade/source-build.yaml
-  kinetic:
-    doc_builds:
-      default: kinetic/doc-build.yaml
-      released-packages-without-doc-job: kinetic/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-kinetic@googlegroups.com
-    - jackie+buildfarm@osrfoundation.org
-    release_builds:
-      arm: kinetic/release-arm-build.yaml
-      jessie: kinetic/release-jessie-build.yaml
-      default: kinetic/release-build.yaml
-    source_builds:
-      default: kinetic/source-build.yaml
-doc_builds:
-  independent-packages: doc-independent-build.yaml
-jenkins_url: http://build.ros.org
-notification_emails:
-- ros-buildfarm@googlegroups.com
-- tfoote+buildfarm@osrfoundation.org
-prerequisites:
-  debian_repositories:
-  - http://repositories.ros.org/ubuntu/building
-  debian_repository_keys:
+abi_incompatibility_assumed: true
+jenkins_binary_job_priority: 82
+jenkins_binary_job_timeout: 120
+jenkins_source_job_priority: 79
+jenkins_source_job_timeout: 30
+notifications:
+  emails:
+  - ros-buildfarm-kinetic@googlegroups.com
+  - jackie+buildfarm@osrfoundation.org
+  maintainers: true
+sync:
+  package_count: 330
+repositories:
+  keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v1.4.11 (GNU/Linux)
@@ -80,11 +46,14 @@ prerequisites:
     qYE=
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
-status_page_repositories:
-  default:
+  urls:
   - http://repositories.ros.org/ubuntu/building
-  - http://repositories.ros.org/ubuntu/testing
-  - http://repositories.ros.org/ubuntu/main
-type: buildfarm
-version: 1
+target_repository: http://repositories.ros.org/ubuntu/building
+targets:
+  debian:
+    jessie:
+      amd64:
+type: release-build
+upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
+version: 2
+
