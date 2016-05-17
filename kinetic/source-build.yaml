@@ -6,6 +6,7 @@ jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 59
 notifications:
   committers: true
+  compiler_warnings: true
   emails:
   - ros-buildfarm-kinetic@googlegroups.com
   - jackie+buildfarm@osrfoundation.org
