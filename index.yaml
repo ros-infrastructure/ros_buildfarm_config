@@ -36,7 +36,7 @@ distributions:
     release_builds:
       armhf: kinetic/release-armhf-build.yaml
       jessie: kinetic/release-jessie-build.yaml
-      jessie-arm64: kinetic/release-jessie-arm64-build.yaml
+      jarm64: kinetic/release-jessie-arm64-build.yaml
       default: kinetic/release-build.yaml
     source_builds:
       default: kinetic/source-build.yaml
