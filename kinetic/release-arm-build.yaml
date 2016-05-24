@@ -13,8 +13,13 @@ notifications:
   maintainers: true
 package_blacklist:
   - ardrone_autonomy
+  - naoqi_driver
+  - pcl_conversions
   - octovis
+  - rtabmap
+  - schunk_canopen_driver
   - ueye
+  - ueye_cam
 sync:
   package_count: 300
 repositories:
