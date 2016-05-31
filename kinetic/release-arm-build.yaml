@@ -14,7 +14,11 @@ notifications:
 package_blacklist:
   - ardrone_autonomy
   - naoqi_driver
+  - nerian_sp1
   - pcl_conversions
+  - object_recognition_capture
+  - object_recognition_ros
+  - object_recognition_tod
   - octovis
   - rtabmap
   - schunk_canopen_driver
