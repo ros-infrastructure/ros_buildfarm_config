@@ -13,6 +13,8 @@ notifications:
   maintainers: true
 package_blacklist:
   - ardrone_autonomy
+  - nao_meshes
+  - naoqi_driver
   - octovis
   - ueye
 sync:
