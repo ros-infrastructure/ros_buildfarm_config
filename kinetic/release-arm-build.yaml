@@ -13,6 +13,7 @@ notifications:
   maintainers: true
 package_blacklist:
   - ardrone_autonomy
+  - nao_meshes
   - naoqi_driver
   - nerian_sp1
   - pcl_conversions
