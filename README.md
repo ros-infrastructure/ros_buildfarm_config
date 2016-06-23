@@ -30,13 +30,13 @@ Find the `release-build.yaml` file which is appropriate for the platform you wis
 
 For example, if you want to blacklist a package on 32-bit ARM in Kinetic Kame, you want to edit the file `kinetic/release-armhf.build`.
 
-Add the name of the package to blacklist under the entry `package_blacklist`, e.g.
+Add the name of the package in alphabetical order to blacklist under the entry `package_blacklist`, e.g.
 
 ```
   package_blacklist:
     - my_blacklisted_package
 ```
 
-When you submit a pull request, please *open a ticket* in `ros_buildfarm_config` or the repository for your package describing why you are blacklisting your package, and link to that ticket in your pull request to blacklist the package.
+When you submit a pull request, please link to an upstream ticket in your pull request to blacklist the package so that there is somewhere to track whether the issue has been resolved and the blacklist entry can be removed.
 
 If you never want your package to be unblacklisted, you don't need to do this, but if you are waiting on a system dependency to be released or updated, then you should state that in the ticket/in your pull request and, if you can, link to an external issue tracker related to the problem.
