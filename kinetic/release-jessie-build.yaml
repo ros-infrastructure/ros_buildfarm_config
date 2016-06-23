@@ -50,13 +50,10 @@ repositories:
   - http://repositories.ros.org/ubuntu/building
 target_repository: http://repositories.ros.org/ubuntu/building
 targets:
-  ubuntu:
-    wily:
+  debian:
+    jessie:
       amd64:
-      i386:
-    xenial:
-      amd64:
-      i386:
 type: release-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
 version: 2
+
