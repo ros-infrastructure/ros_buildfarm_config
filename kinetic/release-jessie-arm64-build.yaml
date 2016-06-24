@@ -17,6 +17,7 @@ package_blacklist:
   - naoqi_driver
   - octovis
   - ueye
+  - ueye_cam
 sync:
   package_count: 300
 repositories:
