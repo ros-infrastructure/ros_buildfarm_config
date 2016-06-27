@@ -13,6 +13,8 @@ notifications:
   maintainers: true
 package_blacklist:
   - ardrone_autonomy
+  - hrpsys
+  - mapviz
   - nao_meshes
   - naoqi_driver
   - nerian_sp1

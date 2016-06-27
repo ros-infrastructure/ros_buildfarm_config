@@ -11,6 +11,9 @@ notifications:
   - ros-buildfarm-kinetic@googlegroups.com
   - jackie+buildfarm@osrfoundation.org
   maintainers: true
+package_blacklist:
+  - nao_meshes
+  - schunk_canopen_driver
 sync:
   package_count: 330
 repositories:

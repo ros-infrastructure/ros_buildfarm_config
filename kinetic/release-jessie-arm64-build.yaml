@@ -13,9 +13,17 @@ notifications:
   maintainers: true
 package_blacklist:
   - ardrone_autonomy
+  - hrpsys
   - nao_meshes
   - naoqi_driver
+  - nerian
+  - object_recognition_capture
+  - object_recognition_reconstruction
+  - object_recognition_ros
+  - object_recognition_tod
+  - object_recognition_transparent_objects
   - octovis
+  - schunk_canopen_driver
   - ueye
   - ueye_cam
 sync:
