@@ -16,7 +16,7 @@ package_blacklist:
   - hrpsys
   - nao_meshes
   - naoqi_driver
-  - nerian
+  - nerian_sp1
   - object_recognition_capture
   - object_recognition_reconstruction
   - object_recognition_ros
