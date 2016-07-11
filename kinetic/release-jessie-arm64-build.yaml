@@ -14,7 +14,6 @@ notifications:
 package_blacklist:
   - ardrone_autonomy
   - hrpsys
-  - librealsense
   - nao_meshes
   - naoqi_driver
   - nerian_sp1
