@@ -65,6 +65,7 @@ package_blacklist:
   - rosjava_bootstrap
   - rospeex_core
   - rostful_node
+  - smarthome_network_wakeonlan
   - sr_external_dependencies
   - urdf2graspit
   - uwsim
