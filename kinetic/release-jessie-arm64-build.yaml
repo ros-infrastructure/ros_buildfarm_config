@@ -18,10 +18,10 @@ package_blacklist:
   - naoqi_driver
   - nerian_sp1
   - octovis
+  - rqt_multiplot
   - schunk_canopen_driver
   - ueye
   - ueye_cam
-  - rqt_multiplot
 sync:
   package_count: 300
 repositories:
