@@ -7,7 +7,7 @@ jenkins_job_timeout: 30
 notifications:
   emails:
   - ros-buildfarm-kinetic@googlegroups.com
-  - jackie+buildfarm@osrfoundation.org
+  - buildfarm@osrfoundation.org
 targets:
   ubuntu:
     xenial:

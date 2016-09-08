@@ -9,7 +9,7 @@ notifications:
   compiler_warnings: true
   emails:
   - ros-buildfarm-kinetic@googlegroups.com
-  - jackie+buildfarm@osrfoundation.org
+  - buildfarm@osrfoundation.org
   maintainers: true
 repositories:
   urls:
