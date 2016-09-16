@@ -69,7 +69,6 @@ package_blacklist:
   - uwsim
   - uwsim_osgocean
   - uwsim_osgworks
-  - visp
 sync:
   package_count: 750
 repositories:
