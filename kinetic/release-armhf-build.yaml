@@ -16,6 +16,7 @@ package_blacklist:
   - hrpsys
   - mapviz
   - nao_meshes
+  - naoqi_dcm_driver
   - naoqi_driver
   - nerian_sp1
   - pcl_conversions
