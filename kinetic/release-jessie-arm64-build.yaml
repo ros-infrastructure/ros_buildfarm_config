@@ -15,6 +15,7 @@ package_blacklist:
   - ardrone_autonomy
   - hrpsys
   - nao_meshes
+  - naoqi_dcm_driver
   - naoqi_driver
   - nerian_sp1
   - octovis
