@@ -9,7 +9,7 @@ notifications:
   committers: false
   emails:
   - ros-buildfarm-kinetic@googlegroups.com
-  - jackie+buildfarm@osrfoundation.org
+  - tfoote+buildfarm@osrfoundation.org
   maintainers: true
 repositories:
   keys:
