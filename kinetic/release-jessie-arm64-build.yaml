@@ -19,6 +19,7 @@ package_blacklist:
   - naoqi_driver
   - nerian_sp1
   - octovis
+  - pepper_meshes
   - rqt_multiplot
   - schunk_canopen_driver
   - ueye
