@@ -35,6 +35,7 @@ distributions:
     - jackie+buildfarm@osrfoundation.org
     release_builds:
       uxhf: kinetic/release-armhf-build.yaml
+      uxv8: kinetic/release-xenial-arm64-build.yaml
       dj: kinetic/release-jessie-build.yaml
       djv8: kinetic/release-jessie-arm64-build.yaml
       default: kinetic/release-build.yaml
