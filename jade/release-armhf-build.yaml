@@ -64,6 +64,7 @@ package_blacklist:
   - rosjava_bootstrap
   - rospeex_core
   - rostful_node
+  - rtabmap_ros
   - sr_external_dependencies
   - ueye_cam
   - uwsim
