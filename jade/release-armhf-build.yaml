@@ -47,6 +47,7 @@ package_blacklist:
   - robot_calibration
   - rosjava_bootstrap
   - rospeex_core
+  - rtabmap_ros
   - sr_external_dependencies
   - ueye_cam
   - uwsim
