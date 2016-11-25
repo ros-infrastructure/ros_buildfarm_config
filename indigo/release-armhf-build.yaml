@@ -42,6 +42,7 @@ package_blacklist:
   - libvimba
   - map_merger
   - mapviz
+  - mecanum_gazebo_plugin
   - micros_rtt
   - multires_image
   - nao_meshes
