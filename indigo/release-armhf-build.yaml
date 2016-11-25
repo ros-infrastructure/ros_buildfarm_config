@@ -13,10 +13,12 @@ notifications:
   maintainers: false
 package_blacklist:
   - ardrone_autonomy
+  - aubo_driver
   - avt_vimba_camera
   - baxter_ikfast_left_arm_plugin
   - baxter_ikfast_right_arm_plugin
   - bride
+  - cob_cartesian_controller
   - epos_library
   - eus_nlopt
   - eus_qp
@@ -29,6 +31,8 @@ package_blacklist:
   - imagesift
   - jaco_sdk
   - jinteractiveworld
+  - jsk_data
+  - jsk_maps
   - jsk_pcl_ros
   - kdl_typekit
   - libfovis
@@ -41,6 +45,7 @@ package_blacklist:
   - micros_rtt
   - multires_image
   - nao_meshes
+  - naoqi_dcm_drivers
   - naoqi_driver
   - nav_pcontroller
   - ndt_rviz_visualisation
@@ -50,6 +55,7 @@ package_blacklist:
   - oculus_sdk
   - ola_ros
   - openhrp3
+  - openrave
   - or_libs
   - p2os_urdf
   - pcan_topics
@@ -68,6 +74,7 @@ package_blacklist:
   - smarthome_network_wakeonlan
   - sr_external_dependencies
   - urdf2graspit
+  - urdf2inventor
   - uwsim
   - uwsim_osgocean
   - uwsim_osgworks
