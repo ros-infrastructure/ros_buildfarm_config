@@ -40,6 +40,7 @@ package_blacklist:
   - micros_rtt
   - multires_image
   - nao_meshes
+  - naoqi_dcm_driver
   - naoqi_driver
   - nav_pcontroller
   - ndt_rviz_visualisation
