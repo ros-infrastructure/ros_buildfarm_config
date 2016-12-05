@@ -14,7 +14,7 @@ jenkins_job_priority: 90
 jenkins_job_timeout: 30
 notifications:
   emails:
-  - dthomas+buildfarm@osrfoundation.org
+  - tfoote+buildfarm@osrfoundation.org
 targets:
   ubuntu:
     trusty:
