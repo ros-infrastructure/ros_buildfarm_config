@@ -23,7 +23,6 @@ package_blacklist:
   - pepper_meshes
   - schunk_canopen_driver
   - ueye
-  - ueye_cam
 sync:
   package_count: 300
 repositories:
