@@ -17,6 +17,7 @@ package_blacklist:
   - baxter_ikfast_left_arm_plugin
   - baxter_ikfast_right_arm_plugin
   - bride
+  - darknet
   - epos_library
   - eus_nlopt
   - eus_qp
