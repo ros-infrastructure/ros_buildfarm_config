@@ -8,7 +8,7 @@ jenkins_source_job_priority: 79
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-kinetic@googlegroups.com
+  - ros-buildfarm-lunar@googlegroups.com
   - mikael+buildfarm@osrfoundation.org
   maintainers: true
 sync:

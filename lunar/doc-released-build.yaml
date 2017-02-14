@@ -6,7 +6,7 @@ jenkins_job_priority: 89
 jenkins_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-kinetic@googlegroups.com
+  - ros-buildfarm-lunar@googlegroups.com
   - mikael+buildfarm@osrfoundation.org
 targets:
   ubuntu:
