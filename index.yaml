@@ -46,7 +46,7 @@ distributions:
       default: lunar/doc-build.yaml
       released-packages-without-doc-job: lunar/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-kinetic@googlegroups.com
+    - ros-buildfarm-lunar@googlegroups.com
     - mikael+buildfarm@osrfoundation.org
     release_builds:
       default: lunar/release-build.yaml
