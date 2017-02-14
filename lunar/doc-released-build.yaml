@@ -2,15 +2,15 @@
 # ROS buildfarm doc-build file
 ---
 documentation_type: released_manifest
-jenkins_job_priority: 92
+jenkins_job_priority: 89
 jenkins_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-indigo@googlegroups.com
-  - tfoote+buildfarm@osrfoundation.org
+  - ros-buildfarm-kinetic@googlegroups.com
+  - mikael+buildfarm@osrfoundation.org
 targets:
   ubuntu:
-    trusty:
+    xenial:
       amd64:
 type: doc-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5

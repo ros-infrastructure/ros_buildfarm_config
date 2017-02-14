@@ -2,17 +2,18 @@
 # ROS buildfarm release-build file
 ---
 abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 84
-jenkins_binary_job_timeout: 120
-jenkins_source_job_priority: 81
+jenkins_binary_job_priority: 94
+jenkins_binary_job_timeout: 600
+jenkins_source_job_priority: 79
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-jade@googlegroups.com
-  - william+buildfarm@osrfoundation.org
-  maintainers: true
+  - ros-buildfarm-kinetic@googlegroups.com
+  - mikael+buildfarm@osrfoundation.org
+  maintainers: false
+package_blacklist:
 sync:
-  package_count: 900
+  package_count: 1
 repositories:
   keys:
   - |
@@ -51,15 +52,8 @@ repositories:
 target_repository: http://repositories.ros.org/ubuntu/building
 targets:
   ubuntu:
-    trusty:
-      amd64:
-      i386:
-    utopic:
-      amd64:
-      i386:
-    vivid:
-      amd64:
-      i386:
+    xenial:
+      arm64:
 type: release-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
 version: 2

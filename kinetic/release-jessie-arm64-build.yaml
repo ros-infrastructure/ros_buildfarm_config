@@ -2,9 +2,9 @@
 # ROS buildfarm release-build file
 ---
 abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 94
+jenkins_binary_job_priority: 95
 jenkins_binary_job_timeout: 600
-jenkins_source_job_priority: 79
+jenkins_source_job_priority: 80
 jenkins_source_job_timeout: 30
 notifications:
   emails:
@@ -69,4 +69,3 @@ targets:
 type: release-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
 version: 2
-

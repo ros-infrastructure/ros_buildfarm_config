@@ -34,13 +34,28 @@ distributions:
     - ros-buildfarm-kinetic@googlegroups.com
     - tfoote+buildfarm@osrfoundation.org
     release_builds:
-      uxhf: kinetic/release-armhf-build.yaml
-      uxv8: kinetic/release-xenial-arm64-build.yaml
+      default: kinetic/release-build.yaml
       dj: kinetic/release-jessie-build.yaml
       djv8: kinetic/release-jessie-arm64-build.yaml
-      default: kinetic/release-build.yaml
+      uxhf: kinetic/release-armhf-build.yaml
+      uxv8: kinetic/release-xenial-arm64-build.yaml
     source_builds:
       default: kinetic/source-build.yaml
+  lunar:
+    doc_builds:
+      default: lunar/doc-build.yaml
+      released-packages-without-doc-job: lunar/doc-released-build.yaml
+    notification_emails:
+    - ros-buildfarm-kinetic@googlegroups.com
+    - mikael+buildfarm@osrfoundation.org
+    release_builds:
+      default: lunar/release-build.yaml
+      ds: lunar/release-stretch-build.yaml
+      dsv8: lunar/release-stretch-arm64-build.yaml
+      uxhf: lunar/release-armhf-build.yaml
+      uxv8: lunar/release-arm64-build.yaml
+    source_builds:
+      default: lunar/source-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
 jenkins_url: http://build.ros.org
