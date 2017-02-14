@@ -8,7 +8,7 @@ notifications:
   committers: true
   compiler_warnings: true
   emails:
-  - ros-buildfarm-kinetic@googlegroups.com
+  - ros-buildfarm-lunar@googlegroups.com
   - mikael+buildfarm@osrfoundation.org
   maintainers: true
 repositories:

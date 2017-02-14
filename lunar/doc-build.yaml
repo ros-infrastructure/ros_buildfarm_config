@@ -8,7 +8,7 @@ jenkins_job_timeout: 120
 notifications:
   committers: false
   emails:
-  - ros-buildfarm-kinetic@googlegroups.com
+  - ros-buildfarm-lunar@googlegroups.com
   - mikael+buildfarm@osrfoundation.org
   maintainers: true
 repositories:
