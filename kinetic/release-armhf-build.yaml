@@ -12,6 +12,7 @@ notifications:
   maintainers: false
 package_blacklist:
   - ardrone_autonomy
+  - darknet
   - octovis
   - ueye
 sync:
