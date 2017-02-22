@@ -12,8 +12,8 @@ notifications:
   - tfoote+buildfarm@osrfoundation.org
   maintainers: true
 package_blacklist:
-  - rqt_multiplot
-  - schunk_canopen_driver
+- rqt_multiplot
+- schunk_canopen_driver
 sync:
   package_count: 330
 repositories:

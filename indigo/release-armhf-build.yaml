@@ -12,74 +12,74 @@ notifications:
   - tfoote+buildfarm@osrfoundation.org
   maintainers: false
 package_blacklist:
-  - ardrone_autonomy
-  - aubo_driver
-  - avt_vimba_camera
-  - baxter_ikfast_left_arm_plugin
-  - baxter_ikfast_right_arm_plugin
-  - bride
-  - cob_cartesian_controller
-  - darknet
-  - epos_library
-  - eus_nlopt
-  - eus_qp
-  - gazebo_ros
-  - grasp_planning_graspit
-  - graspit
-  - h4r_x52_joyext
-  - homer_nav_libs
-  - icart_mini_driver
-  - imagesift
-  - jaco_sdk
-  - jinteractiveworld
-  - jsk_data
-  - jsk_maps
-  - jsk_pcl_ros
-  - kdl_typekit
-  - libfovis
-  - libntcan
-  - libpointmatcher
-  - libsegwayrmp
-  - libvimba
-  - map_merger
-  - mapviz
-  - mecanum_gazebo_plugin
-  - micros_rtt
-  - multires_image
-  - nao_meshes
-  - naoqi_dcm_driver
-  - naoqi_driver
-  - nav_pcontroller
-  - ndt_rviz_visualisation
-  - neo_relayboard
-  - nerian_sp1
-  - octovis
-  - oculus_sdk
-  - ola_ros
-  - openhrp3
-  - openrave
-  - or_libs
-  - p2os_urdf
-  - pcan_topics
-  - pepper_meshes
-  - pointgrey_camera_driver
-  - pr2_motor_diagnostic_tool
-  - prosilica_gige_sdk
-  - qglv_gallery
-  - qglv_opengl
-  - riskrrt
-  - robot_calibration
-  - robot_face
-  - rosjava_bootstrap
-  - rospeex_core
-  - rostful_node
-  - smarthome_network_wakeonlan
-  - sr_external_dependencies
-  - urdf2graspit
-  - urdf2inventor
-  - uwsim
-  - uwsim_osgocean
-  - uwsim_osgworks
+- ardrone_autonomy
+- aubo_driver
+- avt_vimba_camera
+- baxter_ikfast_left_arm_plugin
+- baxter_ikfast_right_arm_plugin
+- bride
+- cob_cartesian_controller
+- darknet
+- epos_library
+- eus_nlopt
+- eus_qp
+- gazebo_ros
+- grasp_planning_graspit
+- graspit
+- h4r_x52_joyext
+- homer_nav_libs
+- icart_mini_driver
+- imagesift
+- jaco_sdk
+- jinteractiveworld
+- jsk_data
+- jsk_maps
+- jsk_pcl_ros
+- kdl_typekit
+- libfovis
+- libntcan
+- libpointmatcher
+- libsegwayrmp
+- libvimba
+- map_merger
+- mapviz
+- mecanum_gazebo_plugin
+- micros_rtt
+- multires_image
+- nao_meshes
+- naoqi_dcm_driver
+- naoqi_driver
+- nav_pcontroller
+- ndt_rviz_visualisation
+- neo_relayboard
+- nerian_sp1
+- octovis
+- oculus_sdk
+- ola_ros
+- openhrp3
+- openrave
+- or_libs
+- p2os_urdf
+- pcan_topics
+- pepper_meshes
+- pointgrey_camera_driver
+- pr2_motor_diagnostic_tool
+- prosilica_gige_sdk
+- qglv_gallery
+- qglv_opengl
+- riskrrt
+- robot_calibration
+- robot_face
+- rosjava_bootstrap
+- rospeex_core
+- rostful_node
+- smarthome_network_wakeonlan
+- sr_external_dependencies
+- urdf2graspit
+- urdf2inventor
+- uwsim
+- uwsim_osgocean
+- uwsim_osgworks
 sync:
   package_count: 1500
 repositories:
