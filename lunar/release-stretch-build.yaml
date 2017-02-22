@@ -13,7 +13,7 @@ notifications:
   maintainers: true
 package_blacklist:
 package_whitelist:
-  - catkin
+- catkin
 sync:
   package_count: 1
 repositories:

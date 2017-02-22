@@ -12,66 +12,66 @@ notifications:
   - william+buildfarm@osrfoundation.org
   maintainers: false
 package_blacklist:
-  - ardrone_autonomy
-  - avt_vimba_camera
-  - baxter_ikfast_left_arm_plugin
-  - baxter_ikfast_right_arm_plugin
-  - bride
-  - darknet
-  - epos_library
-  - eus_nlopt
-  - eus_qp
-  - gazebo_ros
-  - graspit
-  - h4r_x52_joyext
-  - homer_nav_libs
-  - icar_mini
-  - imagesift
-  - jaco_sdk
-  - jinteractiveworld
-  - jsk_pcl_ros
-  - kdl_typekit
-  - libfovis
-  - libntcan
-  - libpointmatcher
-  - libsegwayrmp
-  - libvimba
-  - map_merger
-  - mapviz
-  - micros_rtt
-  - multires_image
-  - nao_meshes
-  - naoqi_dcm_driver
-  - naoqi_driver
-  - nav_pcontroller
-  - ndt_rviz_visualisation
-  - neo_relayboard
-  - nerian_sp1
-  - octovis
-  - oculus_sdk
-  - ola_ros
-  - openhrp3
-  - or_libs
-  - p2os_urdf
-  - pcan_topics
-  - pepper_meshes
-  - pointgrey_camera_driver
-  - pr2_motor_diagnostic_tool
-  - prosilica_gige_sdk
-  - qglv_gallery
-  - qglv_opengl
-  - riskrrt
-  - robot_calibration
-  - robot_face
-  - rosjava_bootstrap
-  - rospeex_core
-  - rostful_node
-  - rtabmap_ros
-  - sr_external_dependencies
-  - ueye_cam
-  - uwsim
-  - uwsim_osgocean
-  - uwsim_osgworks
+- ardrone_autonomy
+- avt_vimba_camera
+- baxter_ikfast_left_arm_plugin
+- baxter_ikfast_right_arm_plugin
+- bride
+- darknet
+- epos_library
+- eus_nlopt
+- eus_qp
+- gazebo_ros
+- graspit
+- h4r_x52_joyext
+- homer_nav_libs
+- icar_mini
+- imagesift
+- jaco_sdk
+- jinteractiveworld
+- jsk_pcl_ros
+- kdl_typekit
+- libfovis
+- libntcan
+- libpointmatcher
+- libsegwayrmp
+- libvimba
+- map_merger
+- mapviz
+- micros_rtt
+- multires_image
+- nao_meshes
+- naoqi_dcm_driver
+- naoqi_driver
+- nav_pcontroller
+- ndt_rviz_visualisation
+- neo_relayboard
+- nerian_sp1
+- octovis
+- oculus_sdk
+- ola_ros
+- openhrp3
+- or_libs
+- p2os_urdf
+- pcan_topics
+- pepper_meshes
+- pointgrey_camera_driver
+- pr2_motor_diagnostic_tool
+- prosilica_gige_sdk
+- qglv_gallery
+- qglv_opengl
+- riskrrt
+- robot_calibration
+- robot_face
+- rosjava_bootstrap
+- rospeex_core
+- rostful_node
+- rtabmap_ros
+- sr_external_dependencies
+- ueye_cam
+- uwsim
+- uwsim_osgocean
+- uwsim_osgworks
 sync:
   package_count: 750
 repositories:

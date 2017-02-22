@@ -12,18 +12,18 @@ notifications:
   - tfoote+buildfarm@osrfoundation.org
   maintainers: false
 package_blacklist:
-  - ardrone_autonomy
-  - hrpsys
-  - nao_meshes
-  - naoqi_dcm_driver
-  - naoqi_driver
-  - nerian_sp1
-  - octovis
-  - pepper_meshes
-  - rqt_multiplot
-  - schunk_canopen_driver
-  - ueye
-  - ueye_cam
+- ardrone_autonomy
+- hrpsys
+- nao_meshes
+- naoqi_dcm_driver
+- naoqi_driver
+- nerian_sp1
+- octovis
+- pepper_meshes
+- rqt_multiplot
+- schunk_canopen_driver
+- ueye
+- ueye_cam
 sync:
   package_count: 300
 repositories:
