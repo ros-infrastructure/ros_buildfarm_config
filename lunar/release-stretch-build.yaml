@@ -12,8 +12,6 @@ notifications:
   - mikael+buildfarm@osrfoundation.org
   maintainers: true
 package_blacklist:
-package_whitelist:
-- catkin
 sync:
   package_count: 1
 repositories:
