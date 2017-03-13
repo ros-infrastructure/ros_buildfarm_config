@@ -20,6 +20,7 @@ package_blacklist:
 - nerian_sp1
 - octovis
 - pepper_meshes
+- rospilot
 - rqt_multiplot
 - schunk_canopen_driver
 - ueye
