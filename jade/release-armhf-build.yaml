@@ -73,7 +73,7 @@ package_blacklist:
 - uwsim_osgocean
 - uwsim_osgworks
 sync:
-  package_count: 750
+  package_count: 1000
 repositories:
   keys:
   - |
