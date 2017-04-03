@@ -51,9 +51,10 @@ repositories:
 target_repository: http://repositories.ros.org/ubuntu/building
 targets:
   ubuntu:
-    wily:
-      amd64:
-      i386:
+    # EOLed
+    # wily:
+    #   amd64:
+    #   i386:
     xenial:
       amd64:
       i386:
