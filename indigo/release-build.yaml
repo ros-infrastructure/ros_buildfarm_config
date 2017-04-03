@@ -51,9 +51,10 @@ repositories:
 target_repository: http://repositories.ros.org/ubuntu/building
 targets:
   ubuntu:
-    saucy:
-      amd64:
-      i386:
+    # EOLed
+    # saucy:
+    #   amd64:
+    #   i386:
     trusty:
       amd64:
       i386:
