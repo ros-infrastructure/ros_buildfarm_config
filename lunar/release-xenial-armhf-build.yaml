@@ -12,6 +12,7 @@ notifications:
   - mikael+buildfarm@osrfoundation.org
   maintainers: false
 package_blacklist:
+- octovis
 sync:
   package_count: 100
 repositories:
