@@ -2,17 +2,14 @@
 # ROS buildfarm release-build file
 ---
 abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 94
-jenkins_binary_job_timeout: 600
+jenkins_binary_job_priority: 83
+jenkins_binary_job_timeout: 120
 jenkins_source_job_priority: 79
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-lunar@googlegroups.com
-  - mikael+buildfarm@osrfoundation.org
+  - stevenragnarok@osrfoundation.org
   maintainers: false
-package_blacklist:
-- octovis
 sync:
   package_count: 100
 repositories:
@@ -49,12 +46,12 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repositories.ros.org/ubuntu/building
-target_repository: http://repositories.ros.org/ubuntu/building
+  - http://test.repo.ros2.org/ubuntu/building
+target_repository: http://test.repo.ros2.org/ubuntu/building
 targets:
   ubuntu:
     xenial:
-      armhf:
+      amd64:
 type: release-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
 version: 2
