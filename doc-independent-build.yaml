@@ -14,6 +14,7 @@ jenkins_job_priority: 88
 jenkins_job_timeout: 30
 notifications:
   emails:
+  - ros-buildfarm@googlegroups.com
   - tfoote+buildfarm@osrfoundation.org
 targets:
   ubuntu:
