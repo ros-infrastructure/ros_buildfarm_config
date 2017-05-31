@@ -10,7 +10,7 @@ notifications:
   emails:
   - ros-buildfarm-lunar@googlegroups.com
   - mikael+buildfarm@osrfoundation.org
-  maintainers: false
+  maintainers: true
 package_blacklist:
 sync:
   package_count: 300
