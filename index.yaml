@@ -8,6 +8,7 @@ distributions:
       - stevenragnarok@osrfoundation.org
     release_builds:
       default: r2b2/release-build.yaml
+      uxv8: r2b2/release-xenial-arm64-build.yaml
     source_builds: {}
 jenkins_url: http://test.build.ros2.org/
 notification_emails:
