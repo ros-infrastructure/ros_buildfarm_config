@@ -12,6 +12,7 @@ notifications:
   - tfoote+buildfarm@osrfoundation.org
   maintainers: true
 package_blacklist:
+- rospilot
 - rqt_multiplot
 - schunk_canopen_driver
 sync:
