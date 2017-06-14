@@ -10,12 +10,12 @@ distributions:
       default: r2b2/release-build.yaml
       uxv8: r2b2/release-xenial-arm64-build.yaml
     source_builds: {}
-jenkins_url: http://test.build.ros2.org/
+jenkins_url: http://build.ros2.org/
 notification_emails:
 - stevenragnarok@osrfoundation.org
 prerequisites:
   debian_repositories:
-  - http://test.repo.ros2.org/ubuntu/building
+  - http://repo.ros2.org/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -49,7 +49,7 @@ prerequisites:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
 
-rosdistro_index_url: https://raw.githubusercontent.com/ros2/rosdistro-testing/ros2/index.yaml
+rosdistro_index_url: https://raw.githubusercontent.com/ros2/rosdistro/ros2/index.yaml
 status_page_repositories:
   default: []
 type: buildfarm
