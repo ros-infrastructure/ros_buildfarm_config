@@ -8,9 +8,8 @@ jenkins_source_job_priority: 79
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-lunar@googlegroups.com
-  - mikael+buildfarm@osrfoundation.org
-  maintainers: true
+  - steven@openrobotics.org
+  maintainers: false
 package_blacklist:
 sync:
   package_count: 300
@@ -48,8 +47,8 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repositories.ros.org/ubuntu/building
-target_repository: http://repositories.ros.org/ubuntu/building
+  - http://54.67.91.180/ubuntu/building
+target_repository: http://54.67.91.10/ubuntu/building
 targets:
   ubuntu:
     xenial:

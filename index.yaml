@@ -2,52 +2,12 @@
 # ROS buildfarm index file
 ---
 distributions:
-  indigo:
-    doc_builds:
-      default: indigo/doc-build.yaml
-      released-packages-without-doc-job: indigo/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-indigo@googlegroups.com
-    - tfoote+buildfarm@osrfoundation.org
-    release_builds:
-      arm: indigo/release-armhf-build.yaml
-      default: indigo/release-build.yaml
-    source_builds:
-      default: indigo/source-build.yaml
-  jade:
-    doc_builds:
-      default: jade/doc-build.yaml
-      released-packages-without-doc-job: jade/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-jade@googlegroups.com
-    - william+buildfarm@osrfoundation.org
-    release_builds:
-      arm: jade/release-armhf-build.yaml
-      default: jade/release-build.yaml
-    source_builds:
-      default: jade/source-build.yaml
-  kinetic:
-    doc_builds:
-      default: kinetic/doc-build.yaml
-      released-packages-without-doc-job: kinetic/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-kinetic@googlegroups.com
-    - tfoote+buildfarm@osrfoundation.org
-    release_builds:
-      default: kinetic/release-build.yaml
-      dj: kinetic/release-jessie-build.yaml
-      djv8: kinetic/release-jessie-arm64-build.yaml
-      uxhf: kinetic/release-armhf-build.yaml
-      uxv8: kinetic/release-xenial-arm64-build.yaml
-    source_builds:
-      default: kinetic/source-build.yaml
   lunar:
     doc_builds:
       default: lunar/doc-build.yaml
       released-packages-without-doc-job: lunar/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-lunar@googlegroups.com
-    - mikael+buildfarm@osrfoundation.org
+    - steven@openrobotics.org
     release_builds:
       default: lunar/release-build.yaml
       ds: lunar/release-stretch-build.yaml
@@ -60,11 +20,10 @@ doc_builds:
   independent-packages: doc-independent-build.yaml
 jenkins_url: http://build.ros.org
 notification_emails:
-- ros-buildfarm@googlegroups.com
-- tfoote+buildfarm@osrfoundation.org
+- steven@openrobotics.org
 prerequisites:
   debian_repositories:
-  - http://repositories.ros.org/ubuntu/building
+  - http://54.67.91.180/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -100,8 +59,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:
-  - http://repositories.ros.org/ubuntu/building
-  - http://repositories.ros.org/ubuntu/testing
-  - http://repositories.ros.org/ubuntu/main
+  - http://54.67.91.180/ubuntu/building
+  - http://54.67.91.180/ubuntu/testing
+  - http://54.67.91.180/ubuntu/main
 type: buildfarm
 version: 1

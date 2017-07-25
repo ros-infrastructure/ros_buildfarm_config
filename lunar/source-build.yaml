@@ -5,15 +5,14 @@ jenkins_commit_job_priority: 69
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 59
 notifications:
-  committers: true
+  committers: false
   compiler_warnings: true
   emails:
-  - ros-buildfarm-lunar@googlegroups.com
-  - mikael+buildfarm@osrfoundation.org
-  maintainers: true
+  - steven@openrobotics.org
+  maintainers: false
 repositories:
   urls:
-  - http://repositories.ros.org/ubuntu/testing
+  - http://54.67.91.180/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----

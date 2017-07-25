@@ -8,9 +8,8 @@ jenkins_job_timeout: 120
 notifications:
   committers: false
   emails:
-  - ros-buildfarm-lunar@googlegroups.com
-  - mikael+buildfarm@osrfoundation.org
-  maintainers: true
+  - steven@openrobotics.org
+  maintainers: false
 repositories:
   keys:
   - |
@@ -45,14 +44,14 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repositories.ros.org/ubuntu/testing
+  - http://54.67.91.180/ubuntu/testing
 targets:
   ubuntu:
     xenial:
       amd64:
 type: doc-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
-upload_host: ros.osuosl.org
-upload_root: /home/rosbot/docs
-upload_user: rosbot
+upload_host: 54.67.91.180
+upload_root: /var/repos/docs
+upload_user: jenkins-agent
 version: 2
