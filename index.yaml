@@ -18,7 +18,7 @@ distributions:
       default: lunar/source-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
-jenkins_url: http://build.ros.org
+jenkins_url: http://54.67.10.183/
 notification_emails:
 - steven@openrobotics.org
 prerequisites:
