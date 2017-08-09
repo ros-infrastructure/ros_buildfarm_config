@@ -52,8 +52,6 @@ targets:
   ubuntu:
     xenial:
       amd64:
-    yakkety:
-      amd64:
     zesty:
       amd64:
 type: release-build

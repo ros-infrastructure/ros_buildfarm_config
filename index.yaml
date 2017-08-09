@@ -11,9 +11,9 @@ distributions:
     release_builds:
       default: lunar/release-build.yaml
       ds: lunar/release-stretch-build.yaml
-      dsv8: lunar/release-stretch-arm64-build.yaml
+      #dsv8: lunar/release-stretch-arm64-build.yaml
       uxhf: lunar/release-xenial-armhf-build.yaml
-      uxv8: lunar/release-xenial-arm64-build.yaml
+      #uxv8: lunar/release-xenial-arm64-build.yaml
     source_builds:
       default: lunar/source-build.yaml
 doc_builds:
