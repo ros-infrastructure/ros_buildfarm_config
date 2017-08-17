@@ -24,6 +24,7 @@ package_blacklist:
 - schunk_canopen_driver
 - ueye
 - ueye_cam
+- avt_vimba_camera
 sync:
   package_count: 1100
 repositories:
