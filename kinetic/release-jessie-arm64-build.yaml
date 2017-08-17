@@ -13,6 +13,7 @@ notifications:
   maintainers: true
 package_blacklist:
 - ardrone_autonomy
+- avt_vimba_camera
 - hrpsys
 - nao_meshes
 - naoqi_dcm_driver
