@@ -12,6 +12,7 @@ notifications:
   - mikael+buildfarm@osrfoundation.org
   maintainers: true
 package_blacklist:
+- avt_vimba_camera
 sync:
   package_count: 300
 repositories:
