@@ -16,7 +16,7 @@ package_blacklist:
 - rqt_multiplot
 - schunk_canopen_driver
 sync:
-  package_count: 1100
+  package_count: 1400
 repositories:
   keys:
   - |
