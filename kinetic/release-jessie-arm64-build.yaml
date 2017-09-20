@@ -15,6 +15,7 @@ package_blacklist:
 - ardrone_autonomy
 - avt_vimba_camera
 - hrpsys
+- mongodb_store
 - nao_meshes
 - naoqi_dcm_driver
 - naoqi_driver
