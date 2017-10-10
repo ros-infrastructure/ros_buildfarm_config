@@ -14,18 +14,18 @@ distributions:
       default: indigo/release-build.yaml
     source_builds:
       default: indigo/source-build.yaml
-  jade:
-    doc_builds:
-      default: jade/doc-build.yaml
-      released-packages-without-doc-job: jade/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-jade@googlegroups.com
-    - william+buildfarm@osrfoundation.org
-    release_builds:
-      arm: jade/release-armhf-build.yaml
-      default: jade/release-build.yaml
-    source_builds:
-      default: jade/source-build.yaml
+#  jade:
+#    doc_builds:
+#      default: jade/doc-build.yaml
+#      released-packages-without-doc-job: jade/doc-released-build.yaml
+#    notification_emails:
+#    - ros-buildfarm-jade@googlegroups.com
+#    - william+buildfarm@osrfoundation.org
+#    release_builds:
+#      arm: jade/release-armhf-build.yaml
+#      default: jade/release-build.yaml
+#    source_builds:
+#      default: jade/source-build.yaml
   kinetic:
     doc_builds:
       default: kinetic/doc-build.yaml
