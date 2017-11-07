@@ -41,6 +41,7 @@ distributions:
       uxv8: kinetic/release-xenial-arm64-build.yaml
     source_builds:
       default: kinetic/source-build.yaml
+      dj: kinetic/source-jessie-build.yaml
   lunar:
     doc_builds:
       default: lunar/doc-build.yaml
