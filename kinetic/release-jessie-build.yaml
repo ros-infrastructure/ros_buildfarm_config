@@ -13,6 +13,7 @@ notifications:
   maintainers: true
 package_blacklist:
 - libfranka
+- rosjava_bootstrap
 - rospilot
 - rqt_multiplot
 - schunk_canopen_driver
