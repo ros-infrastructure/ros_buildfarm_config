@@ -22,6 +22,7 @@ package_blacklist:
 - nerian_sp1
 - octovis
 - pepper_meshes
+- rosjava_bootstrap
 - schunk_canopen_driver
 - ueye
 sync:

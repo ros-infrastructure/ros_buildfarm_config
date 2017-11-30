@@ -22,6 +22,7 @@ package_blacklist:
 - octovis
 - pepper_meshes
 - ros_peerjs
+- rosjava_bootstrap
 - rqt_multiplot
 - schunk_canopen_driver
 - ueye
