@@ -3,7 +3,7 @@
 ---
 canonical_base_url: http://docs.ros.org
 documentation_type: rosdoc_lite
-jenkins_job_priority: 95
+jenkins_job_priority: 99
 jenkins_job_timeout: 120
 notifications:
   committers: false
