@@ -2,7 +2,7 @@
 # ROS buildfarm release-build file
 ---
 abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 84
+jenkins_binary_job_priority: 85
 jenkins_binary_job_timeout: 120
 jenkins_source_job_priority: 80
 jenkins_source_job_timeout: 30
