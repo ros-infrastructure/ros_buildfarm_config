@@ -2,7 +2,7 @@
 # ROS buildfarm doc-build file
 ---
 documentation_type: released_manifest
-jenkins_job_priority: 95
+jenkins_job_priority: 85
 jenkins_job_timeout: 30
 notifications:
   emails:

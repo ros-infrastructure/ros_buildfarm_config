@@ -6,12 +6,12 @@ There are currently 6 classes of distribution jobs that the buildfarm runs.  Wit
 
 | Job Type                     | Numeric Range |
 | ---------------------------- |:-------------:|
-| Pull Request                 | 50 - 59       |
-| Commit                       | 60 - 69       |
-| Source                       | 70 - 79       |
-| Basic Binary (amd64)         | 80 - 89       |
-| Documentation                | 90 - 99       |
-| Extended Architecture Binary | 100 - 109     |
+| Pull Request                 | 40 - 49       |
+| Commit                       | 50 - 59       |
+| Source                       | 60 - 69       |
+| Basic Binary (amd64)         | 70 - 79       |
+| Documentation                | 80 - 89       |
+| Extended Architecture Binary | 90 - 99       |
 
 
-To add jobs for a new distribution, find the newest currently existing distribution within a class, subtract one from the priority, and set that to the priority for the new distribution.  For instance, assume we want to add a Pull Request job for N-Turtle to the list of distributions.  Further assume that the Pull Request job for M-Turtle has priority 55.  Therefore, the Pull Request job for N-Turtle would 54.
+To add jobs for a new distribution, find the newest currently existing distribution within a class, subtract one from the priority, and set that to the priority for the new distribution.  For instance, assume we want to add a Pull Request job for N-Turtle to the list of distributions.  Further assume that the Pull Request job for M-Turtle has priority 55.  Therefore, the Pull Request job for N-Turtle would be 54.  The current list of priorities can be assessed by running the `list_priorities.py` program from the top-level of this repository.
