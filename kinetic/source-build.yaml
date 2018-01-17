@@ -1,9 +1,9 @@
 %YAML 1.1
 # ROS buildfarm source-build file
 ---
-jenkins_commit_job_priority: 70
+jenkins_commit_job_priority: 57
 jenkins_job_timeout: 120
-jenkins_pull_request_job_priority: 60
+jenkins_pull_request_job_priority: 47
 notifications:
   committers: true
   compiler_warnings: true
