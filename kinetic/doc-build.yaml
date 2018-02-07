@@ -53,5 +53,6 @@ type: doc-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
 upload_host: repo
 upload_root: /var/repos/docs
-upload_user: jenkins-slave
+# The `upload_user` defaults from source and can be tuned as needed.
+# upload_user: jenkins-agent
 version: 2
