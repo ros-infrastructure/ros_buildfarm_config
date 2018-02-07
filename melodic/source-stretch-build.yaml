@@ -47,6 +47,7 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
 repository_whitelist:
+- bond_core
 - class_loader
 - dynamic_reconfigure
 - ros_comm
