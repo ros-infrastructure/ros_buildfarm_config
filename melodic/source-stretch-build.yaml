@@ -49,6 +49,7 @@ repositories:
 repository_whitelist:
 - class_loader
 - dynamic_reconfigure
+- ros_comm
 skip_ignored_repositories: true
 targets:
   debian:
