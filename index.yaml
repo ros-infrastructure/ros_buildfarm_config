@@ -72,6 +72,7 @@ distributions:
       ubv8: melodic/release-arm64-build.yaml
     source_builds:
       default: melodic/source-build.yaml
+      ds: melodic/source-stretch-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
 jenkins_url: http://build.ros.org
