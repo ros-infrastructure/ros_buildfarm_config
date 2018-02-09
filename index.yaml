@@ -98,6 +98,9 @@ prerequisites:
     -----END PGP PUBLIC KEY BLOCK-----
 rosdistro_index_url: https://raw.githubusercontent.com/ros2/rosdistro/ros2/index.yaml
 status_page_repositories:
-  default: []
+  default:
+    - http://repo.ros2.org/ubuntu/building
+    - http://repo.ros2.org/ubuntu/testing
+    - http://repo.ros2.org/ubuntu/main
 type: buildfarm
 version: 1
