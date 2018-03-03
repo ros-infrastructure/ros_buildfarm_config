@@ -50,6 +50,7 @@ repository_whitelist:
 - bond_core
 - class_loader
 - dynamic_reconfigure
+- pluginlib
 - ros_comm
 skip_ignored_repositories: true
 targets:
