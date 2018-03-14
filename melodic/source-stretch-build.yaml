@@ -47,9 +47,11 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
 repository_whitelist:
+- actionlib
 - bond_core
 - class_loader
 - dynamic_reconfigure
+- nodelet_core
 - pluginlib
 - ros_comm
 skip_ignored_repositories: true
