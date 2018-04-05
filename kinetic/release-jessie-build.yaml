@@ -12,6 +12,7 @@ notifications:
   - tfoote+buildfarm@osrfoundation.org
   maintainers: true
 package_blacklist:
+- cartographer
 - libfranka
 - rosjava_bootstrap
 - rospilot
