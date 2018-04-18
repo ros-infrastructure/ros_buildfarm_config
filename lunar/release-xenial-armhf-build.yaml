@@ -12,6 +12,7 @@ notifications:
   - mikael+buildfarm@osrfoundation.org
   maintainers: true
 package_blacklist:
+- mapviz
 - octovis
 sync:
   package_count: 500
