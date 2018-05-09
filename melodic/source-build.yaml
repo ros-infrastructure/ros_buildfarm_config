@@ -1,6 +1,7 @@
 %YAML 1.1
 # ROS buildfarm source-build file
 ---
+collate_test_stats: true
 jenkins_commit_job_priority: 55
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 45
