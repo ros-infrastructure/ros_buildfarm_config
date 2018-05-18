@@ -20,7 +20,7 @@ package_blacklist:
 - schunk_canopen_driver
 - web_video_server
 sync:
-  package_count: 1400
+  package_count: 1800
 repositories:
   keys:
   - |

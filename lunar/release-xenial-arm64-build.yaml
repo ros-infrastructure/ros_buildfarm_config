@@ -14,7 +14,7 @@ notifications:
 package_blacklist:
 - avt_vimba_camera
 sync:
-  package_count: 500
+  package_count: 600
 repositories:
   keys:
   - |
