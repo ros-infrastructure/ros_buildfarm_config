@@ -82,7 +82,7 @@ package_blacklist:
 - uwsim_osgocean
 - uwsim_osgworks
 sync:
-  package_count: 2000
+  package_count: 2200
 repositories:
   keys:
   - |

@@ -26,7 +26,7 @@ package_blacklist:
 - schunk_canopen_driver
 - ueye
 sync:
-  package_count: 1300
+  package_count: 1800
 repositories:
   keys:
   - |
