@@ -71,6 +71,7 @@ distributions:
       ubhf: melodic/release-armhf-build.yaml
       ubv8: melodic/release-arm64-build.yaml
     source_builds:
+      colcon: melodic/source-colcon-build.yaml
       default: melodic/source-build.yaml
       ds: melodic/source-stretch-build.yaml
 doc_builds:
