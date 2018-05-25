@@ -78,6 +78,7 @@ doc_builds:
 jenkins_url: http://build.ros.org
 notification_emails:
 - ros-buildfarm@googlegroups.com
+- steven+build.ros.org@openrobotics.org
 - tfoote+buildfarm@osrfoundation.org
 prerequisites:
   debian_repositories:
