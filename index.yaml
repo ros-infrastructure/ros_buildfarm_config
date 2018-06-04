@@ -35,7 +35,7 @@ distributions:
       default: bouncy/release-build.yaml
       ubv8: bouncy/release-bionic-arm64-build.yaml
     source_builds: {}
-jenkins_url: http://build.ros2.org/
+jenkins_url: http://build.ros2.org
 notification_emails:
   - steven+build.ros2.org@openrobotics.org
 prerequisites:
