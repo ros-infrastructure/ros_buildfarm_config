@@ -1,6 +1,9 @@
 %YAML 1.1
 # ROS buildfarm source-build file
 ---
+build_environment_variables:
+  RTI_NC_LICENSE_ACCEPTED: 'yes'
+
 jenkins_commit_job_priority: 58
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 48
