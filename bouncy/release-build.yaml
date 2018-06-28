@@ -14,7 +14,7 @@ notifications:
   emails:
   - mikael+build.ros2.org@openrobotics.org
   - ros2-buildfarm-bouncy@googlegroups.com
-  maintainers: false
+  maintainers: true
 sync:
   package_count: 1
 repositories:
