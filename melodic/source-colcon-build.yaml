@@ -7,8 +7,6 @@ jenkins_pull_request_job_priority: 45
 notifications:
   committers: false
   compiler_warnings: true
-  emails:
-  - dthomas+buildfarm@osrfoundation.org
   maintainers: false
 repositories:
   urls:
