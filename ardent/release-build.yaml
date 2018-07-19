@@ -11,7 +11,7 @@ notifications:
   - steven+build.ros2.org@openrobotics.org
   maintainers: false
 sync:
-  package_count: 1
+  package_count: 150
 repositories:
   keys:
   - |
