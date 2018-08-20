@@ -51,8 +51,9 @@ repositories:
 target_repository: http://repositories.ros.org/ubuntu/building
 targets:
   ubuntu:
-    artful:
-      amd64:
+    # EOLed
+    # artful:
+    #   amd64:
     bionic:
       amd64:
 type: release-build
