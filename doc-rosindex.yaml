@@ -6,10 +6,6 @@ doc_repositories:
 - https://github.com/ros-infrastructure/rosindex.git
 jenkins_job_priority: 90
 jenkins_job_timeout: 120
-targets:
-  ubuntu:
-    trusty:
-      amd64:
 type: doc-build
 upload_credential_id: 707af124-6f89-4292-a9b6-0e99bdc1376c
 upload_repository_url: git@github.com:ros-infrastructure/index.ros.org.git
