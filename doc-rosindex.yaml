@@ -3,7 +3,7 @@
 ---
 documentation_type: docker_build
 doc_repositories:
-- https://github.com/ros2/rosindex.git
+- https://github.com/ros-infrastructure/rosindex.git
 jenkins_job_priority: 90
 jenkins_job_timeout: 120
 targets:
