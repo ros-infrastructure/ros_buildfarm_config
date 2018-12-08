@@ -16,7 +16,7 @@ notifications:
   - ros2-buildfarm-crystal@googlegroups.com
   maintainers: true
 sync:
-  package_count: 1
+  package_count: 200
 repositories:
   keys:
   - |
