@@ -12,6 +12,7 @@ notifications:
   - clalancette+buildfarm@osrfoundation.org
   maintainers: true
 package_blacklist:
+- leap_motion
 sync:
   package_count: 400
 repositories:
