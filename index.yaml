@@ -18,14 +18,14 @@ distributions:
 #      default: r2b3/release-build.yaml
 #      uxv8: r2b3/release-xenial-arm64-build.yaml
 #    source_builds: {}
-  ardent:
-    doc_builds: {}
-    notification_emails:
-      - steven+build.ros2.org@openrobotics.org
-    release_builds:
-      default: ardent/release-build.yaml
-      uxv8: ardent/release-xenial-arm64-build.yaml
-    source_builds: {}
+#  ardent:
+#    doc_builds: {}
+#    notification_emails:
+#      - steven+build.ros2.org@openrobotics.org
+#    release_builds:
+#      default: ardent/release-build.yaml
+#      uxv8: ardent/release-xenial-arm64-build.yaml
+#    source_builds: {}
   bouncy:
     doc_builds: {}
     notification_emails:
