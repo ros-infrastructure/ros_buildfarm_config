@@ -12,6 +12,8 @@ notifications:
   - clalancette+buildfarm@osrfoundation.org
   maintainers: true
 package_blacklist:
+  - fetch_drivers
+  - fetch_tools
   - leap_motion
   - rospilot
 sync:
