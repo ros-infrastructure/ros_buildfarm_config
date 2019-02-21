@@ -15,6 +15,7 @@ package_blacklist:
 - ardrone_autonomy
 - darknet
 - hrpsys
+- imagesift
 - leap_motion
 - mapviz
 - nao_meshes
