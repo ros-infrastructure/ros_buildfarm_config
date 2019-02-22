@@ -15,6 +15,7 @@ package_blacklist:
 - ardrone_autonomy
 - avt_vimba_camera
 - hrpsys
+- imagesift
 - leap_motion
 - nao_meshes
 - naoqi_dcm_driver
