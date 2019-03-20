@@ -30,7 +30,7 @@ package_blacklist:
 - ueye
 - ueye_cam
 sync:
-  package_count: 1800
+  package_count: 2200
 repositories:
   keys:
   - |
