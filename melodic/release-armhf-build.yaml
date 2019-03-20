@@ -17,7 +17,7 @@ package_blacklist:
 - mapviz
 - octovis
 sync:
-  package_count: 400
+  package_count: 1000
 repositories:
   keys:
   - |
