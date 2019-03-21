@@ -15,7 +15,7 @@ package_blacklist:
   - fetch_drivers
   - rospilot
 sync:
-  package_count: 400
+  package_count: 1000
 repositories:
   keys:
   - |
