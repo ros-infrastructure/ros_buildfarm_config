@@ -13,6 +13,7 @@ notifications:
   maintainers: true
 package_blacklist:
   - fetch_drivers
+  - fetch_tools
   - rospilot
 sync:
   package_count: 1000

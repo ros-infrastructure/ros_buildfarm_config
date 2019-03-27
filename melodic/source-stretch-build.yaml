@@ -11,6 +11,9 @@ notifications:
   - ros-buildfarm-melodic@googlegroups.com
   - clalancette+buildfarm@osrfoundation.org
   maintainers: true
+package_blacklist:
+  - fetch_drivers
+  - fetch_tools
 repositories:
   urls:
   - http://repositories.ros.org/ubuntu/testing
