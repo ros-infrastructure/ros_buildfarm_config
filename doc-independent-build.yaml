@@ -10,6 +10,15 @@ doc_repositories:
 - https://github.com/ros-infrastructure/rospkg.git
 - https://github.com/vcstools/rosinstall.git
 - https://github.com/vcstools/vcstools.git
+install_apt_packages:
+- python-catkin-pkg-modules
+- python-dateutil
+- python-wstool
+- python-yaml
+install_pip_packages:
+- catkin-sphinx
+- sphinx==1.8.5  # pinned https://github.com/ros-infrastructure/ros_buildfarm/issues/614
+- xmlschema
 jenkins_job_priority: 80
 jenkins_job_timeout: 30
 notifications:
