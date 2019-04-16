@@ -81,6 +81,8 @@ repositories:
   urls:
   - http://repo.ros2.org/ubuntu/testing
   - http://repositories.ros.org/ubuntu/main
+repository_blacklist:
+- ros_workspace
 targets:
   ubuntu:
     bionic:
