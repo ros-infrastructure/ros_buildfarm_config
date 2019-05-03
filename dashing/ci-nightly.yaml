@@ -22,7 +22,7 @@ install_packages:
 - ros-melodic-tf2-msgs
 jenkins_job_priority: 50
 jenkins_job_schedule: 15 23 * * *
-jenkins_job_timeout: 240
+jenkins_job_timeout: 300
 repos_files:
 - https://github.com/ros2/ros2/raw/master/ros2.repos
 repositories:
