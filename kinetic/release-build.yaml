@@ -18,6 +18,7 @@ package_whitelist:
   - amcl
   - angles
   - audio_common
+  - audio_common_msgs
   - base_local_planner
   - bond
   - bond_core
