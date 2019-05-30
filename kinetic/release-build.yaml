@@ -30,6 +30,7 @@ package_whitelist:
   - camera_calibration_parsers
   - camera_info_manager
   - catkin
+  - chomp_motion_planner
   - class_loader
   - clear_costmap_recovery
   - cmake_modules
@@ -120,6 +121,19 @@ package_whitelist:
   - mk
   - move_base
   - move_base_msgs
+  - moveit_core
+  - moveit_experimental
+  - moveit_kinematics
+  - moveit_msgs
+  - moveit_ros_benchmarks
+  - moveit_ros_manipulation
+  - moveit_ros_move_group
+  - moveit_ros_perception
+  - moveit_ros_planning
+  - moveit_ros_planning_interface
+  - moveit_ros_robot_interaction
+  - moveit_ros_visualization
+  - moveit_ros_warehouse
   - nav_core
   - nav_msgs
   - navfn
@@ -127,7 +141,9 @@ package_whitelist:
   - nodelet_core
   - nodelet_topic_tools
   - nodelet_tutorial_math
+  - object_recognition_msgs
   - octomap
+  - octomap_msgs
   - opencv3
   - orocos_kdl
   - pcl_conversions
@@ -249,6 +265,7 @@ package_whitelist:
   - smach_ros
   - smclib
   - sound_play
+  - srdfdom
   - stage
   - stage_ros
   - std_msgs
@@ -286,6 +303,7 @@ package_whitelist:
   - urdf
   - urdf_parser_plugin
   - urdf_tutorial
+  - urdfdom_py
   - velocity_controllers
   - vision_opencv
   - visualization_marker_tutorials
@@ -293,6 +311,7 @@ package_whitelist:
   - visualization_tutorials
   - viz
   - voxel_grid
+  - warehouse_ros
   - webkit_dependency
   - xacro
   - xmlrpcpp
