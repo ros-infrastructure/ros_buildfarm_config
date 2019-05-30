@@ -52,6 +52,7 @@ package_whitelist:
   - gazebo_msgs
   - gazebo_plugins
   - gazebo_ros
+  - gazebo_ros_control
   - gencpp
   - geneus
   - genlisp
