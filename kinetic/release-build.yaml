@@ -11,8 +11,6 @@ notifications:
   - ros-buildfarm-kinetic@googlegroups.com
   - tfoote+buildfarm@osrfoundation.org
   maintainers: true
-package_whitelist:
-  - desktop_full
 sync:
   package_count: 2300
 repositories:
