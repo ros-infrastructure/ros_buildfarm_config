@@ -73,9 +73,9 @@ distributions:
 #    source_builds:
 #      default: melodic/source-build.yaml
 #      ds: melodic/source-stretch-build.yaml
-doc_builds:
-  independent-packages: doc-independent-build.yaml
-  rosindex: doc-rosindex.yaml
+#doc_builds:
+#  independent-packages: doc-independent-build.yaml
+#  rosindex: doc-rosindex.yaml
 jenkins_url: http://build.ros.org
 notification_emails:
 - ros-buildfarm@googlegroups.com
