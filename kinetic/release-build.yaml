@@ -18,6 +18,7 @@ package_whitelist:
   - actionlib_tutorials
   - amcl
   - angles
+  - audio_capture
   - audio_common
   - audio_common_msgs
   - base_local_planner
