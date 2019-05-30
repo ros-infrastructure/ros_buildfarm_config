@@ -218,6 +218,7 @@ package_whitelist:
   - robot
   - ros_base
   - ros_core
+  - ros_comm
 repositories:
   urls:
   - http://13.52.195.14/ubuntu/testing
