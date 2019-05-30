@@ -211,7 +211,7 @@ package_whitelist:
   - xacro
   - xmlrpcpp
 sync:
-  package_count: 200
+  package_count: 190
 repositories:
   keys:
   - |
