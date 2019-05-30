@@ -126,13 +126,13 @@ package_whitelist:
   - moveit_experimental
   - moveit_kinematics
   - moveit_msgs
+  - moveit_resources
   - moveit_ros_benchmarks
   - moveit_ros_manipulation
   - moveit_ros_move_group
   - moveit_ros_perception
   - moveit_ros_planning
   - moveit_ros_planning_interface
-  - moveit_ros_resources
   - moveit_ros_robot_interaction
   - moveit_ros_visualization
   - moveit_ros_warehouse
