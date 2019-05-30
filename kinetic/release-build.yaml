@@ -255,8 +255,11 @@ package_whitelist:
   - turtlebot3_bringup
   - turtlebot3_description
   - turtlebot3_example
+  - turtlebot3_fake
+  - turtlebot3_gazebo
   - turtlebot3_msgs
   - turtlebot3_navigation
+  - turtlebot3_simulations
   - turtlebot3_slam
   - turtlebot3_teleop
   - turtlesim
