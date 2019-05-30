@@ -219,6 +219,7 @@ package_whitelist:
   - ros_base
   - ros_core
   - ros_comm
+  - ros
 sync:
   package_count: 200
 repositories:
