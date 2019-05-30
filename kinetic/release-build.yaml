@@ -229,6 +229,7 @@ package_whitelist:
   - smach_msgs
   - smach_ros
   - smclib
+  - sound_play
   - stage
   - stage_ros
   - std_msgs
