@@ -30,9 +30,15 @@ package_whitelist:
   - compressed_depth_image_transport
   - compressed_image_transport
   - control_msgs
+  - control_toolbox
+  - controller_interface
+  - controller_manager
+  - controller_manager_msgs
   - cpp_common
   - cv_bridge
   - depth_image_proc
+  - desktop
+  - desktop_full
   - diagnostic_aggregator
   - diagnostic_analysis
   - diagnostic_common_diagnostics
@@ -55,6 +61,7 @@ package_whitelist:
   - geometric_shapes
   - geometry_msgs
   - gl_dependency
+  - hardware_interface
   - image_geometry
   - image_proc
   - image_publisher
@@ -63,6 +70,7 @@ package_whitelist:
   - image_view
   - interactive_marker_tutorials
   - interactive_markers
+  - joint_limits_interface
   - joint_state_publisher
   - kdl_conversions
   - kdl_parser
@@ -86,6 +94,7 @@ package_whitelist:
   - pcl_conversions
   - pcl_msgs
   - pcl_ros
+  - perception
   - pluginlib
   - pluginlib_tutorials
   - polled_camera
@@ -97,8 +106,14 @@ package_whitelist:
   - qt_gui_py_common
   - qwt_dependency
   - random_numbers
+  - realtime_tools
   - resource_retriever
+  - robot
   - robot_state_publisher
+  - ros
+  - ros_base
+  - ros_comm
+  - ros_core
   - ros_environment
   - rosbag
   - rosbag_migration_rule
@@ -176,6 +191,7 @@ package_whitelist:
   - self_test
   - sensor_msgs
   - shape_msgs
+  - simulators
   - smach
   - smach_msgs
   - smach_ros
@@ -198,6 +214,7 @@ package_whitelist:
   - theora_image_transport
   - topic_tools
   - trajectory_msgs
+  - transmission_interface
   - turtle_actionlib
   - turtle_tf
   - turtle_tf2
@@ -207,19 +224,10 @@ package_whitelist:
   - urdf_tutorial
   - visualization_marker_tutorials
   - visualization_msgs
+  - viz
   - webkit_dependency
   - xacro
   - xmlrpcpp
-  - desktop
-  - desktop_full
-  - viz
-  - simulators
-  - perception
-  - robot
-  - ros_base
-  - ros_core
-  - ros_comm
-  - ros
 sync:
   package_count: 200
 repositories:
