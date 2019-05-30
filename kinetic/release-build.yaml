@@ -17,6 +17,7 @@ package_whitelist:
   - actionlib_tutorials
   - angles
   - bond
+  - bond_core
   - bondcpp
   - bondpy
   - camera_calibration
@@ -27,6 +28,8 @@ package_whitelist:
   - cmake_modules
   - collada_parser
   - collada_urdf
+  - common_msgs
+  - common_tutorials
   - compressed_depth_image_transport
   - compressed_image_transport
   - control_msgs
@@ -44,15 +47,18 @@ package_whitelist:
   - diagnostic_common_diagnostics
   - diagnostic_msgs
   - diagnostic_updater
+  - diagnostics
   - dynamic_reconfigure
   - eigen_conversions
   - eigen_stl_containers
+  - executive_smach
   - filters
   - gazebo_dev
   - gazebo_msgs
   - gazebo_plugins
   - gazebo_ros
   - gazebo_ros_control
+  - gazebo_ros_pkgs
   - gencpp
   - geneus
   - genlisp
@@ -60,14 +66,19 @@ package_whitelist:
   - gennodejs
   - genpy
   - geometric_shapes
+  - geometry
   - geometry_msgs
+  - geometry_tutorials
   - gl_dependency
   - hardware_interface
+  - image_common
   - image_geometry
+  - image_pipeline
   - image_proc
   - image_publisher
   - image_rotate
   - image_transport
+  - image_transport_plugins
   - image_view
   - interactive_marker_tutorials
   - interactive_markers
@@ -78,6 +89,7 @@ package_whitelist:
   - laser_assembler
   - laser_filters
   - laser_geometry
+  - laser_pipeline
   - librviz_tutorial
   - map_msgs
   - media_export
@@ -87,6 +99,7 @@ package_whitelist:
   - mk
   - nav_msgs
   - nodelet
+  - nodelet_core
   - nodelet_topic_tools
   - nodelet_tutorial_math
   - octomap
@@ -96,6 +109,7 @@ package_whitelist:
   - pcl_msgs
   - pcl_ros
   - perception
+  - perception_pcl
   - pluginlib
   - pluginlib_tutorials
   - polled_camera
@@ -110,12 +124,14 @@ package_whitelist:
   - realtime_tools
   - resource_retriever
   - robot
+  - robot_model
   - robot_state_publisher
   - ros
   - ros_base
   - ros_comm
   - ros_core
   - ros_environment
+  - ros_tutorials
   - rosbag
   - rosbag_migration_rule
   - rosbag_storage
@@ -126,6 +142,7 @@ package_whitelist:
   - rosconsole
   - rosconsole_bridge
   - roscpp
+  - roscpp_core
   - roscpp_serialization
   - roscpp_traits
   - roscpp_tutorials
@@ -156,6 +173,7 @@ package_whitelist:
   - rqt_action
   - rqt_bag
   - rqt_bag_plugins
+  - rqt_common_plugins
   - rqt_console
   - rqt_dep
   - rqt_graph
@@ -176,6 +194,7 @@ package_whitelist:
   - rqt_reconfigure
   - rqt_robot_dashboard
   - rqt_robot_monitor
+  - rqt_robot_plugins
   - rqt_robot_steering
   - rqt_runtime_monitor
   - rqt_rviz
@@ -223,8 +242,10 @@ package_whitelist:
   - urdf
   - urdf_parser_plugin
   - urdf_tutorial
+  - vision_opencv
   - visualization_marker_tutorials
   - visualization_msgs
+  - visualization_tutorials
   - viz
   - webkit_dependency
   - xacro
