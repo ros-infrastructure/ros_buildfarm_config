@@ -21,6 +21,7 @@ package_whitelist:
   - audio_capture
   - audio_common
   - audio_common_msgs
+  - audio_play
   - base_local_planner
   - bond
   - bond_core
