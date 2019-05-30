@@ -15,7 +15,9 @@ package_whitelist:
   - actionlib
   - actionlib_msgs
   - actionlib_tutorials
+  - amcl
   - angles
+  - base_local_planner
   - bond
   - bond_core
   - bondcpp
@@ -25,6 +27,7 @@ package_whitelist:
   - camera_info_manager
   - catkin
   - class_loader
+  - clear_costmap_recovery
   - cmake_modules
   - collada_parser
   - collada_urdf
@@ -37,6 +40,7 @@ package_whitelist:
   - controller_interface
   - controller_manager
   - controller_manager_msgs
+  - costmap_2d
   - cpp_common
   - cv_bridge
   - depth_image_proc
@@ -71,6 +75,7 @@ package_whitelist:
   - geometry_tutorials
   - gl_dependency
   - hardware_interface
+  - hls_lfcd_lds_driver
   - image_common
   - image_geometry
   - image_pipeline
@@ -92,12 +97,17 @@ package_whitelist:
   - laser_pipeline
   - librviz_tutorial
   - map_msgs
+  - map_server
   - media_export
   - message_filters
   - message_generation
   - message_runtime
   - mk
+  - move_base
+  - move_base_msgs
+  - nav_core
   - nav_msgs
+  - navfn
   - nodelet
   - nodelet_core
   - nodelet_topic_tools
@@ -170,6 +180,7 @@ package_whitelist:
   - rostopic
   - rosunit
   - roswtf
+  - rotate_recovery
   - rqt_action
   - rqt_bag
   - rqt_bag_plugins
@@ -238,6 +249,13 @@ package_whitelist:
   - turtle_actionlib
   - turtle_tf
   - turtle_tf2
+  - turtlebot3_bringup
+  - turtlebot3_description
+  - turtlebot3_example
+  - turtlebot3_msgs
+  - turtlebot3_navigation
+  - turtlebot3_slam
+  - turtlebot3_teleop
   - turtlesim
   - urdf
   - urdf_parser_plugin
@@ -247,6 +265,7 @@ package_whitelist:
   - visualization_msgs
   - visualization_tutorials
   - viz
+  - voxel_grid
   - webkit_dependency
   - xacro
   - xmlrpcpp
