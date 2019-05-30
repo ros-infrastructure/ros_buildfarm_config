@@ -12,6 +12,7 @@ notifications:
   - tfoote+buildfarm@osrfoundation.org
   maintainers: true
 package_whitelist:
+  - ackermann_steering_controller
   - actionlib
   - actionlib_msgs
   - actionlib_tutorials
@@ -33,6 +34,8 @@ package_whitelist:
   - cmake_modules
   - collada_parser
   - collada_urdf
+  - combined_robot_hw
+  - combined_robot_hw_tests
   - common_msgs
   - common_tutorials
   - compressed_depth_image_transport
@@ -42,6 +45,7 @@ package_whitelist:
   - controller_interface
   - controller_manager
   - controller_manager_msgs
+  - controller_manager_tests
   - costmap_2d
   - cpp_common
   - cv_bridge
@@ -54,11 +58,15 @@ package_whitelist:
   - diagnostic_msgs
   - diagnostic_updater
   - diagnostics
+  - diff_drive_controller
   - dynamic_reconfigure
+  - effort_controllers
   - eigen_conversions
   - eigen_stl_containers
   - executive_smach
   - filters
+  - force_torque_sensor_controller
+  - forward_command_controller
   - gazebo_dev
   - gazebo_msgs
   - gazebo_plugins
@@ -76,6 +84,7 @@ package_whitelist:
   - geometry_msgs
   - geometry_tutorials
   - gl_dependency
+  - gripper_action_controller
   - hardware_interface
   - hls_lfcd_lds_driver
   - image_common
@@ -87,10 +96,13 @@ package_whitelist:
   - image_transport
   - image_transport_plugins
   - image_view
+  - imu_sensor_controller
   - interactive_marker_tutorials
   - interactive_markers
   - joint_limits_interface
+  - joint_state_controller
   - joint_state_publisher
+  - joint_trajectory_controller
   - kdl_conversions
   - kdl_parser
   - laser_assembler
@@ -125,6 +137,7 @@ package_whitelist:
   - pluginlib
   - pluginlib_tutorials
   - polled_camera
+  - position_controllers
   - python_orocos_kdl
   - python_qt_binding
   - qt_dotgraph
@@ -141,6 +154,8 @@ package_whitelist:
   - ros
   - ros_base
   - ros_comm
+  - ros_control
+  - ros_controllers
   - ros_core
   - ros_environment
   - ros_tutorials
@@ -196,6 +211,7 @@ package_whitelist:
   - rqt_gui_cpp
   - rqt_gui_py
   - rqt_image_view
+  - rqt_joint_trajectory_controller
   - rqt_launch
   - rqt_logger_level
   - rqt_moveit
@@ -269,6 +285,7 @@ package_whitelist:
   - urdf
   - urdf_parser_plugin
   - urdf_tutorial
+  - velocity_controllers
   - vision_opencv
   - visualization_marker_tutorials
   - visualization_msgs
