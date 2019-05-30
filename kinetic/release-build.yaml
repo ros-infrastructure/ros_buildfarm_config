@@ -17,6 +17,7 @@ package_whitelist:
   - actionlib_tutorials
   - amcl
   - angles
+  - audio_common
   - base_local_planner
   - bond
   - bond_core
