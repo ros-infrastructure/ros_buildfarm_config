@@ -14,8 +14,6 @@ notifications:
 package_whitelist:
   - catkin
 repositories:
-  urls:
-  - http://13.52.195.14/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -48,6 +46,8 @@ repositories:
     AHNx8kw4MPUkxExgI7Sd
     =4Ofr
     -----END PGP PUBLIC KEY BLOCK-----
+  urls:
+  - http://13.52.195.14/ubuntu/building
 targets:
   ubuntu:
     xenial:
