@@ -84,6 +84,7 @@ package_whitelist:
   - genpy
   - geometric_shapes
   - geometry
+  - geometry2
   - geometry_msgs
   - geometry_tutorials
   - gl_dependency
