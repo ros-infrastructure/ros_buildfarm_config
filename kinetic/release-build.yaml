@@ -18,7 +18,7 @@ package_whitelist:
   - actionlib_tutorials
   - amcl
   - angles
-  - async_web_server
+  - async_web_server_cpp
   - audio_capture
   - audio_common
   - audio_common_msgs
