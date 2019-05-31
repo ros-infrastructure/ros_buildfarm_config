@@ -98,7 +98,7 @@ package_whitelist:
   - grid_map_msgs
   - grid_map_octomap
   - grid_map_ros
-  - grid_map_rviz
+  - grid_map_rviz_plugin
   - grid_map_visualization
   - gripper_action_controller
   - hardware_interface
