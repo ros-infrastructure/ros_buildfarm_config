@@ -18,6 +18,7 @@ package_whitelist:
   - actionlib_tutorials
   - amcl
   - angles
+  - async_web_server
   - audio_capture
   - audio_common
   - audio_common_msgs
@@ -88,6 +89,17 @@ package_whitelist:
   - geometry_msgs
   - geometry_tutorials
   - gl_dependency
+  - grid_map
+  - grid_map_core
+  - grid_map_cv
+  - grid_map_demos
+  - grid_map_filters
+  - grid_map_loader
+  - grid_map_msgs
+  - grid_map_octomap
+  - grid_map_ros
+  - grid_map_rviz
+  - grid_map_visualization
   - gripper_action_controller
   - hardware_interface
   - hls_lfcd_lds_driver
@@ -147,6 +159,7 @@ package_whitelist:
   - object_recognition_msgs
   - octomap
   - octomap_msgs
+  - octovis
   - opencv3
   - orocos_kdl
   - pcl_conversions
@@ -179,11 +192,16 @@ package_whitelist:
   - ros_core
   - ros_environment
   - ros_tutorials
+  - rosapi
+  - rosauth
   - rosbag
   - rosbag_migration_rule
   - rosbag_storage
   - rosbash
   - rosboost_cfg
+  - rosbridge_library
+  - rosbridge_msgs
+  - rosbridge_server
   - rosbuild
   - rosclean
   - rosconsole
@@ -219,6 +237,7 @@ package_whitelist:
   - rostopic
   - rosunit
   - roswtf
+  - roswww
   - rotate_recovery
   - rqt_action
   - rqt_bag
@@ -277,12 +296,15 @@ package_whitelist:
   - stereo_msgs
   - tf
   - tf2
+  - tf2_bullet
   - tf2_eigen
   - tf2_geometry_msgs
   - tf2_kdl
   - tf2_msgs
   - tf2_py
+  - tf2_sensor_msgs
   - tf2_ros
+  - tf2_tools
   - tf_conversions
   - theora_image_transport
   - topic_tools
@@ -315,6 +337,7 @@ package_whitelist:
   - viz
   - voxel_grid
   - warehouse_ros
+  - web_video_server
   - webkit_dependency
   - xacro
   - xmlrpcpp
