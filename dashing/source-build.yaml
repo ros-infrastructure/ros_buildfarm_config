@@ -2,6 +2,7 @@
 # ROS buildfarm source-build file
 ---
 build_environment_variables:
+  ROS_PYTHON_VERSION: 3
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
 jenkins_commit_job_priority: 56
