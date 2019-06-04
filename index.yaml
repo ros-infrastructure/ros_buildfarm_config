@@ -2,16 +2,16 @@
 # ROS buildfarm index file
 ---
 distributions:
-#  indigo:
+  indigo:
 #    doc_builds:
 #      default: indigo/doc-build.yaml
 #      released-packages-without-doc-job: indigo/doc-released-build.yaml
-#    notification_emails:
-#    - ros-buildfarm-indigo@googlegroups.com
-#    - tfoote+buildfarm@osrfoundation.org
-#    release_builds:
-#      arm: indigo/release-armhf-build.yaml
-#      default: indigo/release-build.yaml
+    notification_emails:
+    - ros-buildfarm-indigo@googlegroups.com
+    - tfoote+buildfarm@osrfoundation.org
+    release_builds:
+      arm: indigo/release-armhf-build.yaml
+      default: indigo/release-build.yaml
 #    source_builds:
 #      default: indigo/source-build.yaml
 #  jade:
