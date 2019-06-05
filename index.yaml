@@ -3,17 +3,17 @@
 ---
 distributions:
   indigo:
-   doc_builds:
-     default: indigo/doc-build.yaml
-     released-packages-without-doc-job: indigo/doc-released-build.yaml
+    doc_builds:
+      default: indigo/doc-build.yaml
+      released-packages-without-doc-job: indigo/doc-released-build.yaml
     notification_emails:
     - ros-buildfarm-indigo@googlegroups.com
     - tfoote+buildfarm@osrfoundation.org
     release_builds:
       arm: indigo/release-armhf-build.yaml
       default: indigo/release-build.yaml
-   source_builds:
-     default: indigo/source-build.yaml
+    source_builds:
+      default: indigo/source-build.yaml
 #  jade:
 #    doc_builds:
 #      default: jade/doc-build.yaml
@@ -43,9 +43,9 @@ distributions:
       default: kinetic/source-build.yaml
 #      dj: kinetic/source-jessie-build.yaml
   lunar:
-   doc_builds:
-     default: lunar/doc-build.yaml
-     released-packages-without-doc-job: lunar/doc-released-build.yaml
+    doc_builds:
+      default: lunar/doc-build.yaml
+      released-packages-without-doc-job: lunar/doc-released-build.yaml
     notification_emails:
     - ros-buildfarm-lunar@googlegroups.com
     - clalancette+buildfarm@osrfoundation.org
@@ -55,12 +55,12 @@ distributions:
 #      dsv8: lunar/release-stretch-arm64-build.yaml
       uxhf: lunar/release-xenial-armhf-build.yaml
       uxv8: lunar/release-xenial-arm64-build.yaml
-   source_builds:
-     default: lunar/source-build.yaml
+    source_builds:
+      default: lunar/source-build.yaml
   melodic:
-   doc_builds:
-     default: melodic/doc-build.yaml
-     released-packages-without-doc-job: melodic/doc-released-build.yaml
+    doc_builds:
+      default: melodic/doc-build.yaml
+      released-packages-without-doc-job: melodic/doc-released-build.yaml
     notification_emails:
     - ros-buildfarm-melodic@googlegroups.com
     - clalancette+buildfarm@osrfoundation.org
@@ -70,8 +70,8 @@ distributions:
 #      dsv8: melodic/release-stretch-arm64-build.yaml
       ubhf: melodic/release-armhf-build.yaml
       ubv8: melodic/release-arm64-build.yaml
-   source_builds:
-     default: melodic/source-build.yaml
+    source_builds:
+      default: melodic/source-build.yaml
 #      ds: melodic/source-stretch-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
