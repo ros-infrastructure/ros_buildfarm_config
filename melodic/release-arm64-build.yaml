@@ -50,8 +50,8 @@ repositories:
     =4Ofr
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://13.52.195.14/ubuntu/building
-target_repository: http://13.52.195.14/ubuntu/building
+  - http://repositories.ros.org/ubuntu/building
+target_repository: http://repositories.ros.org/ubuntu/building
 targets:
   ubuntu:
     bionic:
