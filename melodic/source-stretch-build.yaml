@@ -48,7 +48,7 @@ repositories:
     =4Ofr
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repositories.ros.org/ubuntu/building
+  - http://repositories.ros.org/ubuntu/testing
 repository_whitelist:
 - actionlib
 - bond_core
