@@ -64,7 +64,6 @@ repositories:
   urls:
   - http://repositories.ros.org/ubuntu/building
 target_repository: http://repositories.ros.org/ubuntu/building
-
 targets:
   ubuntu:
     xenial:
