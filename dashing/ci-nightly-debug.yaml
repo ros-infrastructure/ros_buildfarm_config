@@ -6,9 +6,11 @@ build_environment_variables:
   LD_LIBRARY_PATH: '/opt/ros/melodic/lib:$LD_LIBRARY_PATH'
   NDDSHOME: '/opt/rti.com/rti_connext_dds-5.3.1'
   PYTHONPATH: '/opt/ros/melodic/lib/python2.7/dist-packages:$PYTHONPATH'
+  ROS_PACKAGE_PATH: '/opt/ros/melodic/share'
   ROS_PYTHON_VERSION: '3'
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
+build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Debug --no-warn-unused-cli'
 install_packages:
 - libasio-dev # for FastRTPS
 - libtinyxml2-dev # for FastRTPS
@@ -21,9 +23,11 @@ install_packages:
 - ros-melodic-rospy-tutorials
 - ros-melodic-tf2-msgs
 jenkins_job_priority: 50
-jenkins_job_timeout: 240
+jenkins_job_schedule: 15 23 * * *
+jenkins_job_timeout: 300
+package_selection_args: '--packages-ignore rmw_fastrtps_dynamic_cpp --packages-ignore-regex .*opensplice.*'
 repos_files:
-- https://github.com/ros2/ros2/raw/crystal/ros2.repos
+- https://github.com/ros2/ros2/raw/dashing/ros2.repos
 repositories:
   keys:
   - |
@@ -96,6 +100,4 @@ targets:
     bionic:
       amd64:
 type: ci-build
-underlay_from_ci_jobs:
-- nightly
 version: 1

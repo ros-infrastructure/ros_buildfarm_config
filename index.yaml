@@ -28,7 +28,13 @@ distributions:
       default: crystal/source-build.yaml
   dashing:
     ci_builds:
-      nightly: dashing/ci-nightly.yaml
+      nightly-connext: dashing/ci-nightly-connext.yaml
+      nightly-debug: dashing/ci-nightly-debug.yaml
+      nightly-extra-rmw-release: dashing/ci-nightly-extra-rmw-release.yaml
+      nightly-fastrtps: dashing/ci-nightly-fastrtps.yaml
+      nightly-fastrtps-dynamic: dashing/ci-nightly-fastrtps-dynamic.yaml
+      nightly-opensplice: dashing/ci-nightly-opensplice.yaml
+      nightly-release: dashing/ci-nightly-release.yaml
       overlay: dashing/ci-overlay.yaml
     doc_builds: {}
     notification_emails:

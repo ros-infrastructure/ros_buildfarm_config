@@ -9,6 +9,7 @@ build_environment_variables:
   ROS_PYTHON_VERSION: '3'
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
+build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Release --no-warn-unused-cli'
 install_packages:
 - libasio-dev # for FastRTPS
 - libtinyxml2-dev # for FastRTPS
@@ -91,16 +92,11 @@ repositories:
   urls:
   - http://repo.ros2.org/ubuntu/testing
   - http://repositories.ros.org/ubuntu/main
-skip_rosdep_keys:
-- fastcdr
-- fastrtps
-- tinydir_vendor
-- urdfdom_headers
 targets:
   ubuntu:
     bionic:
       amd64:
 type: ci-build
 underlay_from_ci_jobs:
-- nightly
+- nightly-release
 version: 1

@@ -7,8 +7,10 @@ build_environment_variables:
   NDDSHOME: '/opt/rti.com/rti_connext_dds-5.3.1'
   PYTHONPATH: '/opt/ros/melodic/lib/python2.7/dist-packages:$PYTHONPATH'
   ROS_PYTHON_VERSION: '3'
+  ROS_PACKAGE_PATH: '/opt/ros/melodic/share'
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
+build_tool_args: '--cmake-args --no-warn-unused-cli'
 install_packages:
 - libasio-dev # for FastRTPS
 - libtinyxml2-dev # for FastRTPS
@@ -23,8 +25,9 @@ install_packages:
 jenkins_job_priority: 50
 jenkins_job_schedule: 15 23 * * *
 jenkins_job_timeout: 300
+package_selection_args: '--packages-ignore rmw_fastrtps_dynamic_cpp --packages-ignore-regex .*connext.* .*opensplice.*'
 repos_files:
-- https://github.com/ros2/ros2/raw/master/ros2.repos
+- https://github.com/ros2/ros2/raw/dashing/ros2.repos
 repositories:
   keys:
   - |
@@ -92,11 +95,6 @@ repositories:
   urls:
   - http://repo.ros2.org/ubuntu/testing
   - http://repositories.ros.org/ubuntu/main
-skip_rosdep_keys:
-- fastcdr
-- fastrtps
-- tinydir_vendor
-- urdfdom_headers
 targets:
   ubuntu:
     bionic:
