@@ -24,7 +24,7 @@ install_packages:
 jenkins_job_priority: 50
 jenkins_job_timeout: 240
 repos_files:
-- https://github.com/ros2/ros2/raw/master/ros2.repos
+- https://github.com/ros2/ros2/raw/dashing/ros2.repos
 repositories:
   keys:
   - |
