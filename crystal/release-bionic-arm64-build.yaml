@@ -12,6 +12,8 @@ notifications:
   - steven+build.ros2.org@openrobotics.org
   - ros2-buildfarm-crystal@googlegroups.com
   maintainers: true
+package_blacklist:
+  - ets_plugin
 sync:
   package_count: 200
 repositories:
