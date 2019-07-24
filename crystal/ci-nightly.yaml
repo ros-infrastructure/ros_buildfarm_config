@@ -20,6 +20,7 @@ install_packages:
 - ros-melodic-rosmsg
 - ros-melodic-rospy-tutorials
 - ros-melodic-tf2-msgs
+jenkins_job_label: ci-agent
 jenkins_job_priority: 50
 jenkins_job_schedule: 15 23 * * *
 jenkins_job_timeout: 240
