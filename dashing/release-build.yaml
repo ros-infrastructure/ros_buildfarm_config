@@ -16,7 +16,7 @@ notifications:
   - ros2-buildfarm-dashing@googlegroups.com
   maintainers: true
 sync:
-  package_count: 180
+  package_count: 330
 repositories:
   keys:
   - |
