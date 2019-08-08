@@ -1,6 +1,8 @@
 %YAML 1.1
 # ROS buildfarm source-build file
 ---
+build_environment_variables:
+  ROS_PYTHON_VERSION: 2
 collate_test_stats: true
 jenkins_commit_job_priority: 55
 jenkins_job_timeout: 120
