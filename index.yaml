@@ -73,6 +73,13 @@ distributions:
     source_builds:
       default: melodic/source-build.yaml
       ds: melodic/source-stretch-build.yaml
+  noetic:
+    ci_builds:
+      bionic-python2: noetic/ci-bionic-python2.yaml
+      bionic-python3: noetic/ci-bionic-python3.yaml
+    notification_emails:
+    - ros-buildfarm-noetic@googlegroups.com
+    - sloretz+buildfarm@openrobotics.org
 doc_builds:
   independent-packages: doc-independent-build.yaml
   rosindex: doc-rosindex.yaml
