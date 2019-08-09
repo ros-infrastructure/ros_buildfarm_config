@@ -1,6 +1,8 @@
 %YAML 1.1
 # ROS buildfarm doc-build file
 ---
+build_environment_variables:
+  ROS_PYTHON_VERSION: 2
 canonical_base_url: http://docs.ros.org
 documentation_type: rosdoc_lite
 jenkins_job_priority: 85

@@ -1,6 +1,8 @@
 %YAML 1.1
 # ROS buildfarm doc-build file
 ---
+build_environment_variables:
+  ROS_PYTHON_VERSION: 2
 documentation_type: released_manifest
 jenkins_job_priority: 87
 jenkins_job_timeout: 30
