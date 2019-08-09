@@ -1,6 +1,7 @@
 %YAML 1.1
 # ROS buildfarm ci-build file
 ---
+build_tool: 'catkin_make_isolated'
 build_environment_variables:
   ROS_PYTHON_VERSION: '3'
 jenkins_job_priority: 50

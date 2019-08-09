@@ -1,6 +1,7 @@
 %YAML 1.1
 # ROS buildfarm ci-build file
 ---
+build_tool: 'catkin_make_isolated'
 jenkins_job_priority: 50
 jenkins_job_timeout: 300
 repository_names:
