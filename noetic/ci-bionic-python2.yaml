@@ -1,7 +1,6 @@
 %YAML 1.1
 # ROS buildfarm ci-build file
 ---
-jenkins_job_label: ci-agent
 jenkins_job_priority: 50
 jenkins_job_timeout: 300
 repository_names:
