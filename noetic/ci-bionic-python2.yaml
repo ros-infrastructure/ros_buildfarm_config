@@ -2,6 +2,8 @@
 # ROS buildfarm ci-build file
 ---
 build_tool: 'catkin_make_isolated'
+build_environment_variables:
+  ROS_PYTHON_VERSION: '2'
 jenkins_job_priority: 50
 jenkins_job_timeout: 300
 repository_names:
