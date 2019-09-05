@@ -6,7 +6,7 @@ distributions:
     ci_builds: {}
     doc_builds: {}
     notification_emails:
-      - mikael+build.ros2.org@openrobotics.org
+      - steven+build.ros2.org@openrobotics.org
       - ros2-buildfarm-bouncy@googlegroups.com
     release_builds:
       default: bouncy/release-build.yaml
