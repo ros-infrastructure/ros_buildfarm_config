@@ -2,17 +2,6 @@
 # ROS buildfarm index file
 ---
 distributions:
-  bouncy:
-    ci_builds: {}
-    doc_builds: {}
-    notification_emails:
-      - steven+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-bouncy@googlegroups.com
-    release_builds:
-      default: bouncy/release-build.yaml
-      ubv8: bouncy/release-bionic-arm64-build.yaml
-    source_builds:
-      default: bouncy/source-build.yaml
   crystal:
     ci_builds:
       nightly: crystal/ci-nightly.yaml
