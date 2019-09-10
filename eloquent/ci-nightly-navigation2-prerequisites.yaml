@@ -1,74 +1,37 @@
 %YAML 1.1
-# ROS buildfarm index file
+# ROS buildfarm ci-build file
 ---
-distributions:
-  crystal:
-    ci_builds:
-      nightly: crystal/ci-nightly.yaml
-      overlay: crystal/ci-overlay.yaml
-    doc_builds: {}
-    notification_emails:
-      - steven+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-crystal@googlegroups.com
-    release_builds:
-      default: crystal/release-build.yaml
-      ubv8: crystal/release-bionic-arm64-build.yaml
-    source_builds:
-      default: crystal/source-build.yaml
-  dashing:
-    ci_builds:
-      nightly-connext: dashing/ci-nightly-connext.yaml
-      nightly-cyclonedds: dashing/ci-nightly-cyclonedds.yaml
-      nightly-debug: dashing/ci-nightly-debug.yaml
-      nightly-extra-rmw-release: dashing/ci-nightly-extra-rmw-release.yaml
-      nightly-fastrtps: dashing/ci-nightly-fastrtps.yaml
-      nightly-fastrtps-dynamic: dashing/ci-nightly-fastrtps-dynamic.yaml
-      nightly-opensplice: dashing/ci-nightly-opensplice.yaml
-      nightly-release: dashing/ci-nightly-release.yaml
-      overlay: dashing/ci-overlay.yaml
-    doc_builds: {}
-    notification_emails:
-      - steven+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-dashing@googlegroups.com
-    release_builds:
-      default: dashing/release-build.yaml
-      ubv8: dashing/release-bionic-arm64-build.yaml
-      ubhf: dashing/release-bionic-armhf-build.yaml
-    source_builds:
-      default: dashing/source-build.yaml
-  eloquent:
-    ci_builds:
-      nightly-connext: eloquent/ci-nightly-connext.yaml
-      nightly-cyclonedds: eloquent/ci-nightly-cyclonedds.yaml
-      nightly-debug: eloquent/ci-nightly-debug.yaml
-      nightly-extra-rmw-release: eloquent/ci-nightly-extra-rmw-release.yaml
-      nightly-fastrtps: eloquent/ci-nightly-fastrtps.yaml
-      nightly-fastrtps-dynamic: eloquent/ci-nightly-fastrtps-dynamic.yaml
-      nightly-navigation2: eloquent/ci-nightly-navigation2.yaml
-      nightly-navigation2-prerequisites: eloquent/ci-nightly-navigation2-prerequisites.yaml
-      nightly-opensplice: eloquent/ci-nightly-opensplice.yaml
-      nightly-release: eloquent/ci-nightly-release.yaml
-      overlay: eloquent/ci-overlay.yaml
-    doc_builds: {}
-    notification_emails:
-      - michael+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-eloquent@googlegroups.com
-    release_builds:
-      default: eloquent/release-build.yaml
-      ubv8: eloquent/release-bionic-arm64-build.yaml
-    source_builds:
-      default: eloquent/source-build.yaml
-jenkins_url: http://build.ros2.org
-notification_emails:
-  - steven+build.ros2.org@openrobotics.org
-prerequisites:
-  debian_repositories:
-  - http://repo.ros2.org/ubuntu/building
-  - http://repositories.ros.org/ubuntu/main
-  debian_repository_keys:
+build_environment_variables:
+  CMAKE_PREFIX_PATH: '/opt/ros/melodic:$CMAKE_PREFIX_PATH'
+  LD_LIBRARY_PATH: '/opt/ros/melodic/lib:$LD_LIBRARY_PATH'
+  PYTHONPATH: '/opt/ros/melodic/lib/python2.7/dist-packages:$PYTHONPATH'
+  ROS_PACKAGE_PATH: '/opt/ros/melodic/share'
+  ROS_PYTHON_VERSION: '3'
+build_tool: colcon
+build_tool_args: '--cmake-args --no-warn-unused-cli'
+install_packages:
+- libasio-dev # for FastRTPS
+- libtinyxml2-dev # for FastRTPS
+- ros-melodic-common-msgs
+- ros-melodic-rosbash
+- ros-melodic-roscpp
+- ros-melodic-roscpp-tutorials
+- ros-melodic-roslaunch
+- ros-melodic-rosmsg
+- ros-melodic-rospy-tutorials
+- ros-melodic-tf2-msgs
+jenkins_job_label: ci-agent
+jenkins_job_priority: 50
+jenkins_job_timeout: 240
+jenkins_job_upstream_triggers:
+- nightly-fastrtps
+repos_files:
+- https://github.com/ros-planning/navigation2/raw/master/tools/ros2_dependencies.repos
+repositories:
+  keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
-    Version: GnuPGv1
+    Version: GnuPG v1
 
     mQINBFzvJpYBEADY8l1YvO7iYW5gUESyzsTGnMvVUmlV3XarBaJz9bGRmgPXh7jc
     VFrQhE0L/HV7LOfoLI9H2GWYyHBqN5ERBlcA8XxG3ZvX7t9nAZPQT2Xxe3GT3tro
@@ -128,11 +91,14 @@ prerequisites:
     qYE=
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml
-status_page_repositories:
-  default:
-    - http://repo.ros2.org/ubuntu/building
-    - http://repo.ros2.org/ubuntu/testing
-    - http://repo.ros2.org/ubuntu/main
-type: buildfarm
+  urls:
+  - http://repo.ros2.org/ubuntu/testing
+  - http://repositories.ros.org/ubuntu/main
+targets:
+  ubuntu:
+    bionic:
+      amd64:
+type: ci-build
+underlay_from_ci_jobs:
+- nightly-fastrtps
 version: 1
