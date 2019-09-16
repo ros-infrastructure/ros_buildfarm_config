@@ -25,7 +25,7 @@ jenkins_job_label: ci-agent
 jenkins_job_priority: 50
 jenkins_job_schedule: 15 23 * * *
 jenkins_job_timeout: 300
-package_selection_args: '--packages-ignore-regex .*connext.* .*fastrtps.* .*opensplice.*'
+package_selection_args: '--packages-ignore-regex .*connext.* .*fastrtps.* .*opensplice.* --packages-skip cyclonedds_vendor'
 repos_files:
 - https://github.com/ros2/ros2/raw/dashing/ros2.repos
 - https://github.com/ros2/ros2/raw/dashing/cyclonedds.repos
