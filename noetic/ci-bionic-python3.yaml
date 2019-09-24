@@ -19,6 +19,7 @@ repository_names:
   - message_generation
   - message_runtime
   - pluginlib
+  - resource_retriever
   - ros
   - ros_comm
   - ros_comm_msgs
