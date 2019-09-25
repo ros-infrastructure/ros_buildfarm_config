@@ -10,6 +10,7 @@ repository_names:
   - catkin
   - class_loader
   - cmake_modules
+  - dynamic_reconfigure
   - gencpp
   - geneus
   - genlisp
@@ -29,6 +30,7 @@ repository_names:
   - roslisp
   - rospack
   - std_msgs
+  - urdf_parser_py
 repositories:
   keys:
   - |
