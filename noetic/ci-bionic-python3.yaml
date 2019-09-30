@@ -30,7 +30,7 @@ repository_names:
   - roslisp
   - rospack
   - std_msgs
-  - urdf_parser_py
+  - urdfdom_py
 repositories:
   keys:
   - |
