@@ -36,6 +36,7 @@ repository_names:
   - ros_environment
   - roslisp
   - rospack
+  - rqt
   - std_msgs
   - urdfdom_py
 repositories:
