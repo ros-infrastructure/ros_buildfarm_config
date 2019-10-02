@@ -13,6 +13,7 @@ repository_names:
   - cmake_modules
   - common_msgs
   - dynamic_reconfigure
+  - eigen_stl_containers
   - filters
   - gencpp
   - geneus
