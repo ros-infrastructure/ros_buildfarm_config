@@ -7,10 +7,13 @@ build_environment_variables:
 jenkins_job_priority: 50
 jenkins_job_timeout: 300
 repository_names:
+  - bond_core
   - catkin
   - class_loader
   - cmake_modules
+  - common_msgs
   - dynamic_reconfigure
+  - filters
   - gencpp
   - geneus
   - genlisp
@@ -19,9 +22,13 @@ repository_names:
   - genpy
   - message_generation
   - message_runtime
+  - orocos_kinematics_dynamics
   - pluginlib
+  - python_qt_binding
+  - qt_gui_core
   - resource_retriever
   - ros
+  - rosbag_migration_rule
   - ros_comm
   - ros_comm_msgs
   - rosconsole
