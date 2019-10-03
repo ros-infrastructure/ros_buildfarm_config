@@ -33,6 +33,7 @@ repository_names:
   - ros_comm
   - ros_comm_msgs
   - rosconsole
+  - rosconsole_bridge
   - roscpp_core
   - ros_environment
   - roslisp
