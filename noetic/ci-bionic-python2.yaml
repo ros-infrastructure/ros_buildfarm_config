@@ -7,6 +7,7 @@ build_environment_variables:
 jenkins_job_priority: 50
 jenkins_job_timeout: 300
 repository_names:
+  - actionlib
   - bond_core
   - catkin
   - class_loader
