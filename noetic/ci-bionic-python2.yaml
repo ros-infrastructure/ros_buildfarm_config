@@ -24,6 +24,7 @@ repository_names:
   - genpy
   - message_generation
   - message_runtime
+  - nodelet_core
   - orocos_kinematics_dynamics
   - pluginlib
   - python_qt_binding
