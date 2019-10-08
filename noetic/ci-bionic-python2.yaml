@@ -34,11 +34,13 @@ repository_names:
   - ros_comm
   - ros_comm_msgs
   - rosconsole
+  - rosconsole_bridge
   - roscpp_core
   - ros_environment
   - roslisp
   - rospack
   - std_msgs
+  - urdf
   - urdfdom_py
 repositories:
   keys:
