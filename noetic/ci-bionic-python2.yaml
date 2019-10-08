@@ -20,7 +20,6 @@ repository_names:
   - genmsg
   - gennodejs
   - genpy
-  - kdl_parser
   - message_generation
   - message_runtime
   - orocos_kinematics_dynamics
