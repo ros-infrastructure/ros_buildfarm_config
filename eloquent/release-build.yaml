@@ -16,7 +16,7 @@ notifications:
   - ros2-buildfarm-eloquent@googlegroups.com
   maintainers: true
 sync:
-  package_count: 3
+  package_count: 290
 repositories:
   keys:
   - |
