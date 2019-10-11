@@ -22,6 +22,9 @@ repository_names:
   - genmsg
   - gennodejs
   - genpy
+  - geometry
+  - geometry2
+  - laser_geometry
   - message_generation
   - message_runtime
   - nodelet_core
