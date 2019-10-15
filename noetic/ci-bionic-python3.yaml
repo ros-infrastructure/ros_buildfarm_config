@@ -8,6 +8,7 @@ jenkins_job_priority: 50
 jenkins_job_timeout: 300
 repository_names:
   - actionlib
+  - angles
   - bond_core
   - catkin
   - class_loader
@@ -22,6 +23,9 @@ repository_names:
   - genmsg
   - gennodejs
   - genpy
+  - geometry
+  - geometry2
+  - laser_geometry
   - message_generation
   - message_runtime
   - nodelet_core
