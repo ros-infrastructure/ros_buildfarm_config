@@ -25,6 +25,7 @@ repository_names:
   - genpy
   - geometry
   - geometry2
+  - kdl_parser
   - laser_geometry
   - message_generation
   - message_runtime
