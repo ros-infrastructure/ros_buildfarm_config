@@ -25,6 +25,7 @@ repository_names:
   - genpy
   - geometry
   - geometry2
+  - gl_dependency
   - joint_state_publisher
   - kdl_parser
   - laser_geometry
@@ -35,22 +36,25 @@ repository_names:
   - pluginlib
   - python_qt_binding
   - qt_gui_core
+  - qwt_dependency
+  - random_numbers
   - resource_retriever
   - robot_state_publisher
   - ros
-  - rosbag_migration_rule
   - ros_comm
   - ros_comm_msgs
+  - ros_environment
+  - rosbag_migration_rule
   - rosconsole
   - rosconsole_bridge
   - roscpp_core
-  - ros_environment
   - roslisp
   - rospack
   - rqt
   - std_msgs
   - urdf
   - urdfdom_py
+  - webkit_dependency
 repositories:
   keys:
   - |
