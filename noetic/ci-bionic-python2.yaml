@@ -35,6 +35,7 @@ repository_names:
   - python_qt_binding
   - qt_gui_core
   - resource_retriever
+  - robot_state_publisher
   - ros
   - rosbag_migration_rule
   - ros_comm
