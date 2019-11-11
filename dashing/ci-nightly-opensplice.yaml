@@ -10,8 +10,6 @@ build_environment_variables:
 build_tool: colcon
 build_tool_args: '--cmake-args --no-warn-unused-cli'
 install_packages:
-- libasio-dev # for FastRTPS
-- libtinyxml2-dev # for FastRTPS
 - ros-melodic-common-msgs
 - ros-melodic-rosbash
 - ros-melodic-roscpp
@@ -24,7 +22,7 @@ jenkins_job_label: ci-agent
 jenkins_job_priority: 50
 jenkins_job_schedule: 15 23 * * *
 jenkins_job_timeout: 300
-package_selection_args: '--packages-ignore fastcdr rosbag2_converter_default_plugins --packages-ignore-regex .*connext.* .*fastrtps.*'
+package_selection_args: '--packages-ignore fastcdr foonathan_memory_vendor rosbag2_converter_default_plugins --packages-ignore-regex .*connext.* .*cyclonedds.* .*fastrtps.*'
 repos_files:
 - https://github.com/ros2/ros2/raw/dashing/ros2.repos
 repositories:

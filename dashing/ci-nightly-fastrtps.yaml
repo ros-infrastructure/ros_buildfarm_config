@@ -24,7 +24,7 @@ jenkins_job_label: ci-agent
 jenkins_job_priority: 50
 jenkins_job_schedule: 15 23 * * *
 jenkins_job_timeout: 300
-package_selection_args: '--packages-ignore rmw_fastrtps_dynamic_cpp --packages-ignore-regex .*connext.* .*opensplice.*'
+package_selection_args: '--packages-ignore rmw_fastrtps_dynamic_cpp --packages-ignore-regex .*connext.* .*cyclonedds.* .*opensplice.*'
 repos_files:
 - https://github.com/ros2/ros2/raw/dashing/ros2.repos
 repositories:
