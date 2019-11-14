@@ -10,6 +10,8 @@ build_environment_variables:
 build_tool: colcon
 build_tool_args: '--cmake-args --no-warn-unused-cli'
 install_packages:
+- default-jdk # for CycloneDDS
+- maven # for CycloneDDS
 - ros-melodic-common-msgs
 - ros-melodic-rosbash
 - ros-melodic-roscpp
