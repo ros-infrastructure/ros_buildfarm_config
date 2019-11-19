@@ -26,6 +26,7 @@ repository_names:
   - geometry
   - geometry2
   - gl_dependency
+  - image_common
   - joint_state_publisher
   - kdl_parser
   - laser_geometry
