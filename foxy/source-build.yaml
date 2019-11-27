@@ -12,8 +12,8 @@ notifications:
   committers: true
   compiler_warnings: true
   emails:
-  - michael+build.ros2.org@openrobotics.org
-  - ros2-buildfarm-eloquent@googlegroups.com
+  - jacob+build.ros2.org@openrobotics.org
+  - ros2-buildfarm-foxy@googlegroups.com
   maintainers: true
 repositories:
   keys:
@@ -86,7 +86,7 @@ repository_blacklist:
 - ros_workspace
 targets:
   ubuntu:
-    bionic:
+    focal:
       amd64:
 test_commits:
   default: true

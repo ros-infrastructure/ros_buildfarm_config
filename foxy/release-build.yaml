@@ -12,8 +12,8 @@ jenkins_source_job_priority: 75
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - michael+build.ros2.org@openrobotics.org
-  - ros2-buildfarm-eloquent@googlegroups.com
+  - jacob+build.ros2.org@openrobotics.org
+  - ros2-buildfarm-foxy@googlegroups.com
   maintainers: true
 sync:
   package_count: 290
@@ -87,7 +87,7 @@ repositories:
 target_repository: http://repo.ros2.org/ubuntu/building
 targets:
   ubuntu:
-    bionic:
+    focal:
       amd64:
 type: release-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
