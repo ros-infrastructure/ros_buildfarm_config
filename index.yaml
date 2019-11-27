@@ -59,6 +59,29 @@ distributions:
       ubv8: eloquent/release-bionic-arm64-build.yaml
     source_builds:
       default: eloquent/source-build.yaml
+  foxy:
+    ci_builds:
+      nightly-connext: foxy/ci-nightly-connext.yaml
+      nightly-cyclonedds: foxy/ci-nightly-cyclonedds.yaml
+      nightly-debug: foxy/ci-nightly-debug.yaml
+      nightly-extra-rmw-release: foxy/ci-nightly-extra-rmw-release.yaml
+      nightly-fastrtps: foxy/ci-nightly-fastrtps.yaml
+      nightly-fastrtps-dynamic: foxy/ci-nightly-fastrtps-dynamic.yaml
+      nightly-navigation2: foxy/ci-nightly-navigation2.yaml
+      nightly-navigation2-prerequisites: foxy/ci-nightly-navigation2-prerequisites.yaml
+      nightly-opensplice: foxy/ci-nightly-opensplice.yaml
+      nightly-release: foxy/ci-nightly-release.yaml
+      overlay: foxy/ci-overlay.yaml
+    doc_builds: {}
+    notification_emails:
+      - jacob+build.ros2.org@openrobotics.org
+      - ros2-buildfarm-foxy@googlegroups.com
+    release_builds:
+      default: foxy/release-build.yaml
+      ubhf: foxy/release-bionic-armhf-build.yaml
+      ubv8: foxy/release-bionic-arm64-build.yaml
+    source_builds:
+      default: foxy/source-build.yaml
 jenkins_url: http://build.ros2.org
 notification_emails:
   - steven+build.ros2.org@openrobotics.org
