@@ -2,17 +2,17 @@
 # ROS buildfarm doc-build file
 ---
 build_environment_variables:
-  ROS_PYTHON_VERSION: 2
+  ROS_PYTHON_VERSION: 3
 documentation_type: released_manifest
-jenkins_job_priority: 85
+jenkins_job_priority: 84
 jenkins_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-melodic@googlegroups.com
-  - clalancette+buildfarm@osrfoundation.org
+  - ros-buildfarm-noetic@googlegroups.com
+  - sloretz+buildfarm@openrobotics.org
 targets:
   ubuntu:
-    bionic:
+    focal:
       amd64:
 type: doc-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5

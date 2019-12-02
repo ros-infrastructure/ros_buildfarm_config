@@ -2,20 +2,18 @@
 # ROS buildfarm source-build file
 ---
 build_environment_variables:
-  ROS_PYTHON_VERSION: 2
-jenkins_commit_job_priority: 55
+  ROS_PYTHON_VERSION: 3
+jenkins_commit_job_priority: 54
 jenkins_job_timeout: 120
-jenkins_pull_request_job_priority: 45
+jenkins_pull_request_job_priority: 44
 notifications:
   committers: true
   compiler_warnings: true
   emails:
-  - ros-buildfarm-melodic@googlegroups.com
-  - clalancette+buildfarm@osrfoundation.org
+  - ros-buildfarm-noetic@googlegroups.com
+  - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
-  - fetch_drivers
-  - fetch_tools
 repositories:
   keys:
   - |
@@ -62,7 +60,7 @@ repository_whitelist:
 skip_ignored_repositories: true
 targets:
   debian:
-    stretch:
+    buster:
       amd64:
 test_commits:
   default: true
