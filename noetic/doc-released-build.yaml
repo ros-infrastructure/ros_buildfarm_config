@@ -1,0 +1,19 @@
+%YAML 1.1
+# ROS buildfarm doc-build file
+---
+build_environment_variables:
+  ROS_PYTHON_VERSION: 2
+documentation_type: released_manifest
+jenkins_job_priority: 85
+jenkins_job_timeout: 30
+notifications:
+  emails:
+  - ros-buildfarm-melodic@googlegroups.com
+  - clalancette+buildfarm@osrfoundation.org
+targets:
+  ubuntu:
+    bionic:
+      amd64:
+type: doc-build
+upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
+version: 2
