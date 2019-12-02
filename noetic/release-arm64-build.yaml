@@ -2,20 +2,18 @@
 # ROS buildfarm release-build file
 ---
 abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 95
+jenkins_binary_job_priority: 94
 jenkins_binary_job_timeout: 720
-jenkins_source_job_priority: 65
+jenkins_source_job_priority: 64
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-melodic@googlegroups.com
-  - clalancette+buildfarm@osrfoundation.org
+  - ros-buildfarm-noetic@googlegroups.com
+  - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
-- fetch_drivers
-- leap_motion
 sync:
-  package_count: 1000
+  package_count: 1
 repositories:
   keys:
   - |
@@ -54,7 +52,7 @@ repositories:
 target_repository: http://repositories.ros.org/ubuntu/building
 targets:
   ubuntu:
-    bionic:
+    focal:
       arm64:
 type: release-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
