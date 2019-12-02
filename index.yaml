@@ -77,9 +77,21 @@ distributions:
     ci_builds:
       bionic-python2: noetic/ci-bionic-python2.yaml
       bionic-python3: noetic/ci-bionic-python3.yaml
+    doc_builds:
+      default: noetic/doc-build.yaml
+      released-packages-without-doc-job: noetic/doc-released-build.yaml
     notification_emails:
     - ros-buildfarm-noetic@googlegroups.com
     - sloretz+buildfarm@openrobotics.org
+    release_builds:
+      default: noetic/release-build.yaml
+      db: noetic/release-buster-build.yaml
+      dbv8: noetic/release-buster-arm64-build.yaml
+      ufhf: noetic/release-armhf-build.yaml
+      ufv8: noetic/release-arm64-build.yaml
+    source_builds:
+      default: noetic/source-build.yaml
+      db: noetic/source-buster-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
   rosindex: doc-rosindex.yaml
