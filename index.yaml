@@ -24,6 +24,7 @@ distributions:
       nightly-fastrtps: dashing/ci-nightly-fastrtps.yaml
       nightly-fastrtps-dynamic: dashing/ci-nightly-fastrtps-dynamic.yaml
       nightly-opensplice: dashing/ci-nightly-opensplice.yaml
+      nightly-performance: dashing/ci-nightly-performance.yaml
       nightly-release: dashing/ci-nightly-release.yaml
       overlay: dashing/ci-overlay.yaml
     doc_builds: {}
