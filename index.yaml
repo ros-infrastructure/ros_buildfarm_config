@@ -48,6 +48,7 @@ distributions:
       nightly-navigation2: eloquent/ci-nightly-navigation2.yaml
       nightly-navigation2-prerequisites: eloquent/ci-nightly-navigation2-prerequisites.yaml
       nightly-opensplice: eloquent/ci-nightly-opensplice.yaml
+      nightly-performance: eloquent/ci-nightly-performance.yaml
       nightly-release: eloquent/ci-nightly-release.yaml
       overlay: eloquent/ci-overlay.yaml
     doc_builds: {}
