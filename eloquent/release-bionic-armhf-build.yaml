@@ -12,6 +12,8 @@ notifications:
   - michael+build.ros2.org@openrobotics.org
   - ros2-buildfarm-eloquent@googlegroups.com
   maintainers: true
+package_blacklist:
+ - octovis
 sync:
   package_count: 290
 repositories:
