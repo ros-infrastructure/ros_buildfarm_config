@@ -15,7 +15,9 @@ package_blacklist:
 - fetch_drivers
 - leap_motion
 - mapviz
+- nao_meshes
 - octovis
+- pepper_meshes
 sync:
   package_count: 1000
 repositories:

@@ -12,10 +12,12 @@ notifications:
   - clalancette+buildfarm@osrfoundation.org
   maintainers: true
 package_blacklist:
-  - fetch_drivers
-  - fetch_tools
-  - leap_motion
-  - rospilot
+- fetch_drivers
+- fetch_tools
+- leap_motion
+- nao_meshes
+- pepper_meshes
+- rospilot
 sync:
   package_count: 1000
 repositories:
