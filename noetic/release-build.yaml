@@ -2,6 +2,8 @@
 # ROS buildfarm release-build file
 ---
 abi_incompatibility_assumed: true
+build_environment_variables:
+  ROS_PYTHON_VERSION: '3'
 jenkins_binary_job_priority: 74
 jenkins_binary_job_timeout: 120
 jenkins_source_job_priority: 64
