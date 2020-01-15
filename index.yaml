@@ -2,19 +2,6 @@
 # ROS buildfarm index file
 ---
 distributions:
-  crystal:
-    ci_builds:
-      nightly: crystal/ci-nightly.yaml
-      overlay: crystal/ci-overlay.yaml
-    doc_builds: {}
-    notification_emails:
-      - steven+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-crystal@googlegroups.com
-    release_builds:
-      default: crystal/release-build.yaml
-      ubv8: crystal/release-bionic-arm64-build.yaml
-    source_builds:
-      default: crystal/source-build.yaml
   dashing:
     ci_builds:
       nightly-connext: dashing/ci-nightly-connext.yaml
