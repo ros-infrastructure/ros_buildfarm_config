@@ -115,6 +115,7 @@ show_plots:
     master_csv_name: plot-5383730536992146777.csv
     style: line
     y_axis_exclude_zero: False
+    num_builds: 10
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
@@ -126,6 +127,7 @@ show_plots:
     master_csv_name: plot-9351526321217097619.csv
     style: line
     y_axis_exclude_zero: True
+    num_builds: 10
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
@@ -137,6 +139,7 @@ show_plots:
     master_csv_name: plot-2973118048941445403.csv
     style: line
     y_axis_exclude_zero: True
+    num_builds: 10
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
@@ -148,6 +151,7 @@ show_plots:
     master_csv_name: plot-2819868998711663078.csv
     style: line
     y_axis_exclude_zero: True
+    num_builds: 10
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
@@ -159,6 +163,7 @@ show_plots:
     master_csv_name: plot-8814043121736352120.csv
     style: line
     y_axis_exclude_zero: True
+    num_builds: 10
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
@@ -170,6 +175,9 @@ show_plots:
     master_csv_name: plot-6196102268607563242.csv
     style: line
     y_axis_exclude_zero: True
+    num_builds: 10
+    y_axis_minimum: 0
+    y_axis_maximum: 1000
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
