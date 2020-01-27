@@ -67,8 +67,8 @@ distributions:
       - ros2-buildfarm-foxy@googlegroups.com
     release_builds:
       default: foxy/release-build.yaml
-      ubhf: foxy/release-bionic-armhf-build.yaml
-      ubv8: foxy/release-bionic-arm64-build.yaml
+      ubhf: foxy/release-focal-armhf-build.yaml
+      ubv8: foxy/release-focal-arm64-build.yaml
     source_builds:
       default: foxy/source-build.yaml
 jenkins_url: http://build.ros2.org
