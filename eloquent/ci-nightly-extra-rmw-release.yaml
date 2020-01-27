@@ -29,7 +29,7 @@ jenkins_job_priority: 48
 jenkins_job_schedule: 15 23 * * *
 jenkins_job_timeout: 300
 repos_files:
-- https://github.com/ros2/ros2/raw/master/ros2.repos
+- https://github.com/ros2/ros2/raw/eloquent/ros2.repos
 repositories:
   keys:
   - |
