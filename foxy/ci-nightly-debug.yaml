@@ -2,11 +2,11 @@
 # ROS buildfarm ci-build file
 ---
 build_environment_variables:
-  CMAKE_PREFIX_PATH: '/opt/ros/melodic:$CMAKE_PREFIX_PATH'
-  LD_LIBRARY_PATH: '/opt/ros/melodic/lib:$LD_LIBRARY_PATH'
+#  CMAKE_PREFIX_PATH: '/opt/ros/melodic:$CMAKE_PREFIX_PATH'
+#  LD_LIBRARY_PATH: '/opt/ros/melodic/lib:$LD_LIBRARY_PATH'
   NDDSHOME: '/opt/rti.com/rti_connext_dds-5.3.1'
-  PYTHONPATH: '/opt/ros/melodic/lib/python2.7/dist-packages:$PYTHONPATH'
-  ROS_PACKAGE_PATH: '/opt/ros/melodic/share'
+#  PYTHONPATH: '/opt/ros/melodic/lib/python2.7/dist-packages:$PYTHONPATH'
+#  ROS_PACKAGE_PATH: '/opt/ros/melodic/share'
   ROS_PYTHON_VERSION: '3'
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
@@ -14,14 +14,14 @@ build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Debug --no-warn-unused-cli'
 install_packages:
 - libasio-dev # for FastRTPS
 - libtinyxml2-dev # for FastRTPS
-- ros-melodic-common-msgs
-- ros-melodic-rosbash
-- ros-melodic-roscpp
-- ros-melodic-roscpp-tutorials
-- ros-melodic-roslaunch
-- ros-melodic-rosmsg
-- ros-melodic-rospy-tutorials
-- ros-melodic-tf2-msgs
+# - ros-melodic-common-msgs
+# - ros-melodic-rosbash
+# - ros-melodic-roscpp
+# - ros-melodic-roscpp-tutorials
+# - ros-melodic-roslaunch
+# - ros-melodic-rosmsg
+# - ros-melodic-rospy-tutorials
+# - ros-melodic-tf2-msgs
 jenkins_job_label: ci-agent
 jenkins_job_priority: 50
 jenkins_job_schedule: 15 23 * * *
