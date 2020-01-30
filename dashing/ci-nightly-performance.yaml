@@ -108,8 +108,66 @@ underlay_from_ci_jobs:
 show_images:
   Performance Test Results:
   - ws/test_results/buildfarm_perf_tests/performance_test_results_*.png
+  - ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.png
   - ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.png
 show_plots:
+  Node Spinnig Results:
+  - title: Node Spinning Virtual Memory
+    y_axis_label: Mb
+    master_csv_name: plot-3806067577735001492.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 1024
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 2
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_virtual_memory.png
+  - title: Node Spinning CPU Usage
+    y_axis_label: Utilization (%)
+    master_csv_name: plot-5860760976470363339.csv
+    style: line
+    num_builds: 10
+    y_axis_minimum: 0
+    y_axis_maximum: 100
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 5
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_cpu_usage.png
+  - title: Node Spinning Physical Memory
+    y_axis_label: Mb
+    master_csv_name: plot-0993709617236487264.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 100
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 8
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_physical_memory.png
+  - title: Node Spinning Resident Anonymous Memory
+    y_axis_label: Mb
+    master_csv_name: plot-2710424365538472517.csv
+    style: line
+    num_builds: 10
+    y_axis_minimum: 0
+    y_axis_maximum: 100
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 11
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_resident_anonymous_memory.png
   Performance Test One Process Results:
   - title: Average Round-Trip Time
     y_axis_label: Milliseconds
