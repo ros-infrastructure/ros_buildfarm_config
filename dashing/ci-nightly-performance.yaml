@@ -108,8 +108,9 @@ underlay_from_ci_jobs:
 show_images:
   Performance Test Results:
   - ws/test_results/buildfarm_perf_tests/performance_test_results_*.png
+  - ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.png
 show_plots:
-  Performance Test Results:
+  Performance Test One Process Results:
   - title: Average Round-Trip Time
     y_axis_label: Milliseconds
     master_csv_name: plot-5383730536992146777.csv
@@ -184,5 +185,81 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
       url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
-
+  Performance Two Processes Test Results:
+  - title: Average Round-Trip Time
+    y_axis_label: Milliseconds
+    master_csv_name: plot-5516033016820989579.csv
+    style: line
+    num_builds: 10
+    y_axis_minimum: 0
+    y_axis_maximum: 0.2
+    y_axis_exclude_zero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 0
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
+  - title: Max Resident Set Size
+    y_axis_label: Megabytes
+    master_csv_name: plot-2577347939068603483.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 3
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
+  - title: Received packets
+    y_axis_label: Number
+    master_csv_name: plot-0978124033685966101.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 4
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Sent packets
+    y_axis_label: Number
+    master_csv_name: plot-3217397197666225920.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 5
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets
+    y_axis_label: Number
+    master_csv_name: plot-4153422920036477968.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: CPU usage (%)
+    y_axis_label: Number
+    master_csv_name: plot-5052659783928052056.csv
+    style: line
+    num_builds: 10
+    y_axis_minimum: 0
+    y_axis_maximum: 100
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 8
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_cpu_usage.png
 version: 1
