@@ -34,6 +34,7 @@ distributions:
       nightly-fastrtps-dynamic: eloquent/ci-nightly-fastrtps-dynamic.yaml
       nightly-navigation2: eloquent/ci-nightly-navigation2.yaml
       nightly-navigation2-prerequisites: eloquent/ci-nightly-navigation2-prerequisites.yaml
+      nightly-opensplice: eloquent/ci-nightly-opensplice.yaml
       nightly-performance: eloquent/ci-nightly-performance.yaml
       nightly-release: eloquent/ci-nightly-release.yaml
       overlay: eloquent/ci-overlay.yaml
@@ -57,7 +58,6 @@ distributions:
       nightly-fastrtps-dynamic: foxy/ci-nightly-fastrtps-dynamic.yaml
       nightly-navigation2: foxy/ci-nightly-navigation2.yaml
       nightly-navigation2-prerequisites: foxy/ci-nightly-navigation2-prerequisites.yaml
-      nightly-opensplice: foxy/ci-nightly-opensplice.yaml
       nightly-release: foxy/ci-nightly-release.yaml
       overlay: foxy/ci-overlay.yaml
     doc_builds: {}
