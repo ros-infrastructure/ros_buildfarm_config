@@ -1143,7 +1143,7 @@ show_plots:
       selection_value: 8
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_cpu_usage.png
 project_authorization_xml: |
-    <inheritanceStrategy class="org.jenkinsci.plugins.matrixauth.inheritance.NonInteritingStrategy"/>
+    <inheritanceStrategy class="org.jenkinsci.plugins.matrixauth.inheritance.NonInheritingStrategy"/>
     <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:ros*buildfarm-admins</permission>
     <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:ros*buildfarm-admins</permission>
     <permission>hudson.model.Item.Build:ros*buildfarm-admins</permission>
