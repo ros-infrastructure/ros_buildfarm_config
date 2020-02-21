@@ -74,9 +74,6 @@ distributions:
       default: melodic/source-build.yaml
       ds: melodic/source-stretch-build.yaml
   noetic:
-    ci_builds:
-      bionic-python2: noetic/ci-bionic-python2.yaml
-      bionic-python3: noetic/ci-bionic-python3.yaml
     doc_builds:
       default: noetic/doc-build.yaml
       released-packages-without-doc-job: noetic/doc-released-build.yaml
