@@ -15,7 +15,7 @@ notifications:
   maintainers: true
 package_blacklist:
 sync:
-  package_count: 1
+  package_count: 80
 repositories:
   keys:
   - |
