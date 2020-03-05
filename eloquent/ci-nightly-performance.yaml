@@ -186,7 +186,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Throughput
     description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Mbits/s (mean)
@@ -201,7 +201,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_throughput.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_throughput.png
   - title: Max Resident Set Size
     description: "The figure shown above shows the max resident size Megabytes for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Megabytes
@@ -214,7 +214,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 1
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Received packets per second
     y_axis_label: Packets per second
     master_csv_name: plot-7655147888582609753.csv
@@ -228,7 +228,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 2
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Sent packets per second
     y_axis_label: Packets per second
     master_csv_name: plot-2068523541301655539.csv
@@ -242,7 +242,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 3
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Lost packets
     y_axis_label: Total Count
     master_csv_name: plot-4775775122396428012.csv
@@ -256,7 +256,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 4
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: CPU Usage
     y_axis_label: Utilization (%)
     master_csv_name: plot-4701555696089273381.csv
@@ -272,7 +272,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_cpu_usage.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
   Performance One Process Test Results (multisize packets):
   - title: Latency Average Round-Trip Time (Array1k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
@@ -1553,7 +1553,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Throughput
     description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1k</li></ul>"
     y_axis_label: Mbits/s (mean)
@@ -1568,7 +1568,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_throughput.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_throughput.png
   - title: Max Resident Set Size
     description: "The figure shown above shows the max resident set size in Megabytes for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1k</li></ul>"
     y_axis_label: Megabytes
@@ -1581,7 +1581,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 3
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Received packets
     description: "The figure shown above shows the received packets per second for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1k</li></ul>"
     y_axis_label: Number
@@ -1594,7 +1594,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 4
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
   - title: Sent packets
     description: "The figure shown above shows the sent packets per second for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1k</li></ul>"
     y_axis_label: Number
@@ -1607,7 +1607,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
   - title: Lost packets
     description: "The figure shown above shows the total lost packets for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1k</li></ul>"
     y_axis_label: Number
@@ -1620,7 +1620,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 6
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
   - title: CPU usage (%)
     description: "The figure shown above shows the CPU usage in % for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1k</li></ul>"
     y_axis_label: Number
@@ -1635,7 +1635,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_cpu_usage.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_cpu_usage.png
   Performance Two Processes Test Results (multisize packets):
   - title: Latency Average Round-Trip Time (Array1k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
