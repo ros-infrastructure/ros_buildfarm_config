@@ -132,7 +132,7 @@ prerequisites:
     AHNx8kw4MPUkxExgI7Sd
     =4Ofr
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
+rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml
 status_page_repositories:
   default:
   - http://repositories.ros.org/ubuntu/building
