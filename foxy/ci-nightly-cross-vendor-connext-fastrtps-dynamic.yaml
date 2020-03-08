@@ -2,33 +2,21 @@
 # ROS buildfarm ci-build file
 ---
 build_environment_variables:
-#  CMAKE_PREFIX_PATH: '/opt/ros/melodic:$CMAKE_PREFIX_PATH'
-#  LD_LIBRARY_PATH: '/opt/ros/melodic/lib:$LD_LIBRARY_PATH'
   NDDSHOME: '/opt/rti.com/rti_connext_dds-5.3.1'
-#  PYTHONPATH: '/opt/ros/melodic/lib/python2.7/dist-packages:$PYTHONPATH'
-#  ROS_PACKAGE_PATH: '/opt/ros/melodic/share'
+  RMW_IMPLEMENTATIONS: 'rmw_connext_cpp:rmw_fastrtps_dynamic_cpp'
   ROS_PYTHON_VERSION: '3'
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
-build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Debug -DSKIP_MULTI_RMW_TESTS=1 --no-warn-unused-cli'
+build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Release -DSKIP_SINGLE_RMW_TESTS=1 --no-warn-unused-cli'
 install_packages:
-- default-jdk # for CycloneDDS
 - libasio-dev # for FastRTPS
 - libtinyxml2-dev # for FastRTPS
-- maven # for CycloneDDS
-# - ros-melodic-common-msgs
-# - ros-melodic-rosbash
-# - ros-melodic-roscpp
-# - ros-melodic-roscpp-tutorials
-# - ros-melodic-roslaunch
-# - ros-melodic-rosmsg
-# - ros-melodic-rospy-tutorials
-# - ros-melodic-tf2-msgs
 jenkins_job_label: ci-agent
 jenkins_job_priority: 47
-jenkins_job_schedule: 15 23 * * *
 jenkins_job_timeout: 300
-package_selection_args: '--packages-ignore rmw_fastrtps_dynamic_cpp'
+jenkins_job_upstream_triggers:
+- nightly-extra-rmw-release
+package_selection_args: '--paths src/ros2/system_tests/test_communication'
 repos_files:
 - https://github.com/ros2/ros2/raw/master/ros2.repos
 repositories:
@@ -103,4 +91,6 @@ targets:
     focal:
       amd64:
 type: ci-build
+underlay_from_ci_jobs:
+- nightly-extra-rmw-release
 version: 1

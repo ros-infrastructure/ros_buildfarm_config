@@ -51,6 +51,12 @@ distributions:
   foxy:
     ci_builds:
       nightly-connext: foxy/ci-nightly-connext.yaml
+      nightly-cross-vendor-connext-cyclonedds: foxy/ci-nightly-cross-vendor-connext-cyclonedds.yaml
+      nightly-cross-vendor-connext-fastrtps: foxy/ci-nightly-cross-vendor-connext-fastrtps.yaml
+      nightly-cross-vendor-connext-fastrtps-dynamic: foxy/ci-nightly-cross-vendor-connext-fastrtps-dynamic.yaml
+      nightly-cross-vendor-cyclonedds-fastrtps: foxy/ci-nightly-cross-vendor-cyclonedds-fastrtps.yaml
+      nightly-cross-vendor-cyclonedds-fastrtps-dynamic: foxy/ci-nightly-cross-vendor-cyclonedds-fastrtps-dynamic.yaml
+      nightly-cross-vendor-fastrtps-fastrtps-dynamic: foxy/ci-nightly-cross-vendor-fastrtps-fastrtps-dynamic.yaml
       nightly-cyclonedds: foxy/ci-nightly-cyclonedds.yaml
       nightly-debug: foxy/ci-nightly-debug.yaml
       nightly-extra-rmw-release: foxy/ci-nightly-extra-rmw-release.yaml
