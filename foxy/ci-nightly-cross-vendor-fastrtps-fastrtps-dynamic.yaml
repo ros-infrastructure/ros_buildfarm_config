@@ -4,6 +4,7 @@
 build_environment_variables:
   RMW_IMPLEMENTATIONS: 'rmw_fastrtps_cpp:rmw_fastrtps_dynamic_cpp'
   ROS_PYTHON_VERSION: '3'
+  RTI_NC_LICENSE_ACCEPTED: 'yes'  # even thought not used installed for the underlay
 build_tool: colcon
 build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Release -DSKIP_SINGLE_RMW_TESTS=1 --no-warn-unused-cli'
 install_packages:
@@ -14,7 +15,7 @@ jenkins_job_priority: 47
 jenkins_job_timeout: 300
 jenkins_job_upstream_triggers:
 - nightly-extra-rmw-release
-package_selection_args: '--paths src/ros2/system_tests/test_communication'
+package_selection_args: '--packages-select test_communication'
 repos_files:
 - https://github.com/ros2/ros2/raw/master/ros2.repos
 repositories:

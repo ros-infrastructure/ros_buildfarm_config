@@ -3,6 +3,8 @@
 ---
 build_environment_variables:
   NDDSHOME: '/opt/rti.com/rti_connext_dds-5.3.1'
+  # must override since the default has been removed from RMW_IMPLEMENTATIONS
+  RMW_IMPLEMENTATION: 'rmw_connext_cpp'
   RMW_IMPLEMENTATIONS: 'rmw_connext_cpp:rmw_cyclonedds_cpp'
   ROS_PYTHON_VERSION: '3'
   RTI_NC_LICENSE_ACCEPTED: 'yes'
@@ -10,13 +12,14 @@ build_tool: colcon
 build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Release -DSKIP_SINGLE_RMW_TESTS=1 --no-warn-unused-cli'
 install_packages:
 - default-jdk # for CycloneDDS
+- libtinyxml2-dev # for FastRTPS, even though disabled it is needed for the typesupport
 - maven # for CycloneDDS
 jenkins_job_label: ci-agent
 jenkins_job_priority: 47
 jenkins_job_timeout: 300
 jenkins_job_upstream_triggers:
 - nightly-release
-package_selection_args: '--paths src/ros2/system_tests/test_communication'
+package_selection_args: '--packages-select test_communication'
 repos_files:
 - https://github.com/ros2/ros2/raw/master/ros2.repos
 repositories:
