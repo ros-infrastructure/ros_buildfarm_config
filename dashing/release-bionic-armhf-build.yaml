@@ -15,7 +15,7 @@ notifications:
 package_blacklist:
  - octovis
 sync:
-  package_count: 400
+  package_count: 500
 repositories:
   keys:
   - |
