@@ -2,24 +2,24 @@
 # ROS buildfarm ci-build file
 ---
 build_environment_variables:
-#  CMAKE_PREFIX_PATH: '/opt/ros/melodic:$CMAKE_PREFIX_PATH'
-#  LD_LIBRARY_PATH: '/opt/ros/melodic/lib:$LD_LIBRARY_PATH'
-#  PYTHONPATH: '/opt/ros/melodic/lib/python2.7/dist-packages:$PYTHONPATH'
-#  ROS_PACKAGE_PATH: '/opt/ros/melodic/share'
+  CMAKE_PREFIX_PATH: '/opt/ros/noetic:$CMAKE_PREFIX_PATH'
+  LD_LIBRARY_PATH: '/opt/ros/noetic/lib:$LD_LIBRARY_PATH'
+  PYTHONPATH: '/opt/ros/noetic/lib/python3/dist-packages:$PYTHONPATH'
+  ROS_PACKAGE_PATH: '/opt/ros/noetic/share'
   ROS_PYTHON_VERSION: '3'
 build_tool: colcon
 build_tool_args: '--cmake-args --no-warn-unused-cli'
 install_packages:
 - libasio-dev # for FastRTPS
 - libtinyxml2-dev # for FastRTPS
-# - ros-melodic-common-msgs
-# - ros-melodic-rosbash
-# - ros-melodic-roscpp
-# - ros-melodic-roscpp-tutorials
-# - ros-melodic-roslaunch
-# - ros-melodic-rosmsg
-# - ros-melodic-rospy-tutorials
-# - ros-melodic-tf2-msgs
+- ros-noetic-common-msgs
+- ros-noetic-rosbash
+- ros-noetic-roscpp
+- ros-noetic-roscpp-tutorials
+- ros-noetic-roslaunch
+- ros-noetic-rosmsg
+- ros-noetic-rospy-tutorials
+- ros-noetic-tf2-msgs
 jenkins_job_label: ci-agent
 jenkins_job_priority: 47
 jenkins_job_schedule: 15 23 * * *
