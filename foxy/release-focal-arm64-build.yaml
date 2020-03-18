@@ -80,7 +80,7 @@ repositories:
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
   - http://repo.ros2.org/ubuntu/building
-  - http://repositories.ros.org/ubuntu/main
+  - http://repositories.ros.org/ubuntu/testing
 target_repository: http://repo.ros2.org/ubuntu/building
 targets:
   ubuntu:

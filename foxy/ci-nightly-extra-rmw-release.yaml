@@ -96,7 +96,7 @@ repositories:
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
   - http://repo.ros2.org/ubuntu/testing
-  - http://repositories.ros.org/ubuntu/main
+  - http://repositories.ros.org/ubuntu/testing
 targets:
   ubuntu:
     focal:
