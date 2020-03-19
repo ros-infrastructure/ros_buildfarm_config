@@ -213,7 +213,7 @@ show_plots:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 1
+      selection_value: 3
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Received packets per second
     y_axis_label: Packets per second
@@ -227,7 +227,7 @@ show_plots:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 2
+      selection_value: 4
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Sent packets per second
     y_axis_label: Packets per second
@@ -241,7 +241,7 @@ show_plots:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 3
+      selection_value: 5
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Lost packets
     y_axis_label: Total Count
@@ -255,7 +255,7 @@ show_plots:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 4
+      selection_value: 6
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: CPU Usage
     y_axis_label: Utilization (%)
@@ -271,7 +271,7 @@ show_plots:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 5
+      selection_value: 8
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
   Performance One Process Test Results (multisize packets):
   - title: Latency Average Round-Trip Time (Array1k)
