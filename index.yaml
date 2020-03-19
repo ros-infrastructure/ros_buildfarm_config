@@ -60,6 +60,7 @@ distributions:
       nightly-extra-rmw-release: foxy/ci-nightly-extra-rmw-release.yaml
       nightly-fastrtps: foxy/ci-nightly-fastrtps.yaml
       nightly-fastrtps-dynamic: foxy/ci-nightly-fastrtps-dynamic.yaml
+      nightly-performance: foxy/ci-nightly-performance.yaml
       nightly-release: foxy/ci-nightly-release.yaml
       overlay: foxy/ci-overlay.yaml
     doc_builds: {}
