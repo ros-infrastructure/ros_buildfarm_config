@@ -100,7 +100,7 @@ repositories:
   - http://repositories.ros.org/ubuntu/testing
 targets:
   ubuntu:
-    bionic:
+    focal:
       amd64:
 type: ci-build
 underlay_from_ci_jobs:
