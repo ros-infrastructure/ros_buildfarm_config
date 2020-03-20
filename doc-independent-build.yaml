@@ -11,10 +11,10 @@ doc_repositories:
 - https://github.com/vcstools/rosinstall.git
 - https://github.com/vcstools/vcstools.git
 install_apt_packages:
-- python-catkin-pkg-modules
-- python-dateutil
-- python-wstool
-- python-yaml
+- python3-catkin-pkg-modules
+- python3-dateutil
+- python3-wstool
+- python3-yaml
 install_pip_packages:
 - catkin-sphinx
 - sphinx
