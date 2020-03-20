@@ -17,8 +17,8 @@ install_apt_packages:
 - python-yaml
 install_pip_packages:
 - catkin-sphinx
-- sphinx==1.8.5  # pinned https://github.com/ros-infrastructure/ros_buildfarm/issues/614
-- xmlschema==1.0.18 # pinned because 1.1 only supports python >= 3.5 remove when upgrading to python3
+- sphinx
+- xmlschema
 jenkins_job_priority: 80
 jenkins_job_timeout: 30
 notifications:
