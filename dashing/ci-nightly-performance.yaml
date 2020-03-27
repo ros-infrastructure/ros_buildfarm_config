@@ -30,7 +30,7 @@ jenkins_job_timeout: 180
 jenkins_job_upstream_triggers:
 - nightly-extra-rmw-release
 repos_files:
-- https://github.com/ros2/buildfarm_perf_tests/raw/master/tools/ros2_dependencies.repos
+- https://github.com/ros2/buildfarm_perf_tests/raw/dashing/tools/ros2_dependencies.repos
 repositories:
   keys:
   - |
