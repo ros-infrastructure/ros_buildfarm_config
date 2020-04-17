@@ -14,6 +14,7 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
+- octovis
 sync:
   package_count: 1
 repositories:
