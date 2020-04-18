@@ -101,5 +101,5 @@ targets:
       amd64:
 type: ci-build
 underlay_from_ci_jobs:
-- nightly-release
+- nightly-extra-rmw-release
 version: 1
