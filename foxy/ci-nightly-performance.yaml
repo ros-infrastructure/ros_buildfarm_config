@@ -105,6 +105,11 @@ targets:
 type: ci-build
 underlay_from_ci_jobs:
 - nightly-extra-rmw-release
+archive_files:
+- ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+- ws/test_results/buildfarm_perf_tests/overhead_test_results_*.csv
+- ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
+- ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
 show_images:
   Performance Test Results:
   - ws/test_results/buildfarm_perf_tests/performance_test_results_*.png
