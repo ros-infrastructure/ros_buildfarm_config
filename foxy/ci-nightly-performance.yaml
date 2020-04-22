@@ -25,7 +25,7 @@ install_packages:
 - ros-noetic-rospy-tutorials
 - ros-noetic-tf2-msgs
 jenkins_job_label: ci-agent
-jenkins_job_priority: 48
+jenkins_job_priority: 47
 jenkins_job_timeout: 180
 jenkins_job_upstream_triggers:
 - nightly-extra-rmw-release
