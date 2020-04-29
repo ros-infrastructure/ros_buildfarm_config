@@ -16,6 +16,7 @@ package_blacklist:
 - leap_motion
 - mapviz
 - nao_meshes
+- novatel_oem7_driver
 - octovis
 - pepper_meshes
 sync:
