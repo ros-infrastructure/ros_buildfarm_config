@@ -49,14 +49,6 @@ repositories:
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
   - http://repositories.ros.org/ubuntu/testing
-repository_whitelist:
-- actionlib
-- bond_core
-- class_loader
-- dynamic_reconfigure
-- nodelet_core
-- pluginlib
-- ros_comm
 skip_ignored_repositories: true
 targets:
   debian:
