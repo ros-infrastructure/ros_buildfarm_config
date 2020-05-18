@@ -13,7 +13,6 @@ notifications:
   - ros-buildfarm-noetic@googlegroups.com
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
-package_blacklist:
 repositories:
   keys:
   - |
@@ -49,7 +48,6 @@ repositories:
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
   - http://repositories.ros.org/ubuntu/testing
-skip_ignored_repositories: true
 targets:
   debian:
     buster:
