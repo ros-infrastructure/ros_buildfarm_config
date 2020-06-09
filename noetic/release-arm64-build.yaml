@@ -14,6 +14,9 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
+  - slam_toolbox
+  - slam_toolbox_msgs
+  - slam_toolbox_rviz
 sync:
   package_count: 376
 repositories:
