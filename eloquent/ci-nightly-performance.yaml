@@ -174,7 +174,7 @@ show_plots:
       selection_value: 11
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_resident_anonymous_memory.png
   Performance Test One Process Results (Array1k):
-  - title: Average Round-Trip Time
+  - title: Average Single-Trip Time
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-6509911700247260954.csv
@@ -274,7 +274,7 @@ show_plots:
       selection_value: 8
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
   Performance One Process Test Results (multisize packets):
-  - title: Latency Average Round-Trip Time (Array1k)
+  - title: Average Single-Trip Time (Array1k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-8939547722037472502.csv
@@ -287,7 +287,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array4k)
+  - title: Average Single-Trip Time (Array4k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 4K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 4K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-7908744119021690936.csv
@@ -300,7 +300,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array16k)
+  - title: Average Single-Trip Time (Array16k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 16K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 16K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-1052760167688545959.csv
@@ -313,7 +313,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array32k)
+  - title: Average Single-Trip Time (Array32k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 32K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 32K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-7717983713042792899.csv
@@ -326,7 +326,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array60k)
+  - title: Average Single-Trip Time (Array60k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 60K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 60K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-7396137828978658268.csv
@@ -339,7 +339,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
-  - title: Latency Average Round-Trip Time (PointCloud512k)
+  - title: Average Single-Trip Time (PointCloud512k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 512K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 512K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-2157008091733438588.csv
@@ -352,7 +352,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array1m)
+  - title: Average Single-Trip Time (Array1m)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1M array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1M</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-2268123172353997031.csv
@@ -365,7 +365,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array2m)
+  - title: Average Single-Trip Time (Array2m)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 2M array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 2M</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-5156010586314063065.csv
@@ -1539,7 +1539,7 @@ show_plots:
       selection_value: 5
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_cpu_usage.png
   Performance Test Two Processes Results (Array1k):
-  - title: Average Round-Trip Time
+  - title: Average Single-Trip Time
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-4342508624899472718.csv
@@ -1637,7 +1637,7 @@ show_plots:
       selection_value: 8
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_cpu_usage.png
   Performance Two Processes Test Results (multisize packets):
-  - title: Latency Average Round-Trip Time (Array1k)
+  - title: Average Single-Trip Time (Array1k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-6904486870707929810.csv
@@ -1650,7 +1650,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array4k)
+  - title: Average Single-Trip Time (Array4k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 4K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 4K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-7084992488981114733.csv
@@ -1663,7 +1663,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array16k)
+  - title: Average Single-Trip Time (Array16k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 16K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 16K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-0893082430330187879.csv
@@ -1676,7 +1676,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array32k)
+  - title: Average Single-Trip Time (Array32k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 32K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 32K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-1398541136563376297.csv
@@ -1689,7 +1689,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array60k)
+  - title: Average Single-Trip Time (Array60k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 60K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 60K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-6058648695367179574.csv
@@ -1702,7 +1702,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
-  - title: Latency Average Round-Trip Time (PointCloud512k)
+  - title: Average Single-Trip Time (PointCloud512k)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 512K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 512K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-8916286011498981299.csv
@@ -1715,7 +1715,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array1m)
+  - title: Average Single-Trip Time (Array1m)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1M array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1M</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-0775272024772458420.csv
@@ -1728,7 +1728,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
-  - title: Latency Average Round-Trip Time (Array2m)
+  - title: Average Single-Trip Time (Array2m)
     description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 2M array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 2M</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-7278194632225592369.csv
