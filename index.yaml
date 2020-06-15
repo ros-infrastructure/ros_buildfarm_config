@@ -73,6 +73,17 @@ distributions:
       ubv8: foxy/release-focal-arm64-build.yaml
     source_builds:
       default: foxy/source-build.yaml
+  rolling:
+    ci_builds: {}
+    doc_builds: {}
+    notification_emails:
+      - steven+build.ros2.org@openrobotics.org
+      - ros2-buildfarm-rolling@googlegroups.com
+    release_builds:
+      default: rolling/release-build.yaml
+      ufv8: rolling/release-focal-arm64-build.yaml
+    source_builds:
+      default: rolling/source-build.yaml
 jenkins_url: http://build.ros2.org
 notification_emails:
   - steven+build.ros2.org@openrobotics.org
