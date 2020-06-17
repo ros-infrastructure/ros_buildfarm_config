@@ -175,7 +175,7 @@ show_plots:
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_resident_anonymous_memory.png
   Performance Test One Process Results (Array1k):
   - title: Average Single-Trip Time
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-6509911700247260954.csv
     style: line
@@ -275,7 +275,7 @@ show_plots:
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
   Performance One Process Test Results (multisize packets):
   - title: Average Single-Trip Time (Array1k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-8939547722037472502.csv
     style: line
@@ -288,7 +288,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Average Single-Trip Time (Array4k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 4K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 4K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 4K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 4K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-7908744119021690936.csv
     style: line
@@ -301,7 +301,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Average Single-Trip Time (Array16k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 16K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 16K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 16K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 16K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-1052760167688545959.csv
     style: line
@@ -314,7 +314,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Average Single-Trip Time (Array32k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 32K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 32K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 32K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 32K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-7717983713042792899.csv
     style: line
@@ -327,7 +327,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Average Single-Trip Time (Array60k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 60K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 60K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 60K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 60K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-7396137828978658268.csv
     style: line
@@ -340,7 +340,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Average Single-Trip Time (PointCloud512k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 512K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 512K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 512K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 512K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-2157008091733438588.csv
     style: line
@@ -353,7 +353,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Average Single-Trip Time (Array1m)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1M array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1M</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 1M array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1M</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-2268123172353997031.csv
     style: line
@@ -366,7 +366,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Average Single-Trip Time (Array2m)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 2M array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 2M</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 2M array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 2M</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-5156010586314063065.csv
     style: line
@@ -378,6 +378,45 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
+  - title: Average Single-Trip Time (Array4m)
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 4M array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 4M</li></ul>"
+    y_axis_label: Milliseconds
+    master_csv_name: plot-515601058631406306524.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array4m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 0
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
+  - title: Average Single-Trip Time (Array8m)
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 8M array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 8M</li></ul>"
+    y_axis_label: Milliseconds
+    master_csv_name: plot-515601058631406306525.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 0
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
+  - title: Average Single-Trip Time (PointCloud8m)
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 8M point cloud message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 8M</li></ul>"
+    y_axis_label: Milliseconds
+    master_csv_name: plot-515601058631406306526.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_PointCloud8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 0
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Throughput (Array1k)
     description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Mbits/s
@@ -482,6 +521,188 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_throughput.png
+  - title: Throughput (Array4m)
+    description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 4M array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 4M</li></ul>"
+    y_axis_label: Mbits/s
+    master_csv_name: plot-92242781647512567627.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array4m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 10
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_throughput.png
+  - title: Throughput (Array8m)
+    description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 8M array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 8M</li></ul>"
+    y_axis_label: Mbits/s
+    master_csv_name: plot-92242781647512567628.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 10
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_throughput.png
+  - title: Throughput (PointCloud8m)
+    description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 8M point cloud message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 8M</li></ul>"
+    y_axis_label: Mbits/s
+    master_csv_name: plot-92242781647512567629.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_PointCloud8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 10
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_throughput.png
+  - title: Lost packets  (Array1k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 1K array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567616.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets  (Array4k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 4K array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 4K</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567617.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array4k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets  (Array16k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 16K array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 16K</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567618.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array16k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets  (Array32k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 32K array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 32K</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567619.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array32k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets  (Array60k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 64K array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 60K</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567620.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array60k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets  (PointCloud512k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 512K point cloud message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 512k</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567621.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_PointCloud512k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets  (Array1m)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 1m array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1m</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567622.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets  (Array2m)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 2m array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 2m</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567623.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array2m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets  (Array4m)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 4m array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 4m</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567630.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array4m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets  (Array8m)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 8m array message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 8m</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567631.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets  (PointCloud8m)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 8m point cloud message. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 8m</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-92242781647512567632.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_PointCloud8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   Overhead simple publisher and subscriber - Average Round-Trip Time:
   - title: Simple Pub rmw_fastrtps_cpp Average Round-Trip Time
     description: "The figure shown above shows the average round-trip time in milisecond. The publisher is set to <b>rmw_fastrtps_cpp </b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
@@ -1638,7 +1859,7 @@ show_plots:
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_cpu_usage.png
   Performance Two Processes Test Results (multisize packets):
   - title: Average Single-Trip Time (Array1k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-6904486870707929810.csv
     style: line
@@ -1651,7 +1872,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Average Single-Trip Time (Array4k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 4K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 4K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 4K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 4K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-7084992488981114733.csv
     style: line
@@ -1664,7 +1885,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Average Single-Trip Time (Array16k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 16K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 16K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 16K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 16K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-0893082430330187879.csv
     style: line
@@ -1677,7 +1898,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Average Single-Trip Time (Array32k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 32K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 32K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 32K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 32K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-1398541136563376297.csv
     style: line
@@ -1690,7 +1911,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Average Single-Trip Time (Array60k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 60K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 60K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 60K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 60K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-6058648695367179574.csv
     style: line
@@ -1703,7 +1924,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Average Single-Trip Time (PointCloud512k)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 512K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 512K</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 512K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 512K</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-8916286011498981299.csv
     style: line
@@ -1716,7 +1937,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Average Single-Trip Time (Array1m)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1M array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1M</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 1M array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1M</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-0775272024772458420.csv
     style: line
@@ -1729,7 +1950,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Average Single-Trip Time (Array2m)
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 2M array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 2M</li></ul>"
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 2M array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 2M</li></ul>"
     y_axis_label: Milliseconds
     master_csv_name: plot-7278194632225592369.csv
     style: line
@@ -1741,6 +1962,46 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
+  - title: Average Single-Trip Time (Array4m)
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 4M array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 4M</li></ul>"
+    y_axis_label: Milliseconds
+    master_csv_name: plot-0081321398133037885524.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array4m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 0
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
+  - title: Average Single-Trip Time (Array8m)
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 8M array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 8M</li></ul>"
+    y_axis_label: Milliseconds
+    master_csv_name: plot-0081321398133037885525.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 0
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
+  - title: Average Single-Trip Time (PointCloud8m)
+    description: "The figure shown above shows the average single-trip time in milisecond for different DDS vendors using a 8M point cloud message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 8M</li></ul>"
+    y_axis_label: Milliseconds
+    master_csv_name: plot-0081321398133037885526.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_PointCloud8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 0
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
+
   - title: Throughput (Array1k)
     description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except CycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Mbits/s
@@ -1845,4 +2106,186 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_throughput.png
+  - title: Throughput (Array4m)
+    description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 4M array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 4M</li></ul>"
+    y_axis_label: Mbits/s
+    master_csv_name: plot-0081321398133037885527.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array4m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 10
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_throughput.png
+  - title: Throughput (Array8m)
+    description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 8M array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 8M</li></ul>"
+    y_axis_label: Mbits/s
+    master_csv_name: plot-0081321398133037885528.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 10
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_throughput.png
+  - title: Throughput (PointCloud8m)
+    description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 8M point cloud message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 8M</li></ul>"
+    y_axis_label: Mbits/s
+    master_csv_name: plot-0081321398133037885529.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_PointCloud8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 10
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_throughput.png
+  - title: Lost packets  (Array1k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 1K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1K</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885516.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets  (Array4k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 4K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 4K</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885517.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array4k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets  (Array16k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 16K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 16K</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885518.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array16k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets  (Array32k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 32K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 32K</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885519.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array32k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets  (Array60k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 64K array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 60K</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885520.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array60k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets  (PointCloud512k)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 512K point cloud message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 512k</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885521.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_PointCloud512k.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets  (Array1m)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 1m array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 1m</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885522.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets  (Array2m)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 2m array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 2m</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885523.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array2m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets  (Array4m)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 4m array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 4m</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885530.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array4m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets  (Array8m)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 8m array message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 8m</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885531.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
+  - title: Lost packets  (PointCloud8m)
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 8m point cloud message and two processes (one process to create the publisher and another process for the subscriber). All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Message size</b> 8m</li></ul>"
+    y_axis_label: Number
+    master_csv_name: plot-0081321398133037885532.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_PointCloud8m.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 6
+      url: /job/Fci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
 version: 1
