@@ -69,7 +69,9 @@ distributions:
       - ros2-buildfarm-foxy@googlegroups.com
     release_builds:
       default: foxy/release-build.yaml
-      ubhf: foxy/release-focal-armhf-build.yaml
+      # TODO(jacobperron): reenable when focal issues are resolved
+      # See: https://github.com/osrf/multiarch-docker-image-generation/issues/38
+      # ubhf: foxy/release-focal-armhf-build.yaml
       ubv8: foxy/release-focal-arm64-build.yaml
     source_builds:
       default: foxy/source-build.yaml
