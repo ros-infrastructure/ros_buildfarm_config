@@ -12,9 +12,6 @@ notifications:
   - jacob+build.ros2.org@openrobotics.org
   - ros2-buildfarm-foxy@googlegroups.com
   maintainers: true
-package_blacklist:
-  - cartographer
-  - cartographer_ros
 sync:
   package_count: 262
 repositories:
