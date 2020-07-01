@@ -24,7 +24,7 @@ install_packages:
 - ros-melodic-tf2-msgs
 jenkins_job_label: ci-agent
 jenkins_job_priority: 59
-jenkins_job_schedule: 15 23 * * *
+jenkins_job_schedule: 15 23 2-29/3 * *
 jenkins_job_timeout: 300
 package_selection_args: '--packages-ignore rmw_fastrtps_dynamic_cpp --packages-ignore-regex .*cyclonedds.* .*opensplice.*'
 repos_files:
