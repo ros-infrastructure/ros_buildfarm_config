@@ -76,7 +76,22 @@ distributions:
     source_builds:
       default: foxy/source-build.yaml
   rolling:
-    ci_builds: {}
+    ci_builds:
+      nightly-connext: rolling/ci-nightly-connext.yaml
+      nightly-cross-vendor-connext-cyclonedds: rolling/ci-nightly-cross-vendor-connext-cyclonedds.yaml
+      nightly-cross-vendor-connext-fastrtps: rolling/ci-nightly-cross-vendor-connext-fastrtps.yaml
+      nightly-cross-vendor-connext-fastrtps-dynamic: rolling/ci-nightly-cross-vendor-connext-fastrtps-dynamic.yaml
+      nightly-cross-vendor-cyclonedds-fastrtps: rolling/ci-nightly-cross-vendor-cyclonedds-fastrtps.yaml
+      nightly-cross-vendor-cyclonedds-fastrtps-dynamic: rolling/ci-nightly-cross-vendor-cyclonedds-fastrtps-dynamic.yaml
+      nightly-cross-vendor-fastrtps-fastrtps-dynamic: rolling/ci-nightly-cross-vendor-fastrtps-fastrtps-dynamic.yaml
+      nightly-cyclonedds: rolling/ci-nightly-cyclonedds.yaml
+      nightly-debug: rolling/ci-nightly-debug.yaml
+      nightly-extra-rmw-release: rolling/ci-nightly-extra-rmw-release.yaml
+      nightly-fastrtps: rolling/ci-nightly-fastrtps.yaml
+      nightly-fastrtps-dynamic: rolling/ci-nightly-fastrtps-dynamic.yaml
+      nightly-performance: rolling/ci-nightly-performance.yaml
+      nightly-release: rolling/ci-nightly-release.yaml
+      overlay: rolling/ci-overlay.yaml
     doc_builds: {}
     notification_emails:
       - steven+build.ros2.org@openrobotics.org
