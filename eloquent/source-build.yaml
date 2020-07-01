@@ -5,9 +5,9 @@ build_environment_variables:
   ROS_PYTHON_VERSION: 3
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
-jenkins_commit_job_priority: 55
+jenkins_commit_job_priority: 58
 jenkins_job_timeout: 120
-jenkins_pull_request_job_priority: 45
+jenkins_pull_request_job_priority: 48
 notifications:
   committers: true
   compiler_warnings: true

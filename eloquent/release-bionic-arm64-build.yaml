@@ -3,9 +3,9 @@
 ---
 abi_incompatibility_assumed: true
 jenkins_binary_job_label: buildagent_arm64 || eloquent_binarydeb_ubv8
-jenkins_binary_job_priority: 79
+jenkins_binary_job_priority: 88
 jenkins_binary_job_timeout: 720
-jenkins_source_job_priority: 75
+jenkins_source_job_priority: 78
 jenkins_source_job_timeout: 30
 notifications:
   emails:

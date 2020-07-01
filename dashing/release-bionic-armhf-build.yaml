@@ -5,7 +5,7 @@ abi_incompatibility_assumed: true
 jenkins_binary_job_label: buildagent_armhf || dashing_binarydeb_ubhf
 jenkins_binary_job_priority: 99
 jenkins_binary_job_timeout: 720
-jenkins_source_job_priority: 76
+jenkins_source_job_priority: 79
 jenkins_source_job_timeout: 30
 notifications:
   emails:

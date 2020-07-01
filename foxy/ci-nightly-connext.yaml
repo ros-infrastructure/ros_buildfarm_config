@@ -21,7 +21,7 @@ install_packages:
 - ros-noetic-rospy-tutorials
 - ros-noetic-tf2-msgs
 jenkins_job_label: ci-agent
-jenkins_job_priority: 47
+jenkins_job_priority: 57
 jenkins_job_schedule: 15 23 * * *
 jenkins_job_timeout: 300
 package_selection_args: '--packages-ignore fastcdr foonathan_memory_vendor rosbag2_converter_default_plugins --packages-ignore-regex .*cyclonedds.* .*fastrtps.*'

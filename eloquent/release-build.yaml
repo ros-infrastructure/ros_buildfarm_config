@@ -6,9 +6,9 @@ abi_incompatibility_assumed: true
 build_environment_variables:
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 
-jenkins_binary_job_priority: 79
+jenkins_binary_job_priority: 88
 jenkins_binary_job_timeout: 120
-jenkins_source_job_priority: 75
+jenkins_source_job_priority: 78
 jenkins_source_job_timeout: 30
 notifications:
   emails:
