@@ -11,6 +11,7 @@ build_environment_variables:
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
 build_tool_args: '--cmake-args --no-warn-unused-cli'
+build_tool_test_args: '--retest-until-pass 2 --ctest-args -LE xfail --pytest-args -m "not xfail"'
 install_packages:
 - ros-noetic-common-msgs
 - ros-noetic-rosbash
