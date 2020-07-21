@@ -2,6 +2,7 @@
 # ROS buildfarm source-build file
 ---
 build_environment_variables:
+  NDDSHOME: /opt/rti.com/rti_connext_dds-5.3.1
   ROS_PYTHON_VERSION: 3
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
