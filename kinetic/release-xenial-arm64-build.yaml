@@ -15,7 +15,11 @@ package_blacklist:
 - ardrone_autonomy
 - avt_vimba_camera
 - hrpsys
+- julius
 - leap_motion
+- libntcan
+- libreflexxestype2
+- mynt_eye_ros_wrapper
 - nao_meshes
 - naoqi_dcm_driver
 - naoqi_driver
@@ -23,12 +27,16 @@ package_blacklist:
 - novatel_oem7_driver
 - octovis
 - pepper_meshes
+- prosilica_gige_sdk
 - ros_peerjs
 - rosjava_bootstrap
+- rosrt
 - rqt_multiplot
 - schunk_canopen_driver
 - ueye
 - ueye_cam
+- wge100_camera_firmware
+- youbot_driver
 sync:
   package_count: 2200
 repositories:
