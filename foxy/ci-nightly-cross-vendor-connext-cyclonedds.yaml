@@ -12,6 +12,7 @@ build_tool: colcon
 build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Release -DSKIP_SINGLE_RMW_TESTS=1 --no-warn-unused-cli'
 install_packages:
 - default-jdk # for CycloneDDS
+- libssl-dev  # for Connext and CycloneDDS
 - libtinyxml2-dev # for FastRTPS, even though disabled it is needed for the typesupport
 - maven # for CycloneDDS
 jenkins_job_label: ci-agent
