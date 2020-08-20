@@ -14,19 +14,29 @@ notifications:
 package_blacklist:
 - ardrone_autonomy
 - darknet
+- eus_nlopt
+- eusurdf
 - hrpsys
 - leap_motion
+- libntcan
+- libreflexxestype2
 - mapviz
+- mynt_eye_ros_wrapper
 - nao_meshes
 - naoqi_dcm_driver
 - naoqi_driver
 - nerian_sp1
 - novatel_oem7_driver
 - octovis
+- openrave
 - pepper_meshes
+- prosilica_gige_sdk
 - rosjava_bootstrap
 - schunk_canopen_driver
 - ueye
+- uwsim_osgocean
+- uwsim_osgworks
+- webrtc_ros
 sync:
   package_count: 2200
 repositories:
