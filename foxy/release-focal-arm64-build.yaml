@@ -13,7 +13,7 @@ notifications:
   - ros2-buildfarm-foxy@googlegroups.com
   maintainers: true
 sync:
-  package_count: 381
+  package_count: 504
 repositories:
   keys:
   - |
