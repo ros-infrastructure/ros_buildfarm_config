@@ -14,6 +14,7 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
+  - ros_ign_gazebo
 sync:
   package_count: 690
 repositories:
