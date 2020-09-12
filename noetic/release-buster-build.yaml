@@ -15,6 +15,7 @@ notifications:
   maintainers: true
 package_blacklist:
   - ros_ign_gazebo
+  - rospilot
 sync:
   package_count: 690
 repositories:
