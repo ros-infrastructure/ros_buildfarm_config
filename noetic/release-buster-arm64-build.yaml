@@ -15,6 +15,7 @@ notifications:
   maintainers: true
 package_blacklist:
   - ros_ign_gazebo
+  - rospilot
   - slam_toolbox
   - slam_toolbox_msgs
   - slam_toolbox_rviz
