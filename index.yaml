@@ -77,6 +77,7 @@ distributions:
       default: foxy/source-build.yaml
   rolling:
     ci_builds:
+      benchmark: rolling/ci-benchmark.yaml
       nightly-connext: rolling/ci-nightly-connext.yaml
       nightly-cross-vendor-connext-cyclonedds: rolling/ci-nightly-cross-vendor-connext-cyclonedds.yaml
       nightly-cross-vendor-connext-fastrtps: rolling/ci-nightly-cross-vendor-connext-fastrtps.yaml
