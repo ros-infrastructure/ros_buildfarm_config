@@ -849,7 +849,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
       url: /job/Rci__nightly-performance_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_physical_memory.png
-  Node Spinnig Results:
+  Node Spinning Results:
   - title: Node Spinning Virtual Memory
     description: "The figure shown above shows the virtual memory usage in Mb used by a single node spinning. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li></ul>"
     y_axis_label: Mb
