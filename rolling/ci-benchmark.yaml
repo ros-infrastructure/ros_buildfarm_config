@@ -32,7 +32,11 @@ jenkins_job_priority: 50
 jenkins_job_timeout: 240
 package_selection_args: >
   --packages-select
+  ament_cmake_google_benchmark
+  google_benchmark_vendor
   libstatistics_collector
+  osrf_testing_tools_cpp
+  performance_test_fixture
   rcl_logging_spdlog
   rcl_yaml_param_parser
   rmw_dds_common
