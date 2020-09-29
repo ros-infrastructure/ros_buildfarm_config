@@ -29,6 +29,7 @@ install_packages:
 - ros-noetic-tf2-msgs
 jenkins_job_label: ci-agent
 jenkins_job_priority: 50
+jenkins_job_schedule: 30 23 * * *
 jenkins_job_timeout: 240
 package_selection_args: >
   --packages-select
