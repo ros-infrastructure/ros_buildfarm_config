@@ -31,24 +31,7 @@ jenkins_job_label: ci-agent
 jenkins_job_priority: 50
 jenkins_job_schedule: 30 23 * * *
 jenkins_job_timeout: 240
-package_selection_args: >
-  --packages-select
-  ament_cmake_google_benchmark
-  console_bridge_vendor
-  google_benchmark_vendor
-  libstatistics_collector
-  osrf_testing_tools_cpp
-  performance_test_fixture
-  rcl_logging_spdlog
-  rcl_yaml_param_parser
-  rmw_dds_common
-  rmw_implementation
-  rosidl_runtime_c
-  rosidl_runtime_cpp
-  rosidl_typesupport_c
-  rosidl_typesupport_cpp
-  rosidl_typesupport_fastrtps_c
-  rosidl_typesupport_fastrtps_cpp
+package_selection_args: '--packages-above-depth 1 google_benchmark_vendor ament_cmake_google_benchmark performance_test_fixture'
 repos_files:
 - https://github.com/ros2/ros2/raw/master/ros2.repos
 repositories:
