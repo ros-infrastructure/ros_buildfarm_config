@@ -34,6 +34,7 @@ jenkins_job_timeout: 240
 package_selection_args: >
   --packages-select
   ament_cmake_google_benchmark
+  console_bridge_vendor
   google_benchmark_vendor
   libstatistics_collector
   osrf_testing_tools_cpp
