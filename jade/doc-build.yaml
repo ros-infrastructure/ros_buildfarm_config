@@ -1,7 +1,7 @@
 %YAML 1.1
 # ROS buildfarm doc-build file
 ---
-canonical_base_url: http://docs.ros.org
+canonical_base_url: http://docs.ros.org/en
 documentation_type: rosdoc_lite
 jenkins_job_priority: 88
 jenkins_job_timeout: 120
@@ -53,6 +53,6 @@ targets:
 type: doc-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
 upload_host: docs.ros.org
-upload_root: /var/www/docs.ros.org
+upload_root: /var/www/docs.ros.org/en
 upload_user: rosbot
 version: 2
