@@ -16,7 +16,7 @@ notifications:
 package_blacklist:
   - ros_ign_gazebo
 sync:
-  package_count: 690
+  package_count: 898
 repositories:
   keys:
   - |

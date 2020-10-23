@@ -20,7 +20,7 @@ package_blacklist:
   - slam_toolbox_msgs
   - slam_toolbox_rviz
 sync:
-  package_count: 690
+  package_count: 898
 repositories:
   keys:
   - |
