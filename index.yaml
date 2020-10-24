@@ -48,6 +48,7 @@ distributions:
       default: eloquent/source-build.yaml
   foxy:
     ci_builds:
+      benchmark: foxy/ci-benchmark.yaml
       nightly-connext: foxy/ci-nightly-connext.yaml
       nightly-cross-vendor-connext-cyclonedds: foxy/ci-nightly-cross-vendor-connext-cyclonedds.yaml
       nightly-cross-vendor-connext-fastrtps: foxy/ci-nightly-cross-vendor-connext-fastrtps.yaml
