@@ -9,6 +9,9 @@ build_environment_variables:
   ROS_PACKAGE_PATH: '/opt/ros/noetic/share'
   ROS_PYTHON_VERSION: '3'
   RTI_NC_LICENSE_ACCEPTED: 'yes'
+benchmark_patterns:
+- ws/test_results/**/*.benchmark.json
+benchmark_schema: !include ../common/benchmark_schema.yaml
 build_tool: colcon
 build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Release -DSKIP_MULTI_RMW_TESTS=1 -DPERFORMANCE_TEST_CYCLONEDDS_ENABLED=1 -DPERFORMANCE_TEST_FASTRTPS_ENABLED=1 --no-warn-unused-cli'
 install_packages:
