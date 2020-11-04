@@ -24,6 +24,7 @@ jenkins_job_label: ci-agent
 jenkins_job_priority: 58
 jenkins_job_schedule: 15 23 3-30/3 * *
 jenkins_job_timeout: 300
+jenkins_job_weight: 4
 package_selection_args: '--packages-ignore rmw_fastrtps_cpp rosbag2_converter_default_plugins --packages-ignore-regex .*connext.* .*cyclonedds.* .*opensplice.*'
 repos_files:
 - https://github.com/ros2/ros2/raw/eloquent/ros2.repos

@@ -28,6 +28,7 @@ jenkins_job_label: ci-agent
 jenkins_job_priority: 57
 jenkins_job_schedule: 15 23 1-31/3 * *
 jenkins_job_timeout: 300
+jenkins_job_weight: 4
 repos_files:
 - https://github.com/ros2/ros2/raw/foxy/ros2.repos
 repositories:

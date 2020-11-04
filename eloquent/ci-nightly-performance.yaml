@@ -32,6 +32,7 @@ jenkins_job_priority: 58
 jenkins_job_timeout: 180
 jenkins_job_upstream_triggers:
 - nightly-extra-rmw-release
+jenkins_job_weight: 4
 repos_files:
 - https://github.com/ros2/buildfarm_perf_tests/raw/eloquent/tools/ros2_dependencies.repos
 repositories:
