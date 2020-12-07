@@ -72,7 +72,7 @@ distributions:
       ubv8: melodic/release-arm64-build.yaml
     source_builds:
       default: melodic/source-build.yaml
-      ds: melodic/source-stretch-build.yaml
+#      ds: melodic/source-stretch-build.yaml
   noetic:
     doc_builds:
       default: noetic/doc-build.yaml
