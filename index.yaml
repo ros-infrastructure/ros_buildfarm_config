@@ -66,8 +66,8 @@ distributions:
     - clalancette+buildfarm@osrfoundation.org
     release_builds:
       default: melodic/release-build.yaml
-      ds: melodic/release-stretch-build.yaml
-      dsv8: melodic/release-stretch-arm64-build.yaml
+#      ds: melodic/release-stretch-build.yaml
+#      dsv8: melodic/release-stretch-arm64-build.yaml
       ubhf: melodic/release-armhf-build.yaml
       ubv8: melodic/release-arm64-build.yaml
     source_builds:
