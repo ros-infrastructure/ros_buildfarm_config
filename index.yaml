@@ -92,7 +92,7 @@ distributions:
 doc_builds:
   independent-packages: doc-independent-build.yaml
   rosindex: doc-rosindex.yaml
-jenkins_url: http://build.ros.org
+jenkins_url: https://build.ros.org
 notification_emails:
 - ros-buildfarm@googlegroups.com
 - steven+build.ros.org@openrobotics.org
