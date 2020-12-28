@@ -18,7 +18,7 @@ install_apt_packages:
 install_pip_packages:
 - catkin-sphinx
 - sphinx
-- xmlschema
+- xmlschema==1.2.5
 jenkins_job_priority: 80
 jenkins_job_timeout: 30
 notifications:
