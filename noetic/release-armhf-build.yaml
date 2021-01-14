@@ -4,9 +4,9 @@
 abi_incompatibility_assumed: true
 build_environment_variables:
   ROS_PYTHON_VERSION: '3'
+jenkins_binary_job_label: buildagent_armhf || noetic_binarydeb_ufhf
 jenkins_binary_job_priority: 94
 jenkins_binary_job_timeout: 720
-jenkins_job_label: buildagent_armhf || noetic_binarydeb_ufhf
 jenkins_source_job_priority: 64
 jenkins_source_job_timeout: 30
 notifications:
