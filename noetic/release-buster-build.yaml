@@ -14,7 +14,6 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
-  - cob_monitoring
   - ros_ign_gazebo
   - rospilot
 sync:

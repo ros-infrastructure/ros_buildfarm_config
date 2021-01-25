@@ -13,8 +13,6 @@ notifications:
   - ros-buildfarm-noetic@googlegroups.com
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
-package_blacklist:
-  - cob_monitoring
 repositories:
   keys:
   - |
