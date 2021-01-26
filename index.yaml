@@ -24,28 +24,6 @@ distributions:
       ubhf: dashing/release-bionic-armhf-build.yaml
     source_builds:
       default: dashing/source-build.yaml
-  eloquent:
-    ci_builds:
-      nightly-connext: eloquent/ci-nightly-connext.yaml
-      nightly-cyclonedds: eloquent/ci-nightly-cyclonedds.yaml
-      nightly-debug: eloquent/ci-nightly-debug.yaml
-      nightly-extra-rmw-release: eloquent/ci-nightly-extra-rmw-release.yaml
-      nightly-fastrtps: eloquent/ci-nightly-fastrtps.yaml
-      nightly-fastrtps-dynamic: eloquent/ci-nightly-fastrtps-dynamic.yaml
-      nightly-opensplice: eloquent/ci-nightly-opensplice.yaml
-      nightly-performance: eloquent/ci-nightly-performance.yaml
-      nightly-release: eloquent/ci-nightly-release.yaml
-      overlay: eloquent/ci-overlay.yaml
-    doc_builds: {}
-    notification_emails:
-      - michael+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-eloquent@googlegroups.com
-    release_builds:
-      default: eloquent/release-build.yaml
-      ubhf: eloquent/release-bionic-armhf-build.yaml
-      ubv8: eloquent/release-bionic-arm64-build.yaml
-    source_builds:
-      default: eloquent/source-build.yaml
   foxy:
     ci_builds:
       benchmark: foxy/ci-benchmark.yaml
