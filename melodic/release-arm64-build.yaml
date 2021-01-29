@@ -15,7 +15,6 @@ package_blacklist:
 - fetch_drivers
 - leap_motion
 - nao_meshes
-- novatel_oem7_driver
 - pepper_meshes
 sync:
   package_count: 1000

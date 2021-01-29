@@ -24,7 +24,6 @@ package_blacklist:
 - naoqi_dcm_driver
 - naoqi_driver
 - nerian_sp1
-- novatel_oem7_driver
 - octovis
 - pepper_meshes
 - prosilica_gige_sdk
