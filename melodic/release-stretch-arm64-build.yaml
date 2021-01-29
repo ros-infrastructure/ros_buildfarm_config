@@ -16,7 +16,6 @@ package_blacklist:
 - fetch_tools
 - leap_motion
 - nao_meshes
-- novatel_oem7_driver
 - pepper_meshes
 - rospilot
 sync:

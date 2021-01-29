@@ -14,7 +14,6 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
-  - novatel_oem7_driver
   - ros_ign_gazebo
   - rospilot
   - slam_toolbox
