@@ -14,6 +14,6 @@ notifications:
 type: doc-build
 upload_credential_id: jenkins-agent
 upload_host: docs.ros.org
-upload_root: /var/www/docs.ros.org/en
+upload_root: /var/www/docs.ros.org/en/ros2documentation
 upload_user: rosbot
 version: 2
