@@ -92,6 +92,7 @@ distributions:
 doc_builds:
   independent-packages: doc-independent-build.yaml
   rosindex: doc-rosindex.yaml
+  ros2doc: doc-ros2-documentation.yaml
 jenkins_url: https://build.ros.org
 notification_emails:
 - ros-buildfarm@googlegroups.com
