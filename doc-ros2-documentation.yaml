@@ -1,0 +1,19 @@
+%YAML 1.1
+# ROS buildfarm ROS 2 documentation build file
+---
+documentation_type: docker_build
+doc_repositories:
+  ros2_doc:
+    url: https://github.com/ros2/ros2_documentation.git
+    branch: rolling
+jenkins_job_priority: 80
+jenkins_job_timeout: 30
+notifications:
+  emails:
+  - clalancette@openrobotics.org
+type: doc-build
+upload_credential_id: jenkins-agent
+upload_host: docs.ros.org
+upload_root: /var/www/docs.ros.org/en/ros2_documentation
+upload_user: rosbot
+version: 2
