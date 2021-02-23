@@ -15,6 +15,7 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
+- fetch_drivers
 - octovis
 - ros_ign_gazebo
 sync:
