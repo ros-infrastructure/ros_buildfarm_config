@@ -53,7 +53,6 @@ package_blacklist:
 - ros1_bridge  # ROS Noetic has no RPM packages for RHEL
 - ros2trace  # Not yet generated for RHEL
 - ros_canopen  # Not yet generated for RHEL
-- rviz_assimp_vendor  # RPM for assimp is not yet stable
 - sdformat_test_files  # sdformat has no RPM packages for RHEL 8
 - sdformat_urdf  # sdformat has no RPM packages for RHEL 8
 - serial_driver  # Not yet generated for RHEL
