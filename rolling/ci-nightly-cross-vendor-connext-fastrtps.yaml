@@ -3,7 +3,7 @@
 ---
 build_environment_variables:
   NDDSHOME: '/opt/rti.com/rti_connext_dds-5.3.1'
-  RMW_IMPLEMENTATIONS: 'rmw_connext_cpp:rmw_fastrtps_cpp'
+  RMW_IMPLEMENTATIONS: 'rmw_connextdds:rmw_fastrtps_cpp'
   ROS_PYTHON_VERSION: '3'
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
