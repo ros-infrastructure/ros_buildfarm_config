@@ -19,7 +19,6 @@ package_blacklist:
 - async_web_server_cpp  # Not yet generated for RHEL
 - autoware_auto_msgs  # Not yet generated for RHEL
 - bno055  # Not yet generated for RHEL
-- can_msgs  # Not yet generated for RHEL
 - canopen_402  # Not yet generated for RHEL
 - canopen_chain_node  # Not yet generated for RHEL
 - canopen_master  # Not yet generated for RHEL
@@ -55,10 +54,6 @@ package_blacklist:
 - tracetools_read  # Not yet generated for RHEL
 - tracetools_test  # Not yet generated for RHEL
 - tracetools_trace  # Not yet generated for RHEL
-- ublox  # Not yet generated for RHEL
-- ublox_gps  # Not yet generated for RHEL
-- ublox_msgs  # Not yet generated for RHEL
-- ublox_serialization  # Not yet generated for RHEL
 - udp_driver  # Not yet generated for RHEL
 - webots_ros2  # Not yet generated for RHEL
 - webots_ros2_abb  # Not yet generated for RHEL
