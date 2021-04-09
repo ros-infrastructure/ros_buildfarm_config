@@ -34,7 +34,7 @@ jenkins_job_upstream_triggers:
 - nightly-extra-rmw-release
 jenkins_job_weight: 4
 repos_files:
-- https://github.com/ros2/buildfarm_perf_tests/raw/master/tools/ros2_dependencies.repos
+- https://github.com/ros2/buildfarm_perf_tests/raw/foxy/tools/ros2_dependencies.repos
 repositories:
   keys:
   - |
