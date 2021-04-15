@@ -27,7 +27,6 @@ package_blacklist:
 - control_box_rst  # coinor-libipopt-dev has no RPM for RHEL 8
 - gazebo_dev  # Gazebo has no RPM package
 - grbl_ros  # Not yet generated for RHEL
-- ifm3d_core  # pcl-devel has no RPM package for RHEL 8
 - marti_can_msgs  # Requires release with bloom >= 0.10.2
 - marti_common_msgs  # Requires release with bloom >= 0.10.2
 - marti_dbw_msgs  # Requires release with bloom >= 0.10.2
@@ -36,8 +35,6 @@ package_blacklist:
 - marti_status_msgs  # Requires release with bloom >= 0.10.2
 - marti_visualization_msgs  # Requires release with bloom >= 0.10.2
 - mrpt2  # ffmpeg has no RPM package in supported repositories
-- pcl_conversions  # pcl-devel has no RPM package for RHEL 8
-- phidgets_msgs  # Requires release with bloom >= 0.10.2
 - rc_dynamics_api  # Not yet generated for RHEL
 - rc_genicam_api  # Not yet generated for RHEL
 - rc_genicam_driver  # Not yet generated for RHEL
