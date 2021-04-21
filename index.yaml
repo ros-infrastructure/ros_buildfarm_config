@@ -54,6 +54,18 @@ distributions:
       ubv8: foxy/release-focal-arm64-build.yaml
     source_builds:
       default: foxy/source-build.yaml
+  galactic:
+    ci_builds: {}
+    doc_builds: {}
+    notification_emails:
+      - scott+build.ros2.org@openrobotics.org
+      - ros2-buildfarm-rolling@googlegroups.com
+    release_builds:
+      default: galactic/release-build.yaml
+      rhel: galactic/release-rhel-build.yaml
+      ufv8: galactic/release-focal-arm64-build.yaml
+    source_builds:
+      default: galactic/source-build.yaml
   rolling:
     ci_builds:
       benchmark: rolling/ci-benchmark.yaml
