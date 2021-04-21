@@ -4,6 +4,7 @@
 abi_incompatibility_assumed: true
 build_environment_variables:
   ROS_PYTHON_VERSION: '3'
+jenkins_binary_job_label: buildagent_arm64 || noetic_binarydeb_dbv8
 jenkins_binary_job_priority: 94
 jenkins_binary_job_timeout: 720
 jenkins_source_job_priority: 64
