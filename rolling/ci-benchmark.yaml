@@ -29,8 +29,9 @@ install_packages:
 - ros-noetic-tf2-msgs
 jenkins_job_label: ci-agent
 jenkins_job_priority: 50
-jenkins_job_schedule: 30 23 * * *
 jenkins_job_timeout: 240
+jenkins_job_upstream_triggers:
+- nightly-extra-rmw-release
 jenkins_job_weight: 4
 package_selection_args: '--packages-above-depth 1 google_benchmark_vendor ament_cmake_google_benchmark performance_test_fixture'
 repos_files:
