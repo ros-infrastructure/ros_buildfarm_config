@@ -17,7 +17,7 @@ package_blacklist:
   - fetch_drivers
   - ros_ign_gazebo
 sync:
-  package_count: 898
+  package_count: 1205
 repositories:
   keys:
   - |
