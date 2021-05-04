@@ -36,6 +36,7 @@ package_blacklist:
 - marti_status_msgs  # Requires release with bloom >= 0.10.2
 - marti_visualization_msgs  # Requires release with bloom >= 0.10.2
 - mrpt2  # ffmpeg has no RPM package in supported repositories
+- ompl  # opende has no RPM package for RHEL
 - rc_dynamics_api  # Not yet generated for RHEL
 - rc_genicam_api  # Not yet generated for RHEL
 - rc_genicam_driver  # Not yet generated for RHEL
