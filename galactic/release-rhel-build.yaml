@@ -37,6 +37,7 @@ package_blacklist:
 - marti_visualization_msgs  # Requires release with bloom >= 0.10.2
 - mrpt2  # ffmpeg has no RPM package in supported repositories
 - ntpd_driver  # libpoco-dev has no RPM package for RHEL 8
+- octomap  # libqglviewer-dev-qt5 has no RPM for RHEL
 - rc_dynamics_api  # Not yet generated for RHEL
 - rc_genicam_api  # Not yet generated for RHEL
 - rc_genicam_driver  # Not yet generated for RHEL
