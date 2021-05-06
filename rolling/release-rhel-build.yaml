@@ -36,6 +36,7 @@ package_blacklist:
 - marti_status_msgs  # Requires release with bloom >= 0.10.2
 - marti_visualization_msgs  # Requires release with bloom >= 0.10.2
 - mrpt2  # ffmpeg has no RPM package in supported repositories
+- ntpd_driver  # libpoco-dev has no RPM package for RHEL 8
 - ompl  # opende has no RPM package for RHEL
 - rc_dynamics_api  # Not yet generated for RHEL
 - rc_genicam_api  # Not yet generated for RHEL
@@ -55,6 +56,7 @@ package_blacklist:
 - tracetools_read  # Not yet generated for RHEL
 - tracetools_test  # Not yet generated for RHEL
 - tracetools_trace  # Not yet generated for RHEL
+- ublox_gps  # asio has no RPM package for RHEL 8
 - udp_driver  # Not yet generated for RHEL
 - webots_ros2  # Not yet generated for RHEL
 - webots_ros2_abb  # Not yet generated for RHEL
