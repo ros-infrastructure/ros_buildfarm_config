@@ -20,6 +20,16 @@ package_blacklist:
   - slam_toolbox
   - slam_toolbox_msgs
   - slam_toolbox_rviz
+  - tesseract_collision
+  - tesseract_common
+  - tesseract_environment
+  - tesseract_geometry
+  - tesseract_kinematics
+  - tesseract_scene_graph
+  - tesseract_srdf
+  - tesseract_support
+  - tesseract_urdf
+  - tesseract_visualization
 sync:
   package_count: 898
 repositories:
