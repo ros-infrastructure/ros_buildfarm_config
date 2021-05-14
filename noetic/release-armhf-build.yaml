@@ -19,7 +19,7 @@ package_blacklist:
 - octovis
 - ros_ign_gazebo
 sync:
-  package_count: 898
+  package_count: 1158
 repositories:
   keys:
   - |

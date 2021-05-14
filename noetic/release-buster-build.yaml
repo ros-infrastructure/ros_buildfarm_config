@@ -28,7 +28,7 @@ package_blacklist:
   - tesseract_urdf
   - tesseract_visualization
 sync:
-  package_count: 898
+  package_count: 1196
 repositories:
   keys:
   - |
