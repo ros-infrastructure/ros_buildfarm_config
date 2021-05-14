@@ -17,6 +17,16 @@ package_blacklist:
   - fetch_drivers
   - ros_ign_gazebo
   - rospilot
+  - tesseract_collision
+  - tesseract_common
+  - tesseract_environment
+  - tesseract_geometry
+  - tesseract_kinematics
+  - tesseract_scene_graph
+  - tesseract_srdf
+  - tesseract_support
+  - tesseract_urdf
+  - tesseract_visualization
 sync:
   package_count: 898
 repositories:
