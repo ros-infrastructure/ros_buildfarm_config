@@ -25,6 +25,11 @@ package_blacklist:
 - canopen_motor_node  # Not yet generated for RHEL
 - cartographer  # RPM for ceres-solver is not yet stable
 - control_box_rst  # coinor-libipopt-dev has no RPM for RHEL 8
+- costmap_queue  # lcov has no RPM package for RHEL 8
+- dwb_core  # lcov has no RPM package for RHEL 8
+- dwb_critics  # lcov has no RPM package for RHEL 8
+- dwb_msgs  # lcov has no RPM package for RHEL 8
+- dwb_plugins  # lcov has no RPM package for RHEL 8
 - gazebo_dev  # Gazebo has no RPM package
 - grbl_ros  # Not yet generated for RHEL
 - ign_rviz_common  # ignition has no RPM packages for RHEL
@@ -36,11 +41,39 @@ package_blacklist:
 - marti_status_msgs  # Requires release with bloom >= 0.10.2
 - marti_visualization_msgs  # Requires release with bloom >= 0.10.2
 - mrpt2  # ffmpeg has no RPM package in supported repositories
+- nav2_amcl  # lcov has no RPM package for RHEL 8
+- nav2_behavior_tree  # lcov has no RPM package for RHEL 8
+- nav2_bringup  # lcov has no RPM package for RHEL 8
+- nav2_bt_navigator  # lcov has no RPM package for RHEL 8
+- nav2_common  # lcov has no RPM package for RHEL 8
+- nav2_controller  # lcov has no RPM package for RHEL 8
+- nav2_core  # lcov has no RPM package for RHEL 8
+- nav2_costmap_2d  # lcov has no RPM package for RHEL 8
+- nav2_dwb_controller  # lcov has no RPM package for RHEL 8
+- nav2_gazebo_spawner  # lcov has no RPM package for RHEL 8
+- nav2_lifecycle_manager  # lcov has no RPM package for RHEL 8
+- nav2_map_server  # lcov has no RPM package for RHEL 8
+- nav2_msgs  # lcov has no RPM package for RHEL 8
+- nav2_navfn_planner  # lcov has no RPM package for RHEL 8
+- nav2_planner  # lcov has no RPM package for RHEL 8
+- nav2_recoveries  # lcov has no RPM package for RHEL 8
+- nav2_regulated_pure_pursuit_controller  # lcov has no RPM package for RHEL 8
+- nav2_rviz_plugins  # lcov has no RPM package for RHEL 8
+- nav2_smac_planner  # lcov has no RPM package for RHEL 8
+- nav2_system_tests  # lcov has no RPM package for RHEL 8
+- nav2_util  # lcov has no RPM package for RHEL 8
+- nav2_voxel_grid  # lcov has no RPM package for RHEL 8
+- nav2_waypoint_follower  # lcov has no RPM package for RHEL 8
+- nav_2d_msgs  # lcov has no RPM package for RHEL 8
+- nav_2d_utils  # lcov has no RPM package for RHEL 8
+- navigation2  # lcov has no RPM package for RHEL 8
 - ntpd_driver  # libpoco-dev has no RPM package for RHEL 8
 - octomap  # libqglviewer-dev-qt5 has no RPM for RHEL
+- ompl  # opende has no RPM package for RHEL
 - rc_dynamics_api  # Not yet generated for RHEL
 - rc_genicam_api  # Not yet generated for RHEL
 - rc_genicam_driver  # Not yet generated for RHEL
+- robot_localization  # Not yet generated for RHEL
 - ros_ign_bridge  # ignition has no RPM packages for RHEL
 - ros_ign_gazebo  # ignition has no RPM packages for RHEL
 - ros1_bridge  # ROS Noetic has no RPM packages for RHEL
