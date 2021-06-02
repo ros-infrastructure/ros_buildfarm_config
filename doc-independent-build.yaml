@@ -18,7 +18,9 @@ install_apt_packages:
 install_pip_packages:
 - catkin-sphinx
 - elementpath==2.1.3  # pinned because newer version needs python >= 3.6: https://github.com/ros-infrastructure/rep/issues/304
-- sphinx
+- jinja2==2.11.3
+- markupsafe==1.1.1
+- sphinx==3.5.4
 - xmlschema==1.2.5
 jenkins_job_priority: 80
 jenkins_job_timeout: 30
