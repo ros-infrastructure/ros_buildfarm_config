@@ -5,7 +5,7 @@ documentation_type: docker_build
 doc_repositories:
 - https://github.com/ros-infrastructure/rosindex.git
 jenkins_job_priority: 90
-jenkins_job_timeout: 120
+jenkins_job_timeout: 270
 type: doc-build
 upload_credential_id: rosindex-deploy
 upload_repository_url: git@github.com:ros-infrastructure/index.ros.org.git
