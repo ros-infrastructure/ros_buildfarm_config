@@ -12,6 +12,8 @@ notifications:
   - steven+build.ros2.org@openrobotics.org
   - ros2-buildfarm-dashing@googlegroups.com
   maintainers: true
+package_blacklist:
+- mapviz
 sync:
   package_count: 500
 repositories:

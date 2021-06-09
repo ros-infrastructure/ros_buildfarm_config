@@ -13,6 +13,8 @@ notifications:
   - ros2-buildfarm-dashing@googlegroups.com
   maintainers: true
 package_blacklist:
+ - apex_containers
+ - mapviz
  - octovis
 sync:
   package_count: 500
