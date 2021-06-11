@@ -19,13 +19,16 @@ package_blacklist:
 - async_web_server_cpp  # Not yet generated for RHEL
 - autoware_auto_msgs  # Not yet generated for RHEL
 - bno055  # Not yet generated for RHEL
+- bosch_locator_bridge  # libpoco-dev has no RPM package for RHEL 8
 - canopen_402  # Not yet generated for RHEL
 - canopen_chain_node  # Not yet generated for RHEL
 - canopen_master  # Not yet generated for RHEL
 - canopen_motor_node  # Not yet generated for RHEL
 - cartographer  # RPM for ceres-solver is not yet stable
 - control_box_rst  # coinor-libipopt-dev has no RPM for RHEL 8
+- dynamic_edt_3d  # Not yet generated for RHEL
 - gazebo_dev  # Gazebo has no RPM package
+- geometric_shapes  # Not yet generated for RHEL
 - grbl_ros  # Not yet generated for RHEL
 - ign_rviz_common  # ignition has no RPM packages for RHEL
 - marti_can_msgs  # Requires release with bloom >= 0.10.2
@@ -37,10 +40,16 @@ package_blacklist:
 - marti_visualization_msgs  # Requires release with bloom >= 0.10.2
 - mrpt2  # ffmpeg has no RPM package in supported repositories
 - ntpd_driver  # libpoco-dev has no RPM package for RHEL 8
+- octomap  # Not yet generated for RHEL
+- octovis  # Not yet generated for RHEL
 - ompl  # opende has no RPM package for RHEL
+- pcl_ros  # pcl RPM has no visualization component for RHEL
+- plotjuggler  # Not yet generated for RHEL
+- random_numbers  # Not yet generated for RHEL
 - rc_dynamics_api  # Not yet generated for RHEL
 - rc_genicam_api  # Not yet generated for RHEL
 - rc_genicam_driver  # Not yet generated for RHEL
+- rmf_traffic  # libfcl-dev has no RPM package for RHEL 8
 - ros_ign_bridge  # ignition has no RPM packages for RHEL
 - ros_ign_gazebo  # ignition has no RPM packages for RHEL
 - ros1_bridge  # ROS Noetic has no RPM packages for RHEL
@@ -58,6 +67,7 @@ package_blacklist:
 - tracetools_trace  # Not yet generated for RHEL
 - ublox_gps  # asio has no RPM package for RHEL 8
 - udp_driver  # Not yet generated for RHEL
+- warehouse_ros_mongo  # mongodb has no RPM package for RHEL
 - webots_ros2  # Not yet generated for RHEL
 - webots_ros2_abb  # Not yet generated for RHEL
 - webots_ros2_core  # Not yet generated for RHEL

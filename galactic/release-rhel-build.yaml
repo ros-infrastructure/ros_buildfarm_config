@@ -70,6 +70,7 @@ package_blacklist:
 - ntpd_driver  # libpoco-dev has no RPM package for RHEL 8
 - octomap  # libqglviewer-dev-qt5 has no RPM for RHEL
 - ompl  # opende has no RPM package for RHEL
+- pcl_ros  # pcl RPM has no visualization component for RHEL
 - rc_dynamics_api  # Not yet generated for RHEL
 - rc_genicam_api  # Not yet generated for RHEL
 - rc_genicam_driver  # Not yet generated for RHEL
