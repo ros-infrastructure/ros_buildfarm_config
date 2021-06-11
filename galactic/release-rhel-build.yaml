@@ -15,14 +15,7 @@ notifications:
   - scott+build.ros2.org@openrobotics.org
   maintainers: false
 package_blacklist:
-- acado_vendor  # Not yet generated for RHEL
-- async_web_server_cpp  # Not yet generated for RHEL
-- autoware_auto_msgs  # Not yet generated for RHEL
-- bno055  # Not yet generated for RHEL
-- canopen_402  # Not yet generated for RHEL
-- canopen_chain_node  # Not yet generated for RHEL
-- canopen_master  # Not yet generated for RHEL
-- canopen_motor_node  # Not yet generated for RHEL
+- acado_vendor  # Requires unreleased changes
 - cartographer  # RPM for ceres-solver is not yet stable
 - control_box_rst  # coinor-libipopt-dev has no RPM for RHEL 8
 - costmap_queue  # lcov has no RPM package for RHEL 8
@@ -31,15 +24,7 @@ package_blacklist:
 - dwb_msgs  # lcov has no RPM package for RHEL 8
 - dwb_plugins  # lcov has no RPM package for RHEL 8
 - gazebo_dev  # Gazebo has no RPM package
-- grbl_ros  # Not yet generated for RHEL
 - ign_rviz_common  # ignition has no RPM packages for RHEL
-- marti_can_msgs  # Requires release with bloom >= 0.10.2
-- marti_common_msgs  # Requires release with bloom >= 0.10.2
-- marti_dbw_msgs  # Requires release with bloom >= 0.10.2
-- marti_perception_msgs  # Requires release with bloom >= 0.10.2
-- marti_sensor_msgs  # Requires release with bloom >= 0.10.2
-- marti_status_msgs  # Requires release with bloom >= 0.10.2
-- marti_visualization_msgs  # Requires release with bloom >= 0.10.2
 - mrpt2  # ffmpeg has no RPM package in supported repositories
 - nav2_amcl  # lcov has no RPM package for RHEL 8
 - nav2_behavior_tree  # lcov has no RPM package for RHEL 8
@@ -71,40 +56,32 @@ package_blacklist:
 - octomap  # libqglviewer-dev-qt5 has no RPM for RHEL
 - ompl  # opende has no RPM package for RHEL
 - pcl_ros  # pcl RPM has no visualization component for RHEL
-- rc_dynamics_api  # Not yet generated for RHEL
-- rc_genicam_api  # Not yet generated for RHEL
 - rc_genicam_driver  # Not yet generated for RHEL
 - robot_localization  # Not yet generated for RHEL
 - ros_ign_bridge  # ignition has no RPM packages for RHEL
 - ros_ign_gazebo  # ignition has no RPM packages for RHEL
 - ros1_bridge  # ROS Noetic has no RPM packages for RHEL
-- ros2trace  # Not yet generated for RHEL
 - sdformat_test_files  # sdformat has no RPM packages for RHEL 8
 - sdformat_urdf  # sdformat has no RPM packages for RHEL 8
 - serial_driver  # Not yet generated for RHEL
-- socketcan_bridge  # Not yet generated for RHEL
-- socketcan_interface  # Not yet generated for RHEL
-- test_osrf_testing_tools_cpp  # Doesn't install anything
 - tracetools_analysis  # jupyter-notebook has no RPM package for RHEL
 - tracetools_launch  # Not yet generated for RHEL
-- tracetools_read  # Not yet generated for RHEL
 - tracetools_test  # Not yet generated for RHEL
-- tracetools_trace  # Not yet generated for RHEL
 - ublox_gps  # asio has no RPM package for RHEL 8
 - udp_driver  # Not yet generated for RHEL
-- webots_ros2  # Not yet generated for RHEL
-- webots_ros2_abb  # Not yet generated for RHEL
-- webots_ros2_core  # Not yet generated for RHEL
-- webots_ros2_demos  # Not yet generated for RHEL
-- webots_ros2_epuck  # Not yet generated for RHEL
-- webots_ros2_examples  # Not yet generated for RHEL
-- webots_ros2_importer  # Not yet generated for RHEL
-- webots_ros2_msgs  # Not yet generated for RHEL
-- webots_ros2_tiago  # Not yet generated for RHEL
-- webots_ros2_turtlebot  # Not yet generated for RHEL
-- webots_ros2_tutorials  # Not yet generated for RHEL
-- webots_ros2_universal_robot  # Not yet generated for RHEL
-- webots_ros2_ur_e_description  # Not yet generated for RHEL
+- webots_ros2  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_abb  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_core  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_demos  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_epuck  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_examples  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_importer  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_msgs  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_tiago  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_turtlebot  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_tutorials  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_universal_robot  # python-imaging has no RPM package for RHEL 8
+- webots_ros2_ur_e_description  # python-imaging has no RPM package for RHEL 8
 - wiimote  # cwiid has not RPM package for RHEL
 package_ignore_list:
 - connext_cmake_module  # No RPM package for Connext
