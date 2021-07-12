@@ -2,28 +2,6 @@
 # ROS buildfarm index file
 ---
 distributions:
-  dashing:
-    ci_builds:
-      nightly-connext: dashing/ci-nightly-connext.yaml
-      nightly-cyclonedds: dashing/ci-nightly-cyclonedds.yaml
-      nightly-debug: dashing/ci-nightly-debug.yaml
-      nightly-extra-rmw-release: dashing/ci-nightly-extra-rmw-release.yaml
-      nightly-fastrtps: dashing/ci-nightly-fastrtps.yaml
-      nightly-fastrtps-dynamic: dashing/ci-nightly-fastrtps-dynamic.yaml
-      nightly-opensplice: dashing/ci-nightly-opensplice.yaml
-      nightly-performance: dashing/ci-nightly-performance.yaml
-      nightly-release: dashing/ci-nightly-release.yaml
-      overlay: dashing/ci-overlay.yaml
-    doc_builds: {}
-    notification_emails:
-      - steven+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-dashing@googlegroups.com
-    release_builds:
-      default: dashing/release-build.yaml
-      ubv8: dashing/release-bionic-arm64-build.yaml
-      ubhf: dashing/release-bionic-armhf-build.yaml
-    source_builds:
-      default: dashing/source-build.yaml
   foxy:
     ci_builds:
       benchmark: foxy/ci-benchmark.yaml
