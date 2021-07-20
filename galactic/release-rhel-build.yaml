@@ -16,6 +16,7 @@ notifications:
   maintainers: false
 package_blacklist:
 - acado_vendor  # Requires unreleased changes
+- backward_ros  # Not yet generated for RHEL
 - cartographer  # RPM for ceres-solver is not yet stable
 - control_box_rst  # coinor-libipopt-dev has no RPM for RHEL 8
 - costmap_queue  # lcov has no RPM package for RHEL 8
@@ -25,6 +26,8 @@ package_blacklist:
 - dwb_plugins  # lcov has no RPM package for RHEL 8
 - gazebo_dev  # Gazebo has no RPM package
 - ign_rviz_common  # ignition has no RPM packages for RHEL
+- libmavconn  # asio has no RPM package for RHEL 8
+- moveit_common  # libogre-dev has no RPM package for RHEL
 - mrpt2  # ffmpeg has no RPM package in supported repositories
 - nav2_amcl  # lcov has no RPM package for RHEL 8
 - nav2_behavior_tree  # lcov has no RPM package for RHEL 8
@@ -56,19 +59,17 @@ package_blacklist:
 - octomap  # libqglviewer-dev-qt5 has no RPM for RHEL
 - ompl  # opende has no RPM package for RHEL
 - pcl_ros  # pcl RPM has no visualization component for RHEL
-- rc_genicam_driver  # Not yet generated for RHEL
-- robot_localization  # Not yet generated for RHEL
+- popf  # COIN-OR packages have no RPM packages for RHEL 8
 - ros_ign_bridge  # ignition has no RPM packages for RHEL
 - ros_ign_gazebo  # ignition has no RPM packages for RHEL
 - ros1_bridge  # ROS Noetic has no RPM packages for RHEL
 - sdformat_test_files  # sdformat has no RPM packages for RHEL 8
 - sdformat_urdf  # sdformat has no RPM packages for RHEL 8
-- serial_driver  # Not yet generated for RHEL
 - tracetools_analysis  # jupyter-notebook has no RPM package for RHEL
 - tracetools_launch  # Not yet generated for RHEL
 - tracetools_test  # Not yet generated for RHEL
 - ublox_gps  # asio has no RPM package for RHEL 8
-- udp_driver  # Not yet generated for RHEL
+- warehouse_ros_mongo  # mongodb has no RPM package for RHEL 8
 - webots_ros2  # python-imaging has no RPM package for RHEL 8
 - webots_ros2_abb  # python-imaging has no RPM package for RHEL 8
 - webots_ros2_core  # python-imaging has no RPM package for RHEL 8
@@ -82,7 +83,7 @@ package_blacklist:
 - webots_ros2_tutorials  # python-imaging has no RPM package for RHEL 8
 - webots_ros2_universal_robot  # python-imaging has no RPM package for RHEL 8
 - webots_ros2_ur_e_description  # python-imaging has no RPM package for RHEL 8
-- wiimote  # cwiid has not RPM package for RHEL
+- wiimote  # cwiid has no RPM package for RHEL
 package_ignore_list:
 - connext_cmake_module  # No RPM package for Connext
 - demo_nodes_cpp_native_gurumdds  # No RPM package for GurumDDS

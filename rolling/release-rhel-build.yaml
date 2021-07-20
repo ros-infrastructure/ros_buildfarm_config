@@ -18,6 +18,7 @@ package_blacklist:
 - acado_vendor  # Not yet generated for RHEL
 - async_web_server_cpp  # Not yet generated for RHEL
 - autoware_auto_msgs  # Not yet generated for RHEL
+- backward_ros  # Not yet generated for RHEL
 - bno055  # Not yet generated for RHEL
 - bosch_locator_bridge  # libpoco-dev has no RPM package for RHEL 8
 - canopen_402  # Not yet generated for RHEL
@@ -38,6 +39,7 @@ package_blacklist:
 - marti_sensor_msgs  # Requires release with bloom >= 0.10.2
 - marti_status_msgs  # Requires release with bloom >= 0.10.2
 - marti_visualization_msgs  # Requires release with bloom >= 0.10.2
+- moveit_common  # libogre-dev has no RPM package for RHEL
 - mrpt2  # ffmpeg has no RPM package in supported repositories
 - ntpd_driver  # libpoco-dev has no RPM package for RHEL 8
 - octomap  # Not yet generated for RHEL
@@ -49,7 +51,6 @@ package_blacklist:
 - rc_dynamics_api  # Not yet generated for RHEL
 - rc_genicam_api  # Not yet generated for RHEL
 - rc_genicam_driver  # Not yet generated for RHEL
-- rmf_traffic  # libfcl-dev has no RPM package for RHEL 8
 - ros_ign_bridge  # ignition has no RPM packages for RHEL
 - ros_ign_gazebo  # ignition has no RPM packages for RHEL
 - ros1_bridge  # ROS Noetic has no RPM packages for RHEL
@@ -81,7 +82,7 @@ package_blacklist:
 - webots_ros2_tutorials  # Not yet generated for RHEL
 - webots_ros2_universal_robot  # Not yet generated for RHEL
 - webots_ros2_ur_e_description  # Not yet generated for RHEL
-- wiimote  # cwiid has not RPM package for RHEL
+- wiimote  # cwiid has no RPM package for RHEL
 package_ignore_list:
 - connext_cmake_module  # No RPM package for Connext
 - demo_nodes_cpp_native_gurumdds  # No RPM package for GurumDDS
