@@ -51,6 +51,9 @@ package_blacklist:
 - rc_dynamics_api  # Not yet generated for RHEL
 - rc_genicam_api  # Not yet generated for RHEL
 - rc_genicam_driver  # Not yet generated for RHEL
+- rmf_demos_dashboard_resources  # python3-flask-cors has no RPM packages for RHEL
+- rmf_demos_maps  # python3-flask-cors has no RPM packages for RHEL
+- rmf_demos_tasks  # python3-flask-cors has no RPM packages for RHEL
 - ros_ign_bridge  # ignition has no RPM packages for RHEL
 - ros_ign_gazebo  # ignition has no RPM packages for RHEL
 - ros1_bridge  # ROS Noetic has no RPM packages for RHEL
@@ -68,6 +71,7 @@ package_blacklist:
 - tracetools_trace  # Not yet generated for RHEL
 - ublox_gps  # asio has no RPM package for RHEL 8
 - udp_driver  # Not yet generated for RHEL
+- usb_cam  # Not yet generated for RHEL
 - warehouse_ros_mongo  # mongodb has no RPM package for RHEL
 - webots_ros2  # Not yet generated for RHEL
 - webots_ros2_abb  # Not yet generated for RHEL

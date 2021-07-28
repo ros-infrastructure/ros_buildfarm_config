@@ -62,6 +62,7 @@ package_blacklist:
 - popf  # COIN-OR packages have no RPM packages for RHEL 8
 - ros_ign_bridge  # ignition has no RPM packages for RHEL
 - ros_ign_gazebo  # ignition has no RPM packages for RHEL
+- ros_ign_interfaces  # ignition has no RPM packages for RHEL
 - ros1_bridge  # ROS Noetic has no RPM packages for RHEL
 - sdformat_test_files  # sdformat has no RPM packages for RHEL 8
 - sdformat_urdf  # sdformat has no RPM packages for RHEL 8
@@ -69,6 +70,7 @@ package_blacklist:
 - tracetools_launch  # Not yet generated for RHEL
 - tracetools_test  # Not yet generated for RHEL
 - ublox_gps  # asio has no RPM package for RHEL 8
+- usb_cam  # Not yet generated for RHEL
 - warehouse_ros_mongo  # mongodb has no RPM package for RHEL 8
 - webots_ros2  # python-imaging has no RPM package for RHEL 8
 - webots_ros2_abb  # python-imaging has no RPM package for RHEL 8
