@@ -67,10 +67,8 @@ package_blacklist:
 - sdformat_test_files  # sdformat has no RPM packages for RHEL 8
 - sdformat_urdf  # sdformat has no RPM packages for RHEL 8
 - tracetools_analysis  # jupyter-notebook has no RPM package for RHEL
-- tracetools_launch  # Not yet generated for RHEL
-- tracetools_test  # Not yet generated for RHEL
 - ublox_gps  # asio has no RPM package for RHEL 8
-- usb_cam  # Not yet generated for RHEL
+- usb_cam  # ffmpeg has no RPM package for RHEL
 - warehouse_ros_mongo  # mongodb has no RPM package for RHEL 8
 - webots_ros2  # python-imaging has no RPM package for RHEL 8
 - webots_ros2_abb  # python-imaging has no RPM package for RHEL 8
