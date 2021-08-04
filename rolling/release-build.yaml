@@ -16,7 +16,8 @@ notifications:
   - ros2-buildfarm-rolling@googlegroups.com
   maintainers: true
 sync:
-  package_count: 262
+  package_count: 500
+  packages: [desktop]
 repositories:
   keys:
   - |

@@ -89,7 +89,8 @@ package_ignore_list:
 - rosidl_typesupport_gurumdds_cpp  # No RPM package for GurumDDS
 - rti_connext_dds_cmake_module  # No RPM package for Connext
 sync:
-  package_count: 262
+  package_count: 400
+  packages: [desktop]
 repositories:
   keys:
   - |
