@@ -29,6 +29,7 @@ package_blacklist:
 - libmavconn  # asio has no RPM package for RHEL 8
 - moveit_common  # libogre-dev has no RPM package for RHEL
 - mrpt2  # ffmpeg has no RPM package in supported repositories
+- mrt_cmake_modules  # lcov has no RPM package for RHEL 8
 - nav2_amcl  # lcov has no RPM package for RHEL 8
 - nav2_behavior_tree  # lcov has no RPM package for RHEL 8
 - nav2_bringup  # lcov has no RPM package for RHEL 8
@@ -58,7 +59,6 @@ package_blacklist:
 - ntpd_driver  # libpoco-dev has no RPM package for RHEL 8
 - octomap  # libqglviewer-dev-qt5 has no RPM for RHEL
 - ompl  # opende has no RPM package for RHEL
-- pcl_ros  # pcl RPM has no visualization component for RHEL
 - popf  # COIN-OR packages have no RPM packages for RHEL 8
 - ros_ign_bridge  # ignition has no RPM packages for RHEL
 - ros_ign_gazebo  # ignition has no RPM packages for RHEL
