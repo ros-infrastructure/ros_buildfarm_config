@@ -81,6 +81,11 @@ repositories:
   urls:
   - http://repo.ros2.org/ubuntu/testing
   - http://repositories.ros.org/ubuntu/testing
+skip_rosdep_keys:
+  - rmw_connextdds
+  - rmw_fastrtps_cpp
+  - rmw_fastrtps_dynamic_cpp
+  - rosidl_typesupport_fastrtps_c
 targets:
   ubuntu:
     focal:
