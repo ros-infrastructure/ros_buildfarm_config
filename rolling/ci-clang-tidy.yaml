@@ -82,6 +82,10 @@ repositories:
   - http://repo.ros2.org/ubuntu/testing
   - http://repositories.ros.org/ubuntu/testing
 skip_rosdep_keys:
+  - composition
+  - demo_nodes_py
+  - ikos
+  - lifecycle
   - rmw_connextdds
   - rmw_fastrtps_cpp
   - rmw_fastrtps_dynamic_cpp
