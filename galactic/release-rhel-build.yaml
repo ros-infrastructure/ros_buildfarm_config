@@ -60,6 +60,10 @@ package_blacklist:
 - octomap  # libqglviewer-dev-qt5 has no RPM for RHEL
 - ompl  # opende has no RPM package for RHEL
 - popf  # COIN-OR packages have no RPM packages for RHEL 8
+- rmf_building_sim_common  # ignition has no RPM packages for RHEL
+- rmf_building_sim_ignition_plugins  # ignition has no RPM packages for RHEL
+- rmf_robot_sim_common  # ignition has no RPM packages for RHEL
+- rmf_robot_sim_ignition_plugins  # ignition has no RPM packages for RHEL
 - ros_ign_bridge  # ignition has no RPM packages for RHEL
 - ros_ign_gazebo  # ignition has no RPM packages for RHEL
 - ros_ign_interfaces  # ignition has no RPM packages for RHEL
