@@ -73,6 +73,7 @@ distributions:
       nightly-cross-vendor-fastrtps-fastrtps-dynamic: rolling/ci-nightly-cross-vendor-fastrtps-fastrtps-dynamic.yaml
       nightly-cyclonedds: rolling/ci-nightly-cyclonedds.yaml
       nightly-debug: rolling/ci-nightly-debug.yaml
+      nightly-debug-jammy: rolling/ci-nightly-debug-jammy.yaml
       nightly-extra-rmw-release: rolling/ci-nightly-extra-rmw-release.yaml
       nightly-fastrtps: rolling/ci-nightly-fastrtps.yaml
       nightly-fastrtps-dynamic: rolling/ci-nightly-fastrtps-dynamic.yaml
