@@ -13,8 +13,6 @@ notifications:
   - ros-buildfarm-noetic@googlegroups.com
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
-package_dependency_behavior:
-  run_package_tests: false
 sync:
   package_count: 1225
 repositories:
