@@ -18,6 +18,7 @@ package_blacklist:
 - fetch_drivers
 - octovis
 - ros_ign_gazebo
+- gazebo_ros
 sync:
   package_count: 1158
 repositories:
