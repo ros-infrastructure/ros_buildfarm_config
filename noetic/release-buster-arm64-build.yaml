@@ -31,6 +31,7 @@ package_blacklist:
   - tesseract_support
   - tesseract_urdf
   - tesseract_visualization
+  - gazebo_ros
 sync:
   package_count: 1141
 repositories:
