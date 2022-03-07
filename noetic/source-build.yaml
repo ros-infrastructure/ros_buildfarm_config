@@ -5,7 +5,7 @@ build_environment_variables:
   ROS_PYTHON_VERSION: 3
 collate_test_stats: true
 jenkins_commit_job_priority: 54
-jenkins_job_timeout: 120
+jenkins_job_timeout: 180
 jenkins_pull_request_job_priority: 44
 notifications:
   committers: true
