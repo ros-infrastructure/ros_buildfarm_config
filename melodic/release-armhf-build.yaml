@@ -19,6 +19,8 @@ package_blacklist:
 - nao_meshes
 - octovis
 - pepper_meshes
+package_ignore_list:
+- libpointmatcher  # Doesn't support 32-bit platforms. Optional for rtabmap
 sync:
   package_count: 1000
 repositories:
