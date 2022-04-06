@@ -27,6 +27,8 @@ package_blacklist:
   - tesseract_support
   - tesseract_urdf
   - tesseract_visualization
+  - aruco
+  - aruco_ros
 sync:
   package_count: 1196
 repositories:
