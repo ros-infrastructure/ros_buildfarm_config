@@ -19,6 +19,7 @@ package_blacklist:
 - octovis
 - ros_ign_gazebo
 - gazebo_ros
+- qt_advanced_docking
 package_ignore_list:
 - libpointmatcher  # Doesn't support 32-bit platforms. Optional for rtabmap
 sync:
