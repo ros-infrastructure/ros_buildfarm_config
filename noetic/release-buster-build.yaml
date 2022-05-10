@@ -29,6 +29,7 @@ package_blacklist:
   - tesseract_visualization
   - aruco
   - aruco_ros
+  - pf_driver
 sync:
   package_count: 1196
 repositories:
