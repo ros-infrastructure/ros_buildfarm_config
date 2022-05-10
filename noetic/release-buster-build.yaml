@@ -14,7 +14,10 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
+  - aruco
+  - aruco_ros
   - fetch_drivers
+  - pf_driver
   - ros_ign_gazebo
   - rospilot
   - tesseract_collision
@@ -27,8 +30,6 @@ package_blacklist:
   - tesseract_support
   - tesseract_urdf
   - tesseract_visualization
-  - aruco
-  - aruco_ros
 sync:
   package_count: 1196
 repositories:
