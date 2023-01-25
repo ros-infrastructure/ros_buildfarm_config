@@ -20,6 +20,7 @@ package_blacklist:
 - ros_ign_gazebo
 - gazebo_ros
 - qt_advanced_docking
+- mvsim
 package_ignore_list:
 - libpointmatcher  # Doesn't support 32-bit platforms. Optional for rtabmap
 sync:
