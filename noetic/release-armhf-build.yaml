@@ -21,7 +21,7 @@ package_blacklist:
 - julius  # https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/467
 - libntcan  # https://github.com/ipa320/cob_extern/issues/112
 - mapviz  # https://github.com/swri-robotics/mapviz/issues/777
-- mecanum_gazebo_plugin
+- mecanum_gazebo_plugin  # https://github.com/ridgeback/ridgeback_simulator/issues/13
 - mocap_nokov  # https://github.com/NOKOV-MOCAP/mocap_nokov/issues/2
 - mongodb_store  # https://github.com/strands-project/mongodb_store/issues/283
 - nao_meshes  # https://github.com/ros-naoqi/nao_meshes/issues/8
