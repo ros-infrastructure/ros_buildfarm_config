@@ -15,8 +15,17 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
-  - fetch_drivers
-  - ros_ign_gazebo
+- fetch_drivers
+- libntcan  # https://github.com/ipa320/cob_extern/issues/112
+- mocap_nokov  # https://github.com/NOKOV-MOCAP/mocap_nokov/issues/2
+- nao_meshes  # https://github.com/ros-naoqi/nao_meshes/issues/8
+- pepper_meshes  # https://github.com/ros-naoqi/pepper_meshes/issues/9
+- picovoice_driver  # https://github.com/reinzor/picovoice_ros/issues/6
+- prosilica_gige_sdk  # https://github.com/ros-drivers/prosilica_gige_sdk/issues/6
+- ros_ign_gazebo
+- ros_speech_recognition  # https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/468
+- rosrt  # https://github.com/ros/ros_realtime/issues/15
+- skyway  # https://github.com/ntt-t3/skyway_for_ros/issues/1
 sync:
   package_count: 1205
 repositories:
