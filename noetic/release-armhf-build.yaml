@@ -15,24 +15,24 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
-- exotica_pinocchio_dynamics_solver
+- exotica_pinocchio_dynamics_solver  # https://github.com/ipab-slmc/exotica/issues/754
 - fetch_drivers
 - gazebo_ros
-- julius
-- libntcan
-- mapviz
+- julius  # https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/467
+- libntcan  # https://github.com/ipa320/cob_extern/issues/112
+- mapviz  # https://github.com/swri-robotics/mapviz/issues/777
 - mecanum_gazebo_plugin
-- mocap_nokov
-- mongodb_store
-- nao_meshes
+- mocap_nokov  # https://github.com/NOKOV-MOCAP/mocap_nokov/issues/2
+- mongodb_store  # https://github.com/strands-project/mongodb_store/issues/283
+- nao_meshes  # https://github.com/ros-naoqi/nao_meshes/issues/8
 - octovis
-- pepper_meshes
-- picovoice_driver
+- pepper_meshes  # https://github.com/ros-naoqi/pepper_meshes/issues/9
+- picovoice_driver  # https://github.com/reinzor/picovoice_ros/issues/6
 - ros_ign_gazebo
-- ros_speech_recognition
-- rtabmap
+- ros_speech_recognition  # https://github.com/jsk-ros-pkg/jsk_3rdparty/issues/468
+- rtabmap  # https://github.com/introlab/rtabmap/issues/1037
 - qt_advanced_docking
-- spinnaker_camera_driver
+- spinnaker_camera_driver  # https://github.com/ros-drivers/flir_camera_driver/issues/108
 package_ignore_list:
 - libpointmatcher  # Doesn't support 32-bit platforms. Optional for rtabmap
 sync:
