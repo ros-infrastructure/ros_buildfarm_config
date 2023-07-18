@@ -15,11 +15,24 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
+- exotica_pinocchio_dynamics_solver
 - fetch_drivers
-- octovis
-- ros_ign_gazebo
 - gazebo_ros
+- julius
+- libntcan
+- mapviz
+- mecanum_gazebo_plugin
+- mocap_nokov
+- mongodb_store
+- nao_meshes
+- octovis
+- pepper_meshes
+- picovoice_driver
+- ros_ign_gazebo
+- ros_speech_recognition
+- rtabmap
 - qt_advanced_docking
+- spinnaker_camera_driver
 package_ignore_list:
 - libpointmatcher  # Doesn't support 32-bit platforms. Optional for rtabmap
 sync:
