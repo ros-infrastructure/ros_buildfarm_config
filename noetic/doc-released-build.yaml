@@ -6,10 +6,12 @@ jenkins_job_priority: 91
 jenkins_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-testfarm@googlegroups.com
+  - trnguyen@dekaresearch.com
+tag_whitelist:
+  - N/A
 targets:
   ubuntu:
-    trusty:
+    focal:
       amd64:
 type: doc-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5

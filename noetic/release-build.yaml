@@ -1,17 +1,18 @@
 %YAML 1.1
-# ROS buildfarm source-build file
+# ROS buildfarm release-build file
 ---
-jenkins_commit_job_priority: 70
-jenkins_job_timeout: 120
-jenkins_pull_request_job_priority: 60
+abi_incompatibility_assumed: true
+jenkins_binary_job_priority: 84
+jenkins_binary_job_timeout: 120
+jenkins_source_job_priority: 81
+jenkins_source_job_timeout: 30
 notifications:
-  committers: false
   emails:
-  - ros-buildfarm-testfarm@googlegroups.com
+  - trnguyen@dekaresearch.com
   maintainers: false
+sync:
+  package_count: 2000
 repositories:
-  urls:
-  - http://54.183.65.232/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -44,15 +45,15 @@ repositories:
     xaePFwP+okKW1h9qvwFhNF0JSCtdJrexdCf8jGE7
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
+  urls:
+  - http://172.20.6.176/ubuntu/building
+tag_whitelist:
+  - N/A
+target_repository: http://172.20.6.176/ubuntu/building
 targets:
   ubuntu:
-    trusty:
+    focal:
       amd64:
-test_commits:
-  default: true
-# do not run pr builds on the test farm (otherwise we'll get multiple reports)
-test_pull_requests:
-  default: false
-  force: false
-type: source-build
+type: release-build
+upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
 version: 2

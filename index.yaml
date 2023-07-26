@@ -2,47 +2,24 @@
 # ROS buildfarm index file
 ---
 distributions:
-  indigo:
+  noetic:
     doc_builds:
-      default: indigo/doc-build.yaml
-      released-packages-without-doc-job: indigo/doc-released-build.yaml
+      default: noetic/doc-build.yaml
+      released-packages-without-doc-job: noetic/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-testfarm@googlegroups.com
+    - trnguyen@dekaresearch.com
     release_builds:
-#      arm: indigo/release-armhf-build.yaml
-      default: indigo/release-build.yaml
+      default: noetic/release-build.yaml
     source_builds:
-      default: indigo/source-build.yaml
-#  jade:
-#    doc_builds:
-#      default: jade/doc-build.yaml
-#      released-packages-without-doc-job: jade/doc-released-build.yaml
-#    notification_emails:
-#    - ros-buildfarm-testfarm@googlegroups.com
-#    release_builds:
-#      arm: jade/release-armhf-build.yaml
-#      default: jade/release-build.yaml
-#    source_builds:
-#      default: jade/source-build.yaml
-  kinetic:
-    doc_builds:
-      default: kinetic/doc-build.yaml
-      released-packages-without-doc-job: kinetic/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-kinetic@googlegroups.com
-    release_builds:
-      arm: kinetic/release-armhf-build.yaml
-      default: kinetic/release-build.yaml
-    source_builds:
-      default: kinetic/source-build.yaml
+      default: noetic/source-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
-jenkins_url: http://54.183.26.131:8080
+jenkins_url: http://172.20.6.51:8080
 notification_emails:
-- ros-buildfarm-testfarm@googlegroups.com
+- trnguyen@dekaresearch.com
 prerequisites:
   debian_repositories:
-  - http://54.183.65.232/ubuntu/building
+  - http://172.20.6.176/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -76,10 +53,11 @@ prerequisites:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
+git_ssh_credential_id: 2b5cff78-8834-41ab-ac2d-120278815c0e
 status_page_repositories:
   default:
-  - http://54.183.65.232/ubuntu/building
-  - http://54.183.65.232/ubuntu/testing
-  - http://54.183.65.232/ubuntu/main
+  - http://172.20.6.176/ubuntu/building
+  - http://172.20.6.176/ubuntu/testing
+  - http://172.20.6.176/ubuntu/main
 type: buildfarm
 version: 1

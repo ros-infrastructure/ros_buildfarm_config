@@ -1,17 +1,16 @@
 %YAML 1.1
-# ROS buildfarm source-build file
+# ROS buildfarm doc-build file
 ---
-jenkins_commit_job_priority: 69
+canonical_base_url: http://172.20.6.176/docs
+documentation_type: rosdoc_lite
+jenkins_job_priority: 91
 jenkins_job_timeout: 120
-jenkins_pull_request_job_priority: 59
 notifications:
   committers: false
   emails:
-  - ros-buildfarm-testfarm@googlegroups.com
+  - trnguyen@dekaresearch.com
   maintainers: false
 repositories:
-  urls:
-  - http://54.183.65.232/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -44,15 +43,17 @@ repositories:
     xaePFwP+okKW1h9qvwFhNF0JSCtdJrexdCf8jGE7
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
+  urls:
+  - http://172.20.6.176/ubuntu/testing
+tag_whitelist:
+  - N/A
 targets:
   ubuntu:
-    xenial:
+    focal:
       amd64:
-test_commits:
-  default: true
-# do not run pr builds on the test farm (otherwise we'll get multiple reports)
-test_pull_requests:
-  default: false
-  force: false
-type: source-build
+type: doc-build
+upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
+upload_host: repo
+upload_root: /var/repos/docs
+upload_user: jenkins-slave
 version: 2
