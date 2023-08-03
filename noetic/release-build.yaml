@@ -14,7 +14,7 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 sync:
-  package_count: 1225
+  package_count: 1780
 repositories:
   keys:
   - |

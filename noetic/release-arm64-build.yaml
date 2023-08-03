@@ -27,7 +27,7 @@ package_blacklist:
 - rosrt  # https://github.com/ros/ros_realtime/issues/15
 - skyway  # https://github.com/ntt-t3/skyway_for_ros/issues/1
 sync:
-  package_count: 1205
+  package_count: 1746
 repositories:
   keys:
   - |
