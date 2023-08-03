@@ -36,7 +36,7 @@ package_blacklist:
 package_ignore_list:
 - libpointmatcher  # Doesn't support 32-bit platforms. Optional for rtabmap
 sync:
-  package_count: 1158
+  package_count: 1629
 repositories:
   keys:
   - |
