@@ -15,6 +15,7 @@ notifications:
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
 package_blacklist:
+- euslime  # https://github.com/jsk-ros-pkg/euslime/issues/14
 - exotica_pinocchio_dynamics_solver  # https://github.com/ipab-slmc/exotica/issues/754
 - fetch_drivers
 - gazebo_ros
