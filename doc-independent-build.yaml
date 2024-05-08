@@ -32,8 +32,8 @@ targets:
     focal:
       amd64:
 type: doc-build
-upload_credential_id: jenkins-agent
+upload_credential_id: rosdocs
 upload_host: docs.ros.org
 upload_root: /var/www/docs.ros.org/en
-upload_user: rosbot
+upload_user: rosdocs
 version: 2
