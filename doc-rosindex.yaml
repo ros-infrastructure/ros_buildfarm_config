@@ -6,7 +6,7 @@ doc_repositories:
 - https://github.com/ros-infrastructure/rosindex.git
 jenkins_job_label: buildagent &amp;&amp; oversize
 jenkins_job_priority: 90
-jenkins_job_timeout: 300
+jenkins_job_timeout: 390
 type: doc-build
 upload_credential_id: rosindex-deploy
 upload_repository_url: git@github.com:ros-infrastructure/index.ros.org.git
