@@ -2,6 +2,7 @@
 # ROS buildfarm doc-build file
 ---
 build_environment_variables:
+  ROS_DISTRO: humble
   ROS_PYTHON_VERSION: 3
 canonical_base_url: http://docs.ros.org/en
 documentation_type: rosdoc2
