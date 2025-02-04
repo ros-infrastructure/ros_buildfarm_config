@@ -31,35 +31,6 @@ distributions:
       ujv8: humble/release-ubuntu-arm64-build.yaml
     source_builds:
       default: humble/source-build.yaml
-  iron:
-    ci_builds:
-      benchmark: iron/ci-benchmark.yaml
-      nightly-connext: iron/ci-nightly-connext.yaml
-      nightly-cross-vendor-connext-cyclonedds: iron/ci-nightly-cross-vendor-connext-cyclonedds.yaml
-      nightly-cross-vendor-connext-fastrtps: iron/ci-nightly-cross-vendor-connext-fastrtps.yaml
-      nightly-cross-vendor-connext-fastrtps-dynamic: iron/ci-nightly-cross-vendor-connext-fastrtps-dynamic.yaml
-      nightly-cross-vendor-cyclonedds-fastrtps: iron/ci-nightly-cross-vendor-cyclonedds-fastrtps.yaml
-      nightly-cross-vendor-cyclonedds-fastrtps-dynamic: iron/ci-nightly-cross-vendor-cyclonedds-fastrtps-dynamic.yaml
-      nightly-cross-vendor-fastrtps-fastrtps-dynamic: iron/ci-nightly-cross-vendor-fastrtps-fastrtps-dynamic.yaml
-      nightly-cyclonedds: iron/ci-nightly-cyclonedds.yaml
-      nightly-debug: iron/ci-nightly-debug.yaml
-      nightly-extra-rmw-release: iron/ci-nightly-extra-rmw-release.yaml
-      nightly-fastrtps: iron/ci-nightly-fastrtps.yaml
-      nightly-fastrtps-dynamic: iron/ci-nightly-fastrtps-dynamic.yaml
-      nightly-performance: iron/ci-nightly-performance.yaml
-      nightly-release: iron/ci-nightly-release.yaml
-      overlay: iron/ci-overlay.yaml
-    doc_builds:
-      default: iron/doc-build.yaml
-    notification_emails:
-    - yadunund+build.ros2.org@openrobotics.org
-    - ros2-buildfarm-iron@googlegroups.com
-    release_builds:
-      default: iron/release-build.yaml
-      rhel: iron/release-rhel-build.yaml
-      ujv8: iron/release-ubuntu-arm64-build.yaml
-    source_builds:
-      default: iron/source-build.yaml
   jazzy:
     ci_builds:
       benchmark: jazzy/ci-benchmark.yaml
