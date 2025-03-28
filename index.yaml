@@ -77,6 +77,7 @@ distributions:
       nightly-fastrtps-dynamic: rolling/ci-nightly-fastrtps-dynamic.yaml
       nightly-performance: rolling/ci-nightly-performance.yaml
       nightly-release: rolling/ci-nightly-release.yaml
+      nightly-zenoh: rolling/ci-nightly-zenoh.yaml
       overlay: rolling/ci-overlay.yaml
     doc_builds:
       default: rolling/doc-build.yaml
