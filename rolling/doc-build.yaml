@@ -4,6 +4,7 @@
 build_environment_variables:
   ROS_DISTRO: rolling
   ROS_PYTHON_VERSION: 3
+  ROS_VERSION: 2
 canonical_base_url: http://docs.ros.org/en
 documentation_type: rosdoc2
 jenkins_job_priority: 89
