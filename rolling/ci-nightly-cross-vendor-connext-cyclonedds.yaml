@@ -2,7 +2,7 @@
 # ROS buildfarm ci-build file
 ---
 build_environment_variables:
-  CONNEXTDDS_DIR: '/opt/rti.com/rti_connext_dds-6.0.1'
+  CONNEXTDDS_DIR: '/opt/rti.com/rti_connext_dds-7.3.0'
   # must override since the default has been removed from RMW_IMPLEMENTATIONS
   RMW_IMPLEMENTATION: 'rmw_connextdds'
   RMW_IMPLEMENTATIONS: 'rmw_connextdds:rmw_cyclonedds_cpp'
