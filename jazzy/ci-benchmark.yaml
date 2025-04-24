@@ -14,7 +14,7 @@ build_tool_test_args: '--ctest-args -L performance --pytest-args -m performance'
 install_packages:
 - libssl-dev  # for Fast-DDS security
 jenkins_job_label: ci-agent
-jenkins_job_priority: 50
+jenkins_job_priority: 53
 jenkins_job_timeout: 240
 jenkins_job_upstream_triggers:
 - nightly-extra-rmw-release

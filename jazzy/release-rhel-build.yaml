@@ -6,9 +6,9 @@ abi_incompatibility_assumed: true
 build_environment_variables:
   RPM_BUILD_NCPUS: '1'
 
-jenkins_binary_job_priority: 80
+jenkins_binary_job_priority: 83
 jenkins_binary_job_timeout: 150
-jenkins_source_job_priority: 70
+jenkins_source_job_priority: 73
 jenkins_source_job_timeout: 30
 notifications:
   maintainers: false

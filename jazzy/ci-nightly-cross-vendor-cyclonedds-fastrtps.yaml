@@ -11,7 +11,7 @@ build_tool_test_args: '--retest-until-pass 2 --ctest-args -LE xfail --pytest-arg
 install_packages:
 - libssl-dev  # for Fast-DDS security
 jenkins_job_label: ci-agent
-jenkins_job_priority: 50
+jenkins_job_priority: 53
 jenkins_job_timeout: 300
 jenkins_job_upstream_triggers:
 - nightly-release
