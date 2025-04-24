@@ -62,6 +62,17 @@ distributions:
       unv8: jazzy/release-ubuntu-arm64-build.yaml
     source_builds:
       default: jazzy/source-build.yaml
+  kilted:
+    doc_builds:
+      default: kilted/doc-build.yaml
+    notification_emails:
+    - ros2-buildfarm-kilted@googlegroups.com
+    release_builds:
+      default: kilted/release-build.yaml
+      rhel: kilted/release-rhel-build.yaml
+      unv8: kilted/release-ubuntu-arm64-build.yaml
+    source_builds:
+      default: kilted/source-build.yaml
   rolling:
     ci_builds:
       benchmark: rolling/ci-benchmark.yaml
