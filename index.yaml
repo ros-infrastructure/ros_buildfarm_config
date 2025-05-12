@@ -63,6 +63,24 @@ distributions:
     source_builds:
       default: jazzy/source-build.yaml
   kilted:
+    ci_builds:
+      benchmark: kilted/ci-benchmark.yaml
+      nightly-connext: kilted/ci-nightly-connext.yaml
+      nightly-cross-vendor-connext-cyclonedds: kilted/ci-nightly-cross-vendor-connext-cyclonedds.yaml
+      nightly-cross-vendor-connext-fastrtps: kilted/ci-nightly-cross-vendor-connext-fastrtps.yaml
+      nightly-cross-vendor-connext-fastrtps-dynamic: kilted/ci-nightly-cross-vendor-connext-fastrtps-dynamic.yaml
+      nightly-cross-vendor-cyclonedds-fastrtps: kilted/ci-nightly-cross-vendor-cyclonedds-fastrtps.yaml
+      nightly-cross-vendor-cyclonedds-fastrtps-dynamic: kilted/ci-nightly-cross-vendor-cyclonedds-fastrtps-dynamic.yaml
+      nightly-cross-vendor-fastrtps-fastrtps-dynamic: kilted/ci-nightly-cross-vendor-fastrtps-fastrtps-dynamic.yaml
+      nightly-cyclonedds: kilted/ci-nightly-cyclonedds.yaml
+      nightly-debug: kilted/ci-nightly-debug.yaml
+      nightly-extra-rmw-release: kilted/ci-nightly-extra-rmw-release.yaml
+      nightly-fastrtps: kilted/ci-nightly-fastrtps.yaml
+      nightly-fastrtps-dynamic: kilted/ci-nightly-fastrtps-dynamic.yaml
+      nightly-performance: kilted/ci-nightly-performance.yaml
+      nightly-release: kilted/ci-nightly-release.yaml
+      nightly-zenoh: kilted/ci-nightly-zenoh.yaml
+      overlay: kilted/ci-overlay.yaml
     doc_builds:
       default: kilted/doc-build.yaml
     notification_emails:
