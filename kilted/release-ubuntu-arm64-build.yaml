@@ -14,7 +14,7 @@ jenkins_source_job_timeout: 30
 notifications:
   emails:
   - ros2-buildfarm-kilted@googlegroups.com
-  maintainers: false
+  maintainers: true
 package_blacklist:
 - kortex_api  # Kinova does not provide arm64, only armv7. https://github.com/PickNikRobotics/ros2_kortex/issues/158
 - kortex_bringup  # depends on kortex_api and kortex_driver

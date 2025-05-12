@@ -13,7 +13,7 @@ jenkins_source_job_timeout: 30
 notifications:
   emails:
   - ros2-buildfarm-kilted@googlegroups.com
-  maintainers: false
+  maintainers: true
 package_dependency_behavior:
   include_test_dependencies: false
   run_package_tests: false

@@ -11,7 +11,9 @@ jenkins_binary_job_timeout: 150
 jenkins_source_job_priority: 72
 jenkins_source_job_timeout: 30
 notifications:
-  maintainers: false
+  emails:
+  - ros2-buildfarm-kilted@googlegroups.com
+  maintainers: true
 package_blacklist:
 - acado_vendor  # Requires unreleased changes
 - ament_black  # python3-uvloop and black have no RPM packages for RHEL

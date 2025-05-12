@@ -10,11 +10,11 @@ jenkins_commit_job_priority: 52
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 42
 notifications:
-  committers: false
+  committers: true
   compiler_warnings: true
   emails:
   - ros2-buildfarm-kilted@googlegroups.com
-  maintainers: false
+  maintainers: true
 repositories:
   keys:
   - |
